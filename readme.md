@@ -41,6 +41,7 @@ if ( $xlsx = SimpleXLSX::parse('report.xlsx') ) {
 ### Usage
 1. `php parseXlsx.php | less -S `, example output as below
 ```
+Mitochondrial metagenomics: letting the genes out of the bottle 10.1186/s13742-016-0120-y
 Fish-T1K (Transcriptomes of 1,000 Fishes) Project: large-scale transcriptome data for fish evolution studies 10.1186/s13742-016-0124-7
 Chromosome-level reference genome of the Siamese fighting fish Betta splendens, a model species for the study of aggression 10.1093/gigascience/giy087
 High-throughput identification of novel conotoxins from the Chinese tubular cone snail (Conus betulinus) by multi-transcriptome sequencing 10.1186/s13742-016-0122-9
