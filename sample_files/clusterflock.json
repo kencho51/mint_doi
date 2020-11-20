@@ -1,0 +1,697 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2020-04-02T07:44:17Z",
+          "timestamp": 1585813457117
+        },
+        "reference-count": 44,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "1",
+        "funder": [
+          {
+            "DOI": "10.13039\/100000060",
+            "name": "National Institute of Allergy and Infectious Diseases",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "1K08AI101005"
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "GigaSci"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1186\/s13742-016-0152-3",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              24
+            ]
+          ],
+          "date-time": "2016-10-24T10:47:25Z",
+          "timestamp": 1477306045000
+        },
+        "update-policy": "http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "Clusterflock: a flocking algorithm for isolating congruent phylogenomic datasets"
+        ],
+        "prefix": "10.1093",
+        "volume": "5",
+        "author": [
+          {
+            "given": "Apurva",
+            "family": "Narechania",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Richard",
+            "family": "Baker",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Rob",
+            "family": "DeSalle",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Barun",
+            "family": "Mathema",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Sergios-Orestis",
+            "family": "Kolokotronis",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Barry",
+            "family": "Kreiswirth",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Paul J.",
+            "family": "Planet",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              24
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "152_CR1",
+            "author": "J Krause",
+            "year": "2002",
+            "unstructured": "Krause J, Ruxton GD. Living in groups. Oxford\/New York: Oxford University Press; 2002.",
+            "volume-title": "Living in groups"
+          },
+          {
+            "key": "152_CR2",
+            "author": "FH Heppner",
+            "year": "1997",
+            "unstructured": "Heppner FH. Three-dimensional structure and dynamics of birds flocks. In: Parrish JK, Hamner WM, editors. Animal groups in three dimensions. Cambridge: Cambridge University Press; 1997.",
+            "volume-title": "Animal groups in three dimensions"
+          },
+          {
+            "key": "152_CR3",
+            "author": "TJ Pitcher",
+            "first-page": "363",
+            "year": "1993",
+            "unstructured": "Pitcher TJ, Parrish JK. The functions of shoaling behavior. In: Pitcher TJ, editor. The Behavior of Teleost Fishes. London: Chapman & Hall; 1993. p. 363\u2013439.",
+            "volume-title": "The Behavior of Teleost Fishes",
+            "DOI": "10.1007\/978-94-011-1578-0_12",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "152_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "315",
+            "DOI": "10.1007\/BF00657647",
+            "volume": "135",
+            "author": "BL Partridge",
+            "year": "1980",
+            "unstructured": "Partridge BL, Pitcher TJ. The sensory basis of fish schools: relative role of lateral line and vision. J Comp Physiol. 1980;135:315\u201325.",
+            "journal-title": "J Comp Physiol"
+          },
+          {
+            "issue": "1",
+            "key": "152_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "36",
+            "DOI": "10.1016\/j.tics.2008.10.002",
+            "volume": "13",
+            "author": "ID Couzin",
+            "year": "2009",
+            "unstructured": "Couzin ID. Collective cognition in animal groups. Trends Cogn Sci. 2009;13(1):36\u201343.",
+            "journal-title": "Trends Cogn Sci"
+          },
+          {
+            "key": "152_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016\/0065-227X(86)90003-1",
+            "volume": "22",
+            "author": "A Okubo",
+            "year": "1986",
+            "unstructured": "Okubo A. Dynamical aspects of animal grouping: swarms, schools, flocks, and herds. Adv Biophys. 1986;22:1\u201394.",
+            "journal-title": "Adv Biophys"
+          },
+          {
+            "key": "152_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "365",
+            "DOI": "10.1016\/S0022-5193(05)80681-2",
+            "volume": "156",
+            "author": "A Huth",
+            "year": "1992",
+            "unstructured": "Huth A, Wissel C. The simulation of the movement of fish schools. J Theor Biol. 1992;156:365\u201385.",
+            "journal-title": "J Theor Biol"
+          },
+          {
+            "key": "152_CR8",
+            "doi-asserted-by": "crossref",
+            "first-page": "299",
+            "DOI": "10.1016\/S0378-4371(98)00468-3",
+            "volume": "264",
+            "author": "A Czirok",
+            "year": "1999",
+            "unstructured": "Czirok A, Vicsec M, Vicsec T. Collective motion of organisms in three dimensions. Physica A. 1999;264:299\u2013304.",
+            "journal-title": "Physica A"
+          },
+          {
+            "key": "152_CR9",
+            "doi-asserted-by": "crossref",
+            "first-page": "1375",
+            "DOI": "10.1088\/0305-4470\/30\/5\/009",
+            "volume": "30",
+            "author": "A Czirok",
+            "year": "1997",
+            "unstructured": "Czirok A, Stanley HE, Vicsec T. Spontaneously ordered motion of self-propelled particles. J Physics A. 1997;30:1375\u201385.",
+            "journal-title": "J Physics A"
+          },
+          {
+            "issue": "1",
+            "key": "152_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1006\/jtbi.2002.3065",
+            "volume": "218",
+            "author": "ID Couzin",
+            "year": "2002",
+            "unstructured": "Couzin ID, Krause J, James R, Ruxton GD, Franks NR. Collective memory and spatial sorting in animal groups. J Theor Biol. 2002;218(1):1\u201311.",
+            "journal-title": "J Theor Biol"
+          },
+          {
+            "issue": "4",
+            "key": "152_CR11",
+            "doi-asserted-by": "crossref",
+            "first-page": "25",
+            "DOI": "10.1145\/37402.37406",
+            "volume": "21",
+            "author": "C Reynolds",
+            "year": "1987",
+            "unstructured": "Reynolds C. Flocks, herds, and schools: a distributed behavioral model. Comput Graph. 1987;21(4):25\u201334.",
+            "journal-title": "Comput Graph"
+          },
+          {
+            "issue": "1",
+            "key": "152_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "86",
+            "DOI": "10.1016\/j.jbi.2005.08.008",
+            "volume": "39",
+            "author": "PJ Planet",
+            "year": "2006",
+            "unstructured": "Planet PJ. Tree disagreement: measuring and testing incongruence in phylogenies. J Biomed Inform. 2006;39(1):86\u2013102.",
+            "journal-title": "J Biomed Inform"
+          },
+          {
+            "issue": "1777",
+            "key": "152_CR13",
+            "doi-asserted-by": "crossref",
+            "first-page": "20132450",
+            "DOI": "10.1098\/rspb.2013.2450",
+            "volume": "281",
+            "author": "L Boto",
+            "year": "2014",
+            "unstructured": "Boto L. Horizontal gene transfer in the acquisition of novel traits by metazoans. Proc Biol Sci. 2014;281(1777):20132450.",
+            "journal-title": "Proc Biol Sci"
+          },
+          {
+            "issue": "8",
+            "key": "152_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "605",
+            "DOI": "10.1038\/nrg2386",
+            "volume": "9",
+            "author": "PJ Keeling",
+            "year": "2008",
+            "unstructured": "Keeling PJ, Palmer JD. Horizontal gene transfer in eukaryotic evolution. Nat Rev Genet. 2008;9(8):605\u201318.",
+            "journal-title": "Nat Rev Genet"
+          },
+          {
+            "issue": "3",
+            "key": "152_CR15",
+            "doi-asserted-by": "crossref",
+            "first-page": "170",
+            "DOI": "10.1016\/j.tig.2012.12.006",
+            "volume": "29",
+            "author": "MF Polz",
+            "year": "2013",
+            "unstructured": "Polz MF, Alm EJ, Hanage WP. Horizontal gene transfer and the evolution of bacterial and archaeal population structure. Trends Genet. 2013;29(3):170\u20135.",
+            "journal-title": "Trends Genet"
+          },
+          {
+            "key": "152_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "341",
+            "DOI": "10.1146\/annurev-genet-110711-155529",
+            "volume": "46",
+            "author": "M Syvanen",
+            "year": "2012",
+            "unstructured": "Syvanen M. Evolutionary implications of horizontal gene transfer. Annu Rev Genet. 2012;46:341\u201358.",
+            "journal-title": "Annu Rev Genet"
+          },
+          {
+            "key": "152_CR17",
+            "first-page": "247",
+            "volume": "92",
+            "author": "PJ Planet",
+            "year": "2002",
+            "unstructured": "Planet PJ. Reexamining microbial evolution through the lens of horizontal transfer. EXS. 2002;92:247\u2013303.",
+            "journal-title": "EXS"
+          },
+          {
+            "issue": "10",
+            "key": "152_CR18",
+            "doi-asserted-by": "crossref",
+            "first-page": "2773",
+            "DOI": "10.1093\/molbev\/msr110",
+            "volume": "28",
+            "author": "JW Leigh",
+            "year": "2011",
+            "unstructured": "Leigh JW, Schliep K, Lopez P, Bapteste E. Let them fall where they may: congruence analysis in massive phylogenetically messy data sets. Mol Biol Evol. 2011;28(10):2773\u201385.",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "issue": "24",
+            "key": "152_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "4423",
+            "DOI": "10.1093\/bioinformatics\/bti744",
+            "volume": "21",
+            "author": "PJ Planet",
+            "year": "2005",
+            "unstructured": "Planet PJ, Sarkar IN. mILD: a tool for constructing and analyzing matrices of pairwise phylogenetic character incongruence tests. Bioinformatics. 2005;21(24):4423\u20134.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "7",
+            "key": "152_CR20",
+            "doi-asserted-by": "crossref",
+            "first-page": "543",
+            "DOI": "10.1038\/nrmicro2593",
+            "volume": "9",
+            "author": "CP Andam",
+            "year": "2011",
+            "unstructured": "Andam CP, Gogarten JP. Biased gene transfer in microbial evolution. Nat Rev Microbiol. 2011;9(7):543\u201355.",
+            "journal-title": "Nat Rev Microbiol"
+          },
+          {
+            "issue": "1",
+            "key": "152_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "104",
+            "DOI": "10.1080\/10635150801910436",
+            "volume": "57",
+            "author": "JW Leigh",
+            "year": "2008",
+            "unstructured": "Leigh JW, Susko E, Baumgartner M, Roger AJ. Testing congruence in phylogenomic analysis. Syst Biol. 2008;57(1):104\u201315.",
+            "journal-title": "Syst Biol"
+          },
+          {
+            "issue": "4",
+            "key": "152_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "1060",
+            "DOI": "10.1128\/JB.186.4.1060-1064.2004",
+            "volume": "186",
+            "author": "DA Robinson",
+            "year": "2004",
+            "unstructured": "Robinson DA, Enright MC. Evolution of Staphylococcus aureus by large chromosomal replacements. J Bacteriol. 2004;186(4):1060\u20134.",
+            "journal-title": "J Bacteriol"
+          },
+          {
+            "key": "152_CR23",
+            "doi-asserted-by": "crossref",
+            "first-page": "570",
+            "DOI": "10.1093\/sysbio\/44.4.570",
+            "volume": "44",
+            "author": "JS Farris",
+            "year": "1995",
+            "unstructured": "Farris JS, Kallersjo M, Kluge AG, Bult C. Constructing a significance test for incongruence. Syst Biol. 1995;44:570\u20132.",
+            "journal-title": "Syst Biol"
+          },
+          {
+            "key": "152_CR24",
+            "author": "DL Swofford",
+            "year": "2003",
+            "edition": "4",
+            "unstructured": "Swofford DL. PAUP*. Phylogenetic Analysis Using Parsimony (*and Other Methods). 4th ed. Sunderland: Sinauer Associates; 2003.",
+            "volume-title": "PAUP*. Phylogenetic Analysis Using Parsimony (*and Other Methods)"
+          },
+          {
+            "issue": "8-9",
+            "key": "152_CR25",
+            "doi-asserted-by": "crossref",
+            "first-page": "505",
+            "DOI": "10.1016\/j.sysarc.2006.02.003",
+            "volume": "52",
+            "author": "X Cui",
+            "year": "2006",
+            "unstructured": "Cui X, Gao J, Potok TE. A flocking based algorithm for document clustering analysis. J Syst Arch. 2006;52(8-9):505\u201315.",
+            "journal-title": "J Syst Arch"
+          },
+          {
+            "key": "152_CR26",
+            "author": "A Bellaachia",
+            "year": "2012",
+            "unstructured": "Bellaachia A, Bari A. A flocking based data mining algorithm for detecting outliers in cancer gene expression microarray data. In: IEEE International Conference on Information Retrieval and Knowledge Management, Malaysia. 2012.",
+            "volume-title": "IEEE International Conference on Information Retrieval and Knowledge Management, Malaysia"
+          },
+          {
+            "key": "152_CR27",
+            "unstructured": "Gross M, Heidelberger B, Muller M, Pomernats D, Teschner M. Optimized spatial hashing for collision detection of deformable models. vision, modeling, and visualization. Proc. Vision, Modeling, Visualization VMV; 2003, 47-54."
+          },
+          {
+            "key": "152_CR28",
+            "author": "EJ Hastings",
+            "first-page": "9",
+            "year": "2005",
+            "unstructured": "Hastings EJ, Mesit J, Guha RK. Optimization of large-scale, real-time simulations by spatial hashing. In: Proc 2005 Summer Computer Simulation Conference. 2005. p. 9\u201317.",
+            "volume-title": "Proc 2005 Summer Computer Simulation Conference"
+          },
+          {
+            "issue": "1",
+            "key": "152_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "85",
+            "DOI": "10.1006\/jtbi.1996.0144",
+            "volume": "182",
+            "author": "S Gueron",
+            "year": "1996",
+            "unstructured": "Gueron S, Levin SA, Rubenstein DI. The dynamics of herds: from individuals to aggregations. J Theor Biol. 1996;182(1):85\u201398.",
+            "journal-title": "J Theor Biol"
+          },
+          {
+            "issue": "3",
+            "key": "152_CR30",
+            "first-page": "235",
+            "volume": "13",
+            "author": "A Rambaut",
+            "year": "1997",
+            "unstructured": "Rambaut A, Grassly NC. Seq-Gen: an application for the Monte Carlo simulation of DNA sequence evolution along phylogenetic trees. Comput Appl Biosci. 1997;13(3):235\u20138.",
+            "journal-title": "Comput Appl Biosci"
+          },
+          {
+            "key": "152_CR31",
+            "author": "Team RC",
+            "year": "2015",
+            "unstructured": "Team RC. R: A language and environment for statistical computing. In: R Foundation for Statistical Computing. 2015.",
+            "volume-title": "R Foundation for Statistical Computing"
+          },
+          {
+            "key": "152_CR32",
+            "unstructured": "Ankerst M, Breunig MM, Kriegel H, Sander J. OPTICS: ordering points to identify the clustering structure. In: ACM SIGMOD International Conference on Management of Data 1999. New York: ACM Press; 1999. p. 49-60.",
+            "DOI": "10.1145\/304182.304187",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "152_CR33",
+            "author": "L Kaufman",
+            "year": "1990",
+            "unstructured": "Kaufman L, Rousseeuw PJ. Finding groups in data: an introduction to cluster analysis. New York: Wiley; 1990.",
+            "volume-title": "Finding groups in data: an introduction to cluster analysis",
+            "DOI": "10.1002\/9780470316801",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "issue": "6",
+            "key": "152_CR34",
+            "doi-asserted-by": "crossref",
+            "first-page": "699",
+            "DOI": "10.1093\/bioinformatics\/btk040",
+            "volume": "22",
+            "author": "JC Chiu",
+            "year": "2006",
+            "unstructured": "Chiu JC, Lee EK, Egan MG, Sarkar IN, Coruzzi GM, DeSalle R. OrthologID: automation of genome-scale ortholog identification within a parsimony framework. Bioinformatics. 2006;22(6):699\u2013707.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "152_CR35",
+            "author": "E Achtert",
+            "year": "2008",
+            "unstructured": "Achtert E, Kriegel H, Zimek A. ELKI. A software system for evaluation of subspace clustering algorithms. In: 20th International Conference on Scientific and Statistical Database Management, Hong Kong, China. 2008.",
+            "volume-title": "20th International Conference on Scientific and Statistical Database Management, Hong Kong, China"
+          },
+          {
+            "key": "152_CR36",
+            "unstructured": "Ben-Hur A, Elisseeff A, Guyon I. A stability based method for discovering structure in clustered data. Pac Symp Biocomput. 2002;7:6-17."
+          },
+          {
+            "issue": "11",
+            "key": "152_CR37",
+            "doi-asserted-by": "crossref",
+            "first-page": "2573",
+            "DOI": "10.1162\/089976601753196030",
+            "volume": "13",
+            "author": "E Levine",
+            "year": "2001",
+            "unstructured": "Levine E, Domany E. Resampling method for unsupervised estimation of cluster validity. Neural Comput. 2001;13(11):2573\u201393.",
+            "journal-title": "Neural Comput"
+          },
+          {
+            "issue": "3",
+            "key": "152_CR38",
+            "doi-asserted-by": "crossref",
+            "first-page": "982",
+            "DOI": "10.1109\/TSMCB.2012.2220543",
+            "volume": "43",
+            "author": "Y Liu",
+            "year": "2013",
+            "unstructured": "Liu Y, Li Z, Xiong H, Gao X, Wu J, Wu S. Understanding and enhancement of internal clustering validation measures. IEEE Trans Cybern. 2013;43(3):982\u201394.",
+            "journal-title": "IEEE Trans Cybern"
+          },
+          {
+            "issue": "52",
+            "key": "152_CR39",
+            "doi-asserted-by": "crossref",
+            "first-page": "219",
+            "DOI": "10.1007\/s10898-012-9854-y",
+            "volume": "56",
+            "author": "Z Volkovich",
+            "year": "2013",
+            "unstructured": "Volkovich Z, Toledano-Kitai D, Weber G-W. Self-learning K -means clustering: a global optimization approach. J Glob Optimization. 2013;56(52):219\u201332.",
+            "journal-title": "J Glob Optimization"
+          },
+          {
+            "issue": "9",
+            "key": "152_CR40",
+            "doi-asserted-by": "crossref",
+            "first-page": "755",
+            "DOI": "10.1093\/bioinformatics\/14.9.755",
+            "volume": "14",
+            "author": "SR Eddy",
+            "year": "1998",
+            "unstructured": "Eddy SR. Profile hidden Markov models. Bioinformatics. 1998;14(9):755\u201363.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "5",
+            "key": "152_CR41",
+            "doi-asserted-by": "crossref",
+            "first-page": "1501",
+            "DOI": "10.1006\/jmbi.1994.1104",
+            "volume": "235",
+            "author": "A Krogh",
+            "year": "1994",
+            "unstructured": "Krogh A, Brown M, Mian IS, Sjolander K, Haussler D. Hidden Markov models in computational biology. Applications to protein modeling. J Mol Biol. 1994;235(5):1501\u201331.",
+            "journal-title": "J Mol Biol"
+          },
+          {
+            "issue": "3",
+            "key": "152_CR42",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1000337",
+            "DOI": "10.1371\/journal.ppat.1000337",
+            "volume": "5",
+            "author": "EA Lin",
+            "year": "2009",
+            "unstructured": "Lin EA, Zhang XS, Levine SM, Gill SR, Falush D, Blaser MJ. Natural transformation of helicobacter pylori involves the integration of short DNA fragments interrupted by gaps of variable size. PLoS Pathog. 2009;5(3):e1000337.",
+            "journal-title": "PLoS Pathog"
+          },
+          {
+            "issue": "7",
+            "key": "152_CR43",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1002151",
+            "DOI": "10.1371\/journal.ppat.1002151",
+            "volume": "7",
+            "author": "JC Mell",
+            "year": "2011",
+            "unstructured": "Mell JC, Shumilina S, Hall IM, Redfield RJ. Transformation of natural genetic variation into Haemophilus influenzae genomes. PLoS Pathog. 2011;7(7):e1002151.",
+            "journal-title": "PLoS Pathog"
+          },
+          {
+            "key": "152_CR44",
+            "unstructured": "Narechania, A; Baker, R; DeSalle, R; Mathema, B; Kolokotronis, S; Kreiswirth, B; Planet, P, J. Supporting data for\u201dClusterflock: A Flocking Algorithm for Isolating Congruent Phylogenomic Datasets\". 2016. GigaScience Database. http:\/\/dx.doi.org\/10.5524\/100247 ."
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/5\/1\/1\/10844043\/13742_2016_Article_152.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http:\/\/link.springer.com\/content\/pdf\/10.1186\/s13742-016-0152-3.pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              14
+            ]
+          ],
+          "date-time": "2017-11-14T00:18:30Z",
+          "timestamp": 1510618710000
+        },
+        "score": 96.78981,
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              24
+            ]
+          ]
+        },
+        "references-count": 44,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                12
+              ]
+            ]
+          },
+          "issue": "1"
+        },
+        "alternative-id": [
+          "152"
+        ],
+        "URL": "http:\/\/dx.doi.org\/10.1186\/s13742-016-0152-3",
+        "relation": {
+          "is-supplemented-by": [
+            {
+              "id-type": "doi",
+              "id": "10.5524\/100247",
+              "asserted-by": "subject"
+            },
+            {
+              "id-type": "uri",
+              "id": "https:\/\/hub.docker.com\/r\/narechan\/clusterflock-0.1\/",
+              "asserted-by": "subject"
+            }
+          ],
+          "references": [
+            {
+              "id-type": "uri",
+              "id": "https:\/\/github.com\/narechan\/clusterflock",
+              "asserted-by": "subject"
+            }
+          ],
+          "is-basis-for": [
+            {
+              "id-type": "uri",
+              "id": "https:\/\/www.youtube.com\/watch?v=ELZTVOiqKn8&feature=youtu.be",
+              "asserted-by": "subject"
+            }
+          ],
+          "is-review-of": [
+            {
+              "id-type": "doi",
+              "id": "10.5524\/review.100508",
+              "asserted-by": "subject"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.5524\/review.100507",
+              "asserted-by": "subject"
+            }
+          ],
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.1101\/045773",
+              "asserted-by": "object"
+            }
+          ],
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ],
+        "article-number": "44"
+      }
+    ],
+    "items-per-page": 20,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
