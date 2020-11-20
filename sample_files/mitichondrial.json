@@ -1,0 +1,856 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2020-10-08T13:25:17Z",
+          "timestamp": 1602163517957
+        },
+        "reference-count": 62,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "1",
+        "funder": [
+          {
+            "DOI": "10.13039\/501100000831",
+            "name": "Natural History Museum",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "SCI12007"
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "GigaSci"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1186\/s13742-016-0120-y",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              3,
+              22
+            ]
+          ],
+          "date-time": "2016-03-22T00:37:02Z",
+          "timestamp": 1458607022000
+        },
+        "update-policy": "http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 63,
+        "title": [
+          "Mitochondrial metagenomics: letting the genes out of the bottle"
+        ],
+        "prefix": "10.1093",
+        "volume": "5",
+        "author": [
+          {
+            "given": "Alex",
+            "family": "Crampton-Platt",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Douglas W.",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Xin",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Alfried P.",
+            "family": "Vogler",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              3,
+              22
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "120_CR1",
+            "doi-asserted-by": "crossref",
+            "first-page": "375",
+            "DOI": "10.1111\/j.1095-8312.1985.tb02048.x",
+            "volume": "26",
+            "author": "AC Wilson",
+            "year": "1985",
+            "unstructured": "Wilson AC, Cann RL, Carr SM, George M, Gyllenstenis UB, Helm-Bychowski KM, et al. Mitochondrial DNA and two perspectives on evolutionary genetics. Biol J Linn Soc. 1985;26:375\u2013400.",
+            "journal-title": "Biol J Linn Soc"
+          },
+          {
+            "key": "120_CR2",
+            "doi-asserted-by": "crossref",
+            "first-page": "489",
+            "DOI": "10.1146\/annurev.es.18.110187.002421",
+            "volume": "18",
+            "author": "J Avise",
+            "year": "1987",
+            "unstructured": "Avise J, Arnold J, Ball R, Bermingham E, Lamb T, Neigel J, et al. Intraspecific phylogeography: the mitochondrial DNA bridge between population genetics and systematics. Annu Rev Ecol Syst. 1987;18:489\u2013522.",
+            "journal-title": "Annu Rev Ecol Syst"
+          },
+          {
+            "key": "120_CR3",
+            "doi-asserted-by": "crossref",
+            "first-page": "313",
+            "DOI": "10.1098\/rspb.2002.2218",
+            "volume": "270",
+            "author": "PDN Hebert",
+            "year": "2003",
+            "unstructured": "Hebert PDN, Cywinska A, Ball SL, deWaard JR. Biological identifications through DNA barcodes. Proc Biol Sci. 2003;270:313\u201321.",
+            "journal-title": "Proc Biol Sci"
+          },
+          {
+            "key": "120_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "712",
+            "DOI": "10.1093\/sysbio\/syu038",
+            "volume": "63",
+            "author": "D Chesters",
+            "year": "2014",
+            "unstructured": "Chesters D, Zhu C-D. A protocol for species delineation of public DNA databases, applied to the Insecta. Syst Biol. 2014;63:712\u201325.",
+            "journal-title": "Syst Biol"
+          },
+          {
+            "key": "120_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "413",
+            "DOI": "10.1126\/science.1230318",
+            "volume": "339",
+            "author": "MJ Costello",
+            "year": "2013",
+            "unstructured": "Costello MJ, May RM, Stork NE. Can we name earth\u2019s species before they go extinct? Science. 2013;339:413\u201316.",
+            "journal-title": "Science"
+          },
+          {
+            "key": "120_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "70",
+            "DOI": "10.1016\/S0169-5347(02)00041-1",
+            "volume": "18",
+            "author": "D Tautz",
+            "year": "2003",
+            "unstructured": "Tautz D, Arctander P, Minelli A, Thomas RH, Vogler AP. A plea for DNA taxonomy. Trends Ecol Evol. 2003;18:70\u20134.",
+            "journal-title": "Trends Ecol Evol"
+          },
+          {
+            "key": "120_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "291",
+            "DOI": "10.1016\/j.ympev.2009.09.016",
+            "volume": "54",
+            "author": "MJ Hickerson",
+            "year": "2010",
+            "unstructured": "Hickerson MJ, Carstens BC, Cavender-Bares J, Crandall KA, Graham CH, Johnson JB, et al. Phylogeography\u2019s past, present, and future: 10\u00a0years after Avise, 2000. Mol Phylogenet Evol. 2010;54:291\u2013301.",
+            "journal-title": "Mol Phylogenet Evol"
+          },
+          {
+            "key": "120_CR8",
+            "doi-asserted-by": "crossref",
+            "first-page": "676",
+            "DOI": "10.1111\/j.1755-0998.2012.03143.x",
+            "volume": "12",
+            "author": "DLJ Quicke",
+            "year": "2012",
+            "unstructured": "Quicke DLJ, Smith MA, Janzen DH, Hallwachs W, Fernandez-Triana J, Laurenne NM, et al. Utility of the DNA barcoding gene fragment for parasitic wasp phylogeny (Hymenoptera: Ichneumonoidea): data release and new measure of taxonomic congruence. Mol Ecol Resour. 2012;12:676\u201385.",
+            "journal-title": "Mol Ecol Resour"
+          },
+          {
+            "key": "120_CR9",
+            "doi-asserted-by": "crossref",
+            "first-page": "352",
+            "DOI": "10.1016\/j.ympev.2013.05.002",
+            "volume": "69",
+            "author": "M Bernt",
+            "year": "2013",
+            "unstructured": "Bernt M, Bleidorn C, Braband A, Dambach J, Donath A, Fritzsch G, et al. A comprehensive analysis of bilaterian mitochondrial genomes and phylogeny. Mol Phylogenet Evol. 2013;69:352\u201364.",
+            "journal-title": "Mol Phylogenet Evol"
+          },
+          {
+            "key": "120_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "2499",
+            "DOI": "10.1093\/molbev\/msn198",
+            "volume": "25",
+            "author": "NC Sheffield",
+            "year": "2008",
+            "unstructured": "Sheffield NC, Song H, Cameron SL, Whiting MF. A comparative analysis of mitochondrial genomes in Coleoptera (Arthropoda: Insecta) and genome descriptions of six new beetles. Mol Biol Evol. 2008;25:2499\u2013509.",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "key": "120_CR11",
+            "doi-asserted-by": "crossref",
+            "first-page": "83",
+            "DOI": "10.1111\/bij.12552",
+            "volume": "117",
+            "author": "MJTN Timmermans",
+            "year": "2016",
+            "unstructured": "Timmermans MJTN, Viberg C, Martin G, Hopkins K, Vogler AP. Rapid assembly of taxonomically validated mitochondrial genomes from historical insect collections. Biol J Linn Soc. 2016;117:83\u201395.",
+            "journal-title": "Biol J Linn Soc"
+          },
+          {
+            "key": "120_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "2223",
+            "DOI": "10.1093\/molbev\/msu154",
+            "volume": "31",
+            "author": "CPDT Gillett",
+            "year": "2014",
+            "unstructured": "Gillett CPDT, Crampton-Platt A, Timmermans MJTN, Jordal B, Emerson BC, Vogler AP. Bulk de novo mitogenome assembly from pooled total DNA elucidates the phylogeny of weevils (Coleoptera: Curculionoidea). Mol Biol Evol. 2014;31:2223\u201337.",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "key": "120_CR13",
+            "doi-asserted-by": "crossref",
+            "first-page": "8527",
+            "DOI": "10.1038\/srep08527",
+            "volume": "5",
+            "author": "H Li",
+            "year": "2015",
+            "unstructured": "Li H, Shao R, Song N, Song F, Jiang P, Li Z, et al. Higher-level phylogeny of paraneopteran insects inferred from mitochondrial genome sequences. Sci Rep. 2015;5:8527.",
+            "journal-title": "Sci Rep"
+          },
+          {
+            "key": "120_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "400",
+            "DOI": "10.1111\/syen.12071",
+            "volume": "39",
+            "author": "SL Cameron",
+            "year": "2014",
+            "unstructured": "Cameron SL. How to sequence and annotate insect mitochondrial genomes for systematic and comparative genomics research. Syst Entomol. 2014;39:400\u201311.",
+            "journal-title": "Syst Entomol"
+          },
+          {
+            "key": "120_CR15",
+            "doi-asserted-by": "crossref",
+            "first-page": "8007",
+            "DOI": "10.1073\/pnas.1406468111",
+            "volume": "111",
+            "author": "J Gibson",
+            "year": "2014",
+            "unstructured": "Gibson J, Shokralla S, Porter TM, King I, van Konynenburg S, Janzen DH, et al. Simultaneous assessment of the macrobiome and microbiome in a bulk sample of tropical arthropods through DNA metasystematics. Proc Natl Acad Sci. 2014;111:8007\u201312.",
+            "journal-title": "Proc Natl Acad Sci"
+          },
+          {
+            "key": "120_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "613",
+            "DOI": "10.1111\/j.2041-210X.2012.00198.x",
+            "volume": "3",
+            "author": "DW Yu",
+            "year": "2012",
+            "unstructured": "Yu DW, Ji Y, Emerson BC, Wang X, Ye C, Yang C, et al. Biodiversity soup: metabarcoding of arthropods for rapid biodiversity assessment and biomonitoring. Methods Ecol Evol. 2012;3:613\u201323.",
+            "journal-title": "Methods Ecol Evol"
+          },
+          {
+            "key": "120_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "1821",
+            "DOI": "10.1111\/j.1365-294X.2012.05537.x",
+            "volume": "21",
+            "author": "LS Epp",
+            "year": "2012",
+            "unstructured": "Epp LS, Boessenkool S, Bellemain EP, Haile J, Esposito A, Riaz T, et al. New environmental metabarcodes for analysing soil DNA: potential for studying past and present ecosystems. Mol Ecol. 2012;21:1821\u201333.",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "key": "120_CR18",
+            "doi-asserted-by": "crossref",
+            "first-page": "349",
+            "DOI": "10.3732\/ajb.1100335",
+            "volume": "99",
+            "author": "SCK Straub",
+            "year": "2012",
+            "unstructured": "Straub SCK, Parks M, Weitemier K, Fishbein M, Cronn RC, Liston A. Navigating the tip of the genomic iceberg: Next-generation sequencing for plant systematics. Am J Bot. 2012;99:349\u201364.",
+            "journal-title": "Am J Bot"
+          },
+          {
+            "key": "120_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "459",
+            "DOI": "10.1016\/j.mito.2012.06.005",
+            "volume": "12",
+            "author": "CC Correa",
+            "year": "2012",
+            "unstructured": "Correa CC, Aw WC, Melvin RG, Pichaud N, Ballard JWO. Mitochondrial DNA variants influence mitochondrial bioenergetics in Drosophila melanogaster. Mitochondrion. 2012;12:459\u201364.",
+            "journal-title": "Mitochondrion"
+          },
+          {
+            "key": "120_CR20",
+            "doi-asserted-by": "crossref",
+            "first-page": "2302",
+            "DOI": "10.1093\/molbev\/msv111",
+            "volume": "32",
+            "author": "A Crampton-Platt",
+            "year": "2015",
+            "unstructured": "Crampton-Platt A, Timmermans MJTN, Gimmel ML, Kutty SN, Cockerill TD, Chey VK, et al. Soup to tree: the phylogeny of beetles inferred by mitochondrial metagenomics of a Bornean rainforest sample. Mol Biol Evol. 2015;32:2302\u201316.",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "key": "120_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "e166",
+            "DOI": "10.1093\/nar\/gku917",
+            "volume": "42",
+            "author": "M Tang",
+            "year": "2014",
+            "unstructured": "Tang M, Tan M, Meng G, Yang S, Su X, Liu S, et al. Multiplex sequencing of pooled mitochondrial genomes - a crucial step toward biodiversity analysis using mito-metagenomics. Nucleic Acids Res. 2014;42:e166.",
+            "journal-title": "Nucleic Acids Res"
+          },
+          {
+            "key": "120_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "1474",
+            "DOI": "10.1093\/gbe\/evv086",
+            "volume": "7",
+            "author": "B Linard",
+            "year": "2015",
+            "unstructured": "Linard B, Crampton-Platt A, Gillett CPDT, Timmermans MJTN, Vogler AP. Metagenome skimming of insect specimen pools: potential for comparative genomics. Genome Biol Evol. 2015;7:1474\u201389.",
+            "journal-title": "Genome Biol Evol"
+          },
+          {
+            "key": "120_CR23",
+            "doi-asserted-by": "crossref",
+            "first-page": "e197",
+            "DOI": "10.1093\/nar\/gkq807",
+            "volume": "38",
+            "author": "MJTN Timmermans",
+            "year": "2010",
+            "unstructured": "Timmermans MJTN, Dodsworth S, Culverwell CL, Bocak L, Ahrens D, Littlewood DTJ, et al. Why barcode? High-throughput multiplex sequencing of mitochondrial genomes for molecular systematics. Nucleic Acids Res. 2010;38:e197.",
+            "journal-title": "Nucleic Acids Res"
+          },
+          {
+            "key": "120_CR24",
+            "doi-asserted-by": "crossref",
+            "first-page": "e51263",
+            "DOI": "10.1371\/journal.pone.0051263",
+            "volume": "7",
+            "author": "A Dettai",
+            "year": "2012",
+            "unstructured": "Dettai A, Gallut C, Brouillet S, Pothier J, Lecointre G, Debruyne R. Conveniently pre-tagged and pre-packaged: extended molecular identification and metagenomics using complete metazoan mitochondrial genomes. PLoS One. 2012;7:e51263.",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "120_CR25",
+            "doi-asserted-by": "crossref",
+            "first-page": "1185",
+            "DOI": "10.1093\/gbe\/evt081",
+            "volume": "5",
+            "author": "ND Rubinstein",
+            "year": "2013",
+            "unstructured": "Rubinstein ND, Feldstein T, Shenkar N, Botero-Castro F, Griggio F, Mastrototaro F, et al. Deep sequencing of mixed total DNA without barcodes allows efficient assembly of highly plastic Ascidian mitochondrial genomes. Genome Biol Evol. 2013;5:1185\u201399.",
+            "journal-title": "Genome Biol Evol"
+          },
+          {
+            "key": "120_CR26",
+            "doi-asserted-by": "crossref",
+            "first-page": "2045",
+            "DOI": "10.1111\/j.1365-294X.2012.05470.x",
+            "volume": "21",
+            "author": "P Taberlet",
+            "year": "2012",
+            "unstructured": "Taberlet P, Coissac E, Pompanon F, Brochmann C, Willerslev E. Towards next-generation biodiversity assessment using DNA metabarcoding. Mol Ecol. 2012;21:2045\u201350.",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "key": "120_CR27",
+            "doi-asserted-by": "crossref",
+            "first-page": "930",
+            "DOI": "10.1111\/2041-210X.12366",
+            "volume": "6",
+            "author": "D Chesters",
+            "year": "2015",
+            "unstructured": "Chesters D, Zheng W-M, Zhu C-D. A DNA Barcoding system integrating multigene sequence data. Methods Ecol Evol. 2015;6:930\u20137.",
+            "journal-title": "Methods Ecol Evol"
+          },
+          {
+            "key": "120_CR28",
+            "doi-asserted-by": "crossref",
+            "first-page": "883",
+            "DOI": "10.1111\/2041-210X.12376",
+            "volume": "6",
+            "author": "C G\u00f3mez-Rodr\u00edguez",
+            "year": "2015",
+            "unstructured": "G\u00f3mez-Rodr\u00edguez C, Crampton-Platt A, Timmermans MJTN, Baselga A, Vogler AP. Validating the power of mitochondrial metagenomics for community ecology and phylogenetics of complex assemblages. Methods Ecol Evol. 2015;6:883\u201394.",
+            "journal-title": "Methods Ecol Evol"
+          },
+          {
+            "key": "120_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "1034",
+            "DOI": "10.1111\/2041-210X.12416",
+            "volume": "6",
+            "author": "M Tang",
+            "year": "2015",
+            "unstructured": "Tang M, Hardman CJ, Ji Y, Meng G, Liu S, Tan M, et al. High-throughput monitoring of wild bee diversity and abundance via mitogenomics. Methods Ecol Evol. 2015;6:1034\u201343.",
+            "journal-title": "Methods Ecol Evol"
+          },
+          {
+            "key": "120_CR30",
+            "doi-asserted-by": "crossref",
+            "first-page": "4",
+            "DOI": "10.1186\/2047-217X-2-4",
+            "volume": "2",
+            "author": "X Zhou",
+            "year": "2013",
+            "unstructured": "Zhou X, Li Y, Liu S, Yang Q, Su X, Zhou L, et al. Ultra-deep sequencing enables high-fidelity recovery of biodiversity for bulk arthropod samples without PCR amplification. Gigascience. 2013;2:4.",
+            "journal-title": "Gigascience"
+          },
+          {
+            "key": "120_CR31",
+            "doi-asserted-by": "crossref",
+            "first-page": "3603",
+            "DOI": "10.1111\/mec.13195",
+            "volume": "24",
+            "author": "C And\u00fajar",
+            "year": "2015",
+            "unstructured": "And\u00fajar C, Arribas P, Ruzicka F, Crampton-Platt A, Timmermans MJTN, Vogler AP. Phylogenetic community ecology of soil biodiversity using mitochondrial metagenomics. Mol Ecol. 2015;24:3603\u201317.",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "key": "120_CR32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1420",
+            "DOI": "10.1093\/bioinformatics\/bts174",
+            "volume": "28",
+            "author": "Y Peng",
+            "year": "2012",
+            "unstructured": "Peng Y, Leung HCM, Yiu SM, Chin FYL. IDBA-UD: a de novo assembler for single-cell and metagenomic sequencing data with highly uneven depth. Bioinformatics. 2012;28:1420\u20138.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "120_CR33",
+            "doi-asserted-by": "crossref",
+            "first-page": "2196",
+            "DOI": "10.1126\/science.287.5461.2196",
+            "volume": "287",
+            "author": "EW Myers",
+            "year": "2000",
+            "unstructured": "Myers EW, Sutton GG, Delcher AL, Dew IM, Fasulo DP, Flanigan MJ, et al. A whole-genome assembly of Drosophila. Science. 2000;287:2196\u2013204.",
+            "journal-title": "Science"
+          },
+          {
+            "key": "120_CR34",
+            "doi-asserted-by": "crossref",
+            "first-page": "265",
+            "DOI": "10.1101\/gr.097261.109",
+            "volume": "20",
+            "author": "R Li",
+            "year": "2010",
+            "unstructured": "Li R, Zhu H, Ruan J, Qian W, Fang X, Shi Z, et al. De novo assembly of human genomes with massively parallel short read sequencing. Genome Res. 2010;20:265\u201372.",
+            "journal-title": "Genome Res"
+          },
+          {
+            "key": "120_CR35",
+            "doi-asserted-by": "crossref",
+            "first-page": "1660",
+            "DOI": "10.1093\/bioinformatics\/btu077",
+            "volume": "30",
+            "author": "Y Xie",
+            "year": "2014",
+            "unstructured": "Xie Y, Wu G, Tang J, Luo R, Patterson J, Liu S, et al. SOAPdenovo-Trans: de novo transcriptome assembly with short RNA-Seq reads. Bioinformatics. 2014;30:1660\u20136.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "120_CR36",
+            "doi-asserted-by": "crossref",
+            "first-page": "376",
+            "DOI": "10.1038\/nature03959",
+            "volume": "437",
+            "author": "M Margulies",
+            "year": "2005",
+            "unstructured": "Margulies M, Egholm M, Altman WE, Attiya S, Bader JS, Bemben LA, et al. Genome sequencing in microfabricated high-density picolitre reactors. Nature. 2005;437:376\u201380.",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "120_CR37",
+            "doi-asserted-by": "crossref",
+            "first-page": "64",
+            "DOI": "10.1186\/1471-2105-8-64",
+            "volume": "8",
+            "author": "DD Sommer",
+            "year": "2007",
+            "unstructured": "Sommer DD, Delcher AL, Salzberg SL, Pop M. Minimus: a fast, lightweight genome assembler. BMC Bioinformatics. 2007;8:64.",
+            "journal-title": "BMC Bioinformatics"
+          },
+          {
+            "key": "120_CR38",
+            "doi-asserted-by": "crossref",
+            "first-page": "651",
+            "DOI": "10.1093\/bioinformatics\/btg034",
+            "volume": "19",
+            "author": "G Pertea",
+            "year": "2003",
+            "unstructured": "Pertea G, Huang X, Liang F, Antonescu V, Sultana R, Karamycheva S, et al. TIGR gene indices clustering tools (TGICL): a software system for fast clustering of large EST datasets. Bioinformatics. 2003;19:651\u20132.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "120_CR39",
+            "doi-asserted-by": "crossref",
+            "first-page": "1647",
+            "DOI": "10.1093\/bioinformatics\/bts199",
+            "volume": "28",
+            "author": "M Kearse",
+            "year": "2012",
+            "unstructured": "Kearse M, Moir R, Wilson A, Stones-Havas S, Cheung M, Sturrock S, et al. Geneious Basic: an integrated and extendable desktop software platform for the organization and analysis of sequence data. Bioinformatics. 2012;28:1647\u20139.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "120_CR40",
+            "doi-asserted-by": "crossref",
+            "first-page": "e129",
+            "DOI": "10.1093\/nar\/gkt371",
+            "volume": "41",
+            "author": "C Hahn",
+            "year": "2013",
+            "unstructured": "Hahn C, Bachmann L, Chevreux B. Reconstructing mitochondrial genomes directly from genomic next-generation sequencing reads - A baiting and iterative mapping approach. Nucleic Acids Res. 2013;41:e129.",
+            "journal-title": "Nucleic Acids Res"
+          },
+          {
+            "key": "120_CR41",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1186\/1471-2148-14-19",
+            "volume": "14",
+            "author": "HM Gan",
+            "year": "2014",
+            "unstructured": "Gan HM, Schultz MB, Austin CM. Integrated shotgun sequencing and bioinformatics pipeline allows ultra-fast mitogenome recovery and confirms substantial gene rearrangements in Australian freshwater crayfishes. BMC Evol Biol. 2014;14:19.",
+            "journal-title": "BMC Evol Biol"
+          },
+          {
+            "key": "120_CR42",
+            "doi-asserted-by": "crossref",
+            "first-page": "e95599",
+            "DOI": "10.1371\/journal.pone.0095599",
+            "volume": "9",
+            "author": "JM Doyle",
+            "year": "2014",
+            "unstructured": "Doyle JM, Katzner TE, Bloom PH, Ji Y, Wijayawardena BK, DeWoody JA. The genome sequence of a widespread apex predator, the golden eagle (Aquila chrysaetos). PLoS One. 2014;9:e95599.",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "120_CR43",
+            "doi-asserted-by": "crossref",
+            "first-page": "2321",
+            "DOI": "10.1093\/gbe\/evv145",
+            "volume": "7",
+            "author": "MFL Derks",
+            "year": "2015",
+            "unstructured": "Derks MFL, Smit S, Salis L, Schijlen E, Bossers A, Mateman C, et al. The genome of Winter Moth (Operophtera brumata) provides a genomic perspective on sexual dimorphism and phenology. Genome Biol Evol. 2015;7:2321\u20132.",
+            "journal-title": "Genome Biol Evol"
+          },
+          {
+            "key": "120_CR44",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.3109\/19401736.2014.987257",
+            "volume": "4",
+            "author": "C Dietrich",
+            "year": "2014",
+            "unstructured": "Dietrich C, Brune A. The complete mitogenomes of six higher termite species reconstructed from metagenomic datasets (Cornitermes sp., Cubitermes ugandensis, Microcerotermes parvus, Nasutitermes corniger, Neocapritermes taracua, and Termes hospes). Mitochondrial DNA. 2014;4:1\u20132.",
+            "journal-title": "Mitochondrial DNA"
+          },
+          {
+            "key": "120_CR45",
+            "first-page": "45",
+            "volume": "99",
+            "author": "B Chevreux",
+            "year": "1999",
+            "unstructured": "Chevreux B, Wetter T, Suhai S. Genome sequence assembly using trace signals and additional sequence information. Comput Sci Biol: Proc Ger Conf Bioinformatics. 1999;99:45\u201356.",
+            "journal-title": "Comput Sci Biol: Proc Ger Conf Bioinformatics"
+          },
+          {
+            "key": "120_CR46",
+            "doi-asserted-by": "crossref",
+            "first-page": "233",
+            "DOI": "10.1016\/j.ympev.2015.12.009",
+            "volume": "97",
+            "author": "MJTN Timmermans",
+            "year": "2015",
+            "unstructured": "Timmermans MJTN, Lees DC, Thompson MJ, S\u00e1fi\u00e1n S, Brattstr\u00f6m O. Mitogenomics of \u2018Old World Acraea\u2019 butterflies reveals a highly divergent \u2018Bematistes\u2019. Mol Phylogenet Evol. 2015;97:233\u201341.",
+            "journal-title": "Mol Phylogenet Evol"
+          },
+          {
+            "key": "120_CR47",
+            "doi-asserted-by": "crossref",
+            "first-page": "313",
+            "DOI": "10.1016\/j.ympev.2012.08.023",
+            "volume": "69",
+            "author": "M Bernt",
+            "year": "2013",
+            "unstructured": "Bernt M, Donath A, J\u00fchling F, Externbrink F, Florentz C, Fritzsch G, et al. MITOS: Improved de novo metazoan mitochondrial genome annotation. Mol Phylogenet Evol. 2013;69:313\u201319.",
+            "journal-title": "Mol Phylogenet Evol"
+          },
+          {
+            "key": "120_CR48",
+            "doi-asserted-by": "crossref",
+            "first-page": "2079",
+            "DOI": "10.1093\/nar\/22.11.2079",
+            "volume": "22",
+            "author": "S Eddy",
+            "year": "1994",
+            "unstructured": "Eddy S, Durbin R. RNA sequence analysis using covariance models. Nucleic Acids Res. 1994;22:2079\u201388.",
+            "journal-title": "Nucleic Acids Res"
+          },
+          {
+            "key": "120_CR49",
+            "doi-asserted-by": "crossref",
+            "first-page": "1160",
+            "DOI": "10.1111\/1755-0998.12265",
+            "volume": "14",
+            "author": "LJ Clarke",
+            "year": "2014",
+            "unstructured": "Clarke LJ, Soubrier J, Weyrich LS, Cooper A. Environmental metabarcodes for insects: in silico PCR reveals potential for taxonomic bias. Mol Ecol Resour. 2014;14:1160\u201370.",
+            "journal-title": "Mol Ecol Resour"
+          },
+          {
+            "key": "120_CR50",
+            "doi-asserted-by": "crossref",
+            "first-page": "e59",
+            "DOI": "10.1371\/journal.pone.0000059",
+            "volume": "1",
+            "author": "RH Nilsson",
+            "year": "2006",
+            "unstructured": "Nilsson RH, Ryberg M, Kristiansson E, Abarenkov K, Larsson K-H, K\u00f5ljalg U. Taxonomic reliability of DNA sequences in public sequence databases: a fungal perspective. PLoS One. 2006;1:e59.",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "120_CR51",
+            "first-page": "45",
+            "volume": "48",
+            "author": "MS Mohamedsaid",
+            "year": "1993",
+            "unstructured": "Mohamedsaid MS, Kimoto S. An interesting new species of Liroetiella from Sabah, Malaysia (Coleoptera, Chrysomelidae, Galerucinae). Entomol Rev Japan. 1993;48:45\u20136.",
+            "journal-title": "Entomol Rev Japan"
+          },
+          {
+            "key": "120_CR52",
+            "first-page": "715",
+            "volume": "53",
+            "author": "J Bezd\u011bk",
+            "year": "2013",
+            "unstructured": "Bezd\u011bk J. (Coleoptera: Chrysomelidae: Galerucinae). I. Generic redescription, definition of species groups and taxonomy of H. medvedevi species group. Acta Entomol Musei Natl Pragae. 2013;53:715\u201346.",
+            "journal-title": "Acta Entomol Musei Natl Pragae"
+          },
+          {
+            "key": "120_CR53",
+            "doi-asserted-by": "crossref",
+            "first-page": "127",
+            "DOI": "10.2307\/3298558",
+            "volume": "89",
+            "author": "J Cracraft",
+            "year": "2002",
+            "unstructured": "Cracraft J. The seven great questions of systematic biology: an essential foundation for conservation and the sustainable use of biodiversity. Ann Missouri Bot Gard. 2002;89:127\u201344.",
+            "journal-title": "Ann Missouri Bot Gard"
+          },
+          {
+            "key": "120_CR54",
+            "doi-asserted-by": "crossref",
+            "first-page": "873",
+            "DOI": "10.1111\/geb.12322",
+            "volume": "24",
+            "author": "A Baselga",
+            "year": "2015",
+            "unstructured": "Baselga A, G\u00f3mez-Rodr\u00edguez C, Vogler AP. Multi-hierarchical macroecology at species and genetic levels to discern neutral and non-neutral processes. Glob Ecol Biogeogr. 2015;24:873\u201382.",
+            "journal-title": "Glob Ecol Biogeogr"
+          },
+          {
+            "key": "120_CR55",
+            "doi-asserted-by": "crossref",
+            "first-page": "815",
+            "DOI": "10.1007\/BF02395525",
+            "volume": "26",
+            "author": "K Tamura",
+            "year": "1988",
+            "unstructured": "Tamura K, Aotsuka T. Rapid isolation method of animal mitochondrial DNA by the alkaline lysis procedure. Biochem Genet. 1988;26:815\u201319.",
+            "journal-title": "Biochem Genet"
+          },
+          {
+            "key": "120_CR56",
+            "doi-asserted-by": "crossref",
+            "first-page": "385",
+            "DOI": "10.1007\/BF00554547",
+            "volume": "25",
+            "author": "SM Carr",
+            "year": "1987",
+            "unstructured": "Carr SM, Griffith OM. Rapid isolation of animal mitochondrial DNA in a small fixed-angle rotor at ultrahigh speed. Biochem Genet. 1987;25:385\u201390.",
+            "journal-title": "Biochem Genet"
+          },
+          {
+            "key": "120_CR57",
+            "doi-asserted-by": "crossref",
+            "first-page": "539",
+            "DOI": "10.1093\/sysbio\/syt018",
+            "volume": "62",
+            "author": "K Guschanski",
+            "year": "2013",
+            "unstructured": "Guschanski K, Krause J, Sawyer S, Valente LM, Bailey S, Finstermeier K, et al. Next-generation museomics disentangles one of the largest primate radiations. Syst Biol. 2013;62:539\u201354.",
+            "journal-title": "Syst Biol"
+          },
+          {
+            "key": "120_CR58",
+            "doi-asserted-by": "crossref",
+            "first-page": "470",
+            "DOI": "10.1111\/1755-0998.12472",
+            "volume": "16",
+            "author": "S Liu",
+            "year": "2016",
+            "unstructured": "Liu S, Wang X, Xie L, Tan M, Li Z, Su X, et al. Mitochondrial capture enriches mito-DNA 100 fold enabling PCR-free mitogenomics biodiversity analysis. Mol Ecol Resour. 2016;16:470\u20139.",
+            "journal-title": "Mol Ecol Resour"
+          },
+          {
+            "key": "120_CR59",
+            "doi-asserted-by": "crossref",
+            "first-page": "95",
+            "DOI": "10.1146\/annurev-ento-011613-162007",
+            "volume": "59",
+            "author": "SL Cameron",
+            "year": "2014",
+            "unstructured": "Cameron SL. Insect mitochondrial genomics: implications for evolution and phylogeny. Annu Rev Entomol. 2014;59:95\u2013117.",
+            "journal-title": "Annu Rev Entomol"
+          },
+          {
+            "key": "120_CR60",
+            "doi-asserted-by": "crossref",
+            "first-page": "852",
+            "DOI": "10.1080\/10635150500354886",
+            "volume": "54",
+            "author": "PDN Hebert",
+            "year": "2005",
+            "unstructured": "Hebert PDN, Gregory TR. The promise of DNA barcoding for taxonomy. Syst Biol. 2005;54:852\u20139.",
+            "journal-title": "Syst Biol"
+          },
+          {
+            "key": "120_CR61",
+            "doi-asserted-by": "crossref",
+            "first-page": "128",
+            "DOI": "10.1007\/BF02515385",
+            "volume": "32",
+            "author": "DM Irwin",
+            "year": "1991",
+            "unstructured": "Irwin DM, Kocher TD, Wilson AC. Evolution of the cytochrome b gene of mammals. J Mol Evol. 1991;32:128\u201344.",
+            "journal-title": "J Mol Evol"
+          },
+          {
+            "key": "120_CR62",
+            "doi-asserted-by": "crossref",
+            "first-page": "651",
+            "DOI": "10.1093\/aesa\/87.6.651",
+            "volume": "87",
+            "author": "C Simon",
+            "year": "1994",
+            "unstructured": "Simon C, Frati F, Beckenbach A, Crespi B, Liu H, Flook P. Evolution, weighting, and phylogenetic utility of mitochondrial gene sequences and a compilation of conserved polymerase chain reaction primers. Ann Entomol Soc Am. 1994;87:651\u2013701.",
+            "journal-title": "Ann Entomol Soc Am"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/5\/1\/1\/10843617\/13742_2016_Article_120.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2019-09-05T20:43:42Z",
+          "timestamp": 1567716222000
+        },
+        "score": 85.075554,
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              3,
+              22
+            ]
+          ]
+        },
+        "references-count": 62,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                12
+              ]
+            ]
+          },
+          "issue": "1"
+        },
+        "alternative-id": [
+          "120"
+        ],
+        "URL": "http:\/\/dx.doi.org\/10.1186\/s13742-016-0120-y",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ],
+        "article-number": "15"
+      }
+    ],
+    "items-per-page": 20,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

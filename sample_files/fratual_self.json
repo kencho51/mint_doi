@@ -1,0 +1,2592 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2020-10-17T12:41:23Z",
+          "timestamp": 1602938483067
+        },
+        "reference-count": 9,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "10",
+        "license": [
+          {
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  10,
+                  17
+                ]
+              ],
+              "date-time": "2020-10-17T00:00:00Z",
+              "timestamp": 1602892800000
+            },
+            "delay-in-days": 16,
+            "content-version": "vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              17
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract<\/jats:title>\n               <jats:p>Metadata are what makes databases searchable. Without them, researchers would have difficulty finding data with features they are interested in. Brain imaging genetics is at the intersection of two disciplines, each with dedicated dictionaries and ontologies facilitating data search and analysis. Here, we present the genetics Brain Imaging Data Structure extension, consisting of metadata files for human brain imaging data to which they are linked, and describe succinctly the genomic and transcriptomic data associated with them, which may be in different databases. This extension will facilitate identifying micro-scale molecular features that are linked to macro-scale imaging repositories, facilitating data aggregation across studies.<\/jats:p>",
+        "DOI": "10.1093\/gigascience\/giaa104",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2020-10-17T12:14:47Z",
+          "timestamp": 1602936887000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The genetics-BIDS extension: Easing the search for genetic data associated with human brain imaging"
+        ],
+        "prefix": "10.1093",
+        "volume": "9",
+        "author": [
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-6217-731X",
+            "authenticated-orcid": false,
+            "given": "Clara A",
+            "family": "Moreau",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Sainte Justine Research Center, University of Montreal, 3175 Chemin de la C\u00f4te-Sainte-Catherine, Montr\u00e9al, QC H3T 1C5, Canada, Montreal, QC, Canada"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-3305-3307",
+            "authenticated-orcid": false,
+            "given": "Martineau",
+            "family": "Jean-Louis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Sainte Justine Research Center, University of Montreal, 3175 Chemin de la C\u00f4te-Sainte-Catherine, Montr\u00e9al, QC H3T 1C5, Canada, Montreal, QC, Canada"
+              }
+            ]
+          },
+          {
+            "given": "Ross",
+            "family": "Blair",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre for Reproducible Neuroscience, Stanford University, 450 Jane Stanford Way, Stanford, CA 94305, CA, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-6533-164X",
+            "authenticated-orcid": false,
+            "given": "Christopher J",
+            "family": "Markiewicz",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre for Reproducible Neuroscience, Stanford University, 450 Jane Stanford Way, Stanford, CA 94305, CA, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-0076-8434",
+            "authenticated-orcid": false,
+            "given": "Jessica A",
+            "family": "Turner",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Imaging Genetics and Informatics Lab, Georgia State University, Atlanta, GA 30302, GA, USA"
+              },
+              {
+                "name": "Center for Translational Research in Neuroimaging and Data Science, Georgia State University, Atlanta, GA 30302, GA, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-8471-9287",
+            "authenticated-orcid": false,
+            "given": "Vince D",
+            "family": "Calhoun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Center for Translational Research in Neuroimaging and Data Science, Georgia State University, Atlanta, GA 30302, GA, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-4516-5103",
+            "authenticated-orcid": false,
+            "given": "Thomas E",
+            "family": "Nichols",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Oxford Big Data Institute, Li Ka Shing Centre for Health Information and Discovery, Nuffield Department of Population Health, University of Oxford, Old Road Campus OX3 7LF, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-4010-4632",
+            "authenticated-orcid": false,
+            "given": "Cyril R",
+            "family": "Pernet",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre for Clinical Brain Sciences & Edinburgh Imaging, University of Edinburgh, 49 Little France Crescent, Edinburgh BioQuarter EH16 4SB, UK"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              17
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2020101708144236800_bib1",
+            "author": "Poline",
+            "first-page": "699",
+            "year": "2015",
+            "article-title": "Imaging genetics with fMRI",
+            "volume-title": "fMRI: From Nuclear Spins to Brain Functions",
+            "DOI": "10.1007\/978-1-4899-7591-1_24",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "2020101708144236800_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "711",
+            "DOI": "10.1126\/science.152.3723.711",
+            "article-title": "Chromosome variability and geographic distribution in insects",
+            "volume": "152",
+            "author": "John",
+            "year": "1966",
+            "journal-title": "Science"
+          },
+          {
+            "key": "2020101708144236800_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "636",
+            "DOI": "10.1176\/appi.ajp.160.4.636",
+            "article-title": "The endophenotype concept in psychiatry: Etymology and strategic intentions",
+            "volume": "160",
+            "author": "Gottesman",
+            "year": "2003",
+            "journal-title": "Am J Psychiatry"
+          },
+          {
+            "key": "2020101708144236800_bib13_806_015420",
+            "doi-asserted-by": "crossref",
+            "first-page": "450",
+            "DOI": "10.1056\/NEJM200008173430701",
+            "article-title": "Patterns of brain activation in people at risk for Alzheimer's disease",
+            "volume": "343",
+            "author": "Bookheimer",
+            "year": "2000",
+            "journal-title": "N Engl J Med"
+          },
+          {
+            "key": "2020101708144236800_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "160044",
+            "DOI": "10.1038\/sdata.2016.44",
+            "article-title": "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments",
+            "volume": "3",
+            "author": "Gorgolewski",
+            "year": "2016",
+            "journal-title": "Sci Data"
+          },
+          {
+            "key": "2020101708144236800_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "83",
+            "DOI": "10.1186\/s13059-017-1215-1",
+            "article-title": "Multi-omics approaches to disease",
+            "volume": "18",
+            "author": "Hasin",
+            "year": "2017",
+            "journal-title": "Genome Biol"
+          },
+          {
+            "key": "2020101708144236800_bib8",
+            "author": "Malladi",
+            "volume": "2015",
+            "year": "2015",
+            "article-title": "The Cell Ontology",
+            "journal-title": "Database",
+            "DOI": "10.1093\/database\/bav010",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2020101708144236800_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "391",
+            "DOI": "10.1038\/nature11405",
+            "article-title": "An anatomically comprehensive atlas of the adult human brain transcriptome",
+            "volume": "489",
+            "author": "Hawrylycz",
+            "year": "2012",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "2020101708144236800_bib9_415_1602261899150",
+            "doi-asserted-by": "crossref",
+            "first-page": "160018",
+            "DOI": "10.1038\/sdata.2016.18",
+            "article-title": "The FAIR Guiding Principles for scientific data management and stewardship",
+            "volume": "3",
+            "author": "Wilkinson",
+            "year": "2016",
+            "journal-title": "Sci Data"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/9\/10\/giaa104\/33922807\/giaa104.pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/9\/10\/giaa104\/33922807\/giaa104.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2020-10-17T12:14:50Z",
+          "timestamp": 1602936890000
+        },
+        "score": 21.863369,
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        },
+        "references-count": 9,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                17
+              ]
+            ]
+          },
+          "issue": "10"
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1093\/gigascience\/giaa104",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2020-09-30T10:03:58Z",
+          "timestamp": 1601460238164
+        },
+        "reference-count": 62,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "4",
+        "license": [
+          {
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  3,
+                  7
+                ]
+              ],
+              "date-time": "2018-03-07T00:00:00Z",
+              "timestamp": 1520380800000
+            },
+            "delay-in-days": 0,
+            "content-version": "vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039\/501100010038",
+            "name": "Earmarked Fund for China Agriculture Research System",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "CARS-39"
+            ]
+          },
+          {
+            "DOI": "10.13039\/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "31 402 041",
+              "31 472 078"
+            ]
+          },
+          {
+            "DOI": "10.13039\/501100012149",
+            "name": "National Key Scientific Instrument and Equipment Development Projects of China",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "2012YQ03026108"
+            ]
+          },
+          {
+            "DOI": "10.13039\/501100012166",
+            "name": "National Basic Research Program of China (973 Program)",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "2011CB510102",
+              "2011CB910204"
+            ]
+          },
+          {
+            "DOI": "10.13039\/501100004739",
+            "name": "Youth Innovation Promotion Association of the Chinese Academy of Sciences",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "2 017 325"
+            ]
+          },
+          {
+            "name": "Agricultural Science and Technology Innovation Program of China",
+            "award": [
+              "ASTIP-IAS13"
+            ]
+          },
+          {
+            "name": "National Key Technology Support Program",
+            "award": [
+              "2013BAI101B09"
+            ]
+          },
+          {
+            "name": "Genetically Modified Organisms Breeding Major Program of China",
+            "award": [
+              "2016ZX08010-005-003",
+              "2016ZX08009-003-006"
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1093\/gigascience\/giy019",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              7
+            ]
+          ],
+          "date-time": "2018-03-07T12:15:21Z",
+          "timestamp": 1520424921000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 21,
+        "title": [
+          "Whole-genome sequences of 89 Chinese sheep suggest role of RXFP2 in the development of unique horn phenotype as response to semi-feralization"
+        ],
+        "prefix": "10.1093",
+        "volume": "7",
+        "author": [
+          {
+            "given": "Zhangyuan",
+            "family": "Pan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              },
+              {
+                "name": "College of Agriculture and Forestry Science, Linyi University, Linyi, China"
+              }
+            ]
+          },
+          {
+            "given": "Shengdi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              },
+              {
+                "name": "University of Chinese Academy of Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Qiuyue",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Zhen",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              }
+            ]
+          },
+          {
+            "given": "Zhengkui",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Ran",
+            "family": "Di",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Benpeng",
+            "family": "Miao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              },
+              {
+                "name": "University of Chinese Academy of Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Wenping",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiangyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoxiang",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory for Agrobiotechnology, China Agricultural University, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Ze",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "BasePair BioTechonology Co., Ltd., Suzhou, China"
+              }
+            ]
+          },
+          {
+            "given": "Dongkai",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "BasePair BioTechonology Co., Ltd., Suzhou, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoyun",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Liyun",
+            "family": "Yuan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiaofei",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Benmeng",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Ruichao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoyu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohan",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Xinlong",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Qing",
+            "family": "Xia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Hongcai",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Biotechnology, Xinjiang Academy of Animal Science, Urumqi, China"
+              }
+            ]
+          },
+          {
+            "given": "Geng",
+            "family": "Hao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Xinjiang Academy of Animal Science, Urumqi, China"
+              }
+            ]
+          },
+          {
+            "given": "Jean",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Institute of Animal Science, Tibet Academy of Agricultural and Animal Husbandry Sciences, Lhasa, China"
+              }
+            ]
+          },
+          {
+            "given": "Cuicheng",
+            "family": "Luosang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Institute of Animal Science, Tibet Academy of Agricultural and Animal Husbandry Sciences, Lhasa, China"
+              }
+            ]
+          },
+          {
+            "given": "Yiqiang",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory for Agrobiotechnology, China Agricultural University, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Mei",
+            "family": "Jin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Life Science, Liaoning Normal University, Dalian, China"
+              }
+            ]
+          },
+          {
+            "given": "Yingjie",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Animal Science and Technology, Agricultural University of Hebei, Baoding, China"
+              }
+            ]
+          },
+          {
+            "given": "Shenjin",
+            "family": "Lv",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Agriculture and Forestry Science, Linyi University, Linyi, China"
+              }
+            ]
+          },
+          {
+            "given": "Fukuan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Agriculture and Forestry Science, Linyi University, Linyi, China"
+              }
+            ]
+          },
+          {
+            "given": "Guohui",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              },
+              {
+                "name": "Shanghai Center for Bioinformation Technology, Shanghai Industrial Technology Institute, Shanghai, China"
+              }
+            ]
+          },
+          {
+            "given": "Mingxing",
+            "family": "Chu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, China"
+              }
+            ]
+          },
+          {
+            "given": "Yixue",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Lab of Computational Biology, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China"
+              },
+              {
+                "name": "Shanghai Center for Bioinformation Technology, Shanghai Industrial Technology Institute, Shanghai, China"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              7
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "10",
+            "key": "key\n\t\t\t\t20180414040411_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1141",
+            "DOI": "10.1038\/ng.3394",
+            "article-title": "Evidence of long-term gene flow and selection during domestication from analyses of Eurasian wild and domestic pig genomes",
+            "volume": "47",
+            "author": "Frantz",
+            "year": "2015",
+            "journal-title": "Nat Genet"
+          },
+          {
+            "issue": "7441",
+            "key": "key\n\t\t\t\t20180414040411_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "360",
+            "DOI": "10.1038\/nature11837",
+            "article-title": "The genomic signature of dog domestication reveals adaptation to a starch-rich diet",
+            "volume": "495",
+            "author": "Axelsson",
+            "year": "2013",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "6200",
+            "key": "key\n\t\t\t\t20180414040411_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "1074",
+            "DOI": "10.1126\/science.1253714",
+            "article-title": "Rabbit genome analysis reveals a polygenic basis for phenotypic change during domestication",
+            "volume": "345",
+            "author": "Carneiro",
+            "year": "2014",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "7288",
+            "key": "key\n\t\t\t\t20180414040411_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "587",
+            "DOI": "10.1038\/nature08832",
+            "article-title": "Whole-genome resequencing reveals loci under selection during chicken domestication",
+            "volume": "464",
+            "author": "Rubin",
+            "year": "2010",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "7586",
+            "key": "key\n\t\t\t\t20180414040411_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "270",
+            "DOI": "10.1038\/529270a",
+            "article-title": "When chickens go wild",
+            "volume": "529",
+            "author": "Callaway",
+            "year": "2016",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "6219",
+            "key": "key\n\t\t\t\t20180414040411_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "248",
+            "DOI": "10.1126\/science.1259172",
+            "article-title": "Agriculture facilitated permanent human occupation of the Tibetan Plateau after 3600 B.P",
+            "volume": "347",
+            "author": "Chen",
+            "year": "2015",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "3",
+            "key": "key\n\t\t\t\t20180414040411_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "702",
+            "DOI": "10.1073\/pnas.1418090112",
+            "article-title": "Groundwater sapping as the cause of irreversible desertification of Hunshandake Sandy Lands, Inner Mongolia, Northern China",
+            "volume": "112",
+            "author": "Yang",
+            "year": "2015",
+            "journal-title": "Proc Natl Acad Sci U S A"
+          },
+          {
+            "issue": "9",
+            "key": "key\n\t\t\t\t20180414040411_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "2380",
+            "DOI": "10.1093\/molbev\/msx181",
+            "article-title": "Genomic reconstruction of the history of native sheep reveals the peopling patterns of nomads and the expansion of early pastoralism in East Asia",
+            "volume": "34",
+            "author": "Zhao",
+            "year": "2017",
+            "journal-title": "Molecular Biology and Evolution"
+          },
+          {
+            "issue": "10",
+            "key": "key\n\t\t\t\t20180414040411_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "2576",
+            "DOI": "10.1093\/molbev\/msw129",
+            "article-title": "Whole-genome sequencing of native sheep provides insights into rapid adaptations to extreme environments",
+            "volume": "33",
+            "author": "Yang",
+            "year": "2016",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "issue": "1-3",
+            "key": "key\n\t\t\t\t20180414040411_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "88",
+            "DOI": "10.1016\/j.smallrumres.2010.02.001",
+            "article-title": "Genetic diversity of Chinese indigenous sheep breeds inferred from microsatellite markers",
+            "volume": "90",
+            "author": "Zhong",
+            "year": "2010",
+            "journal-title": "Small Ruminant Research"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib11",
+            "author": "Tu",
+            "first-page": "6",
+            "year": "1989",
+            "volume-title": "The Sheep and Goat Breeds in China"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib12"
+          },
+          {
+            "issue": "14",
+            "key": "key\n\t\t\t\t20180414040411_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "1754",
+            "DOI": "10.1093\/bioinformatics\/btp324",
+            "article-title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+            "volume": "25",
+            "author": "Li",
+            "year": "2009",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib14",
+            "author": "PICARD"
+          },
+          {
+            "issue": "9",
+            "key": "key\n\t\t\t\t20180414040411_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "1297",
+            "DOI": "10.1101\/gr.107524.110",
+            "article-title": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+            "volume": "20",
+            "author": "McKenna",
+            "year": "2010",
+            "journal-title": "Genome Research"
+          },
+          {
+            "issue": "2",
+            "key": "key\n\t\t\t\t20180414040411_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "80",
+            "DOI": "10.4161\/fly.19695",
+            "article-title": "A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff",
+            "volume": "6",
+            "author": "Cingolani",
+            "year": "2012",
+            "journal-title": "Fly"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib17",
+            "author": "NCBI annotation for sheep genome assembly oviAri3"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib18",
+            "first-page": "164",
+            "article-title": "PHYLIP - Phylogeny Inference Package (version 3.2)",
+            "volume": "5",
+            "author": "Felsenstein",
+            "year": "1989",
+            "journal-title": "Cladistics"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib19",
+            "author": "Goat genome assembly CHIR 1.0"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib20",
+            "author": "Harris",
+            "year": "2007",
+            "volume-title": "Improved Pairwise Alignment of Genomic DNA"
+          },
+          {
+            "issue": "12",
+            "key": "key\n\t\t\t\t20180414040411_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "2074",
+            "DOI": "10.1371\/journal.pgen.0020190",
+            "article-title": "Population structure and eigenanalysis",
+            "volume": "2",
+            "author": "Patterson",
+            "year": "2006",
+            "journal-title": "PLoS Genet"
+          },
+          {
+            "issue": "8",
+            "key": "key\n\t\t\t\t20180414040411_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "904",
+            "DOI": "10.1038\/ng1847",
+            "article-title": "Principal components analysis corrects for stratification in genome-wide association studies",
+            "volume": "38",
+            "author": "Price",
+            "year": "2006",
+            "journal-title": "Nat Genet"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "289",
+            "DOI": "10.1002\/gepi.20064",
+            "article-title": "Estimation of individual admixture: analytical and study design considerations",
+            "volume": "28",
+            "author": "Tang",
+            "year": "2005",
+            "journal-title": "Genet Epidemiol"
+          },
+          {
+            "issue": "7164",
+            "key": "key\n\t\t\t\t20180414040411_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "913",
+            "DOI": "10.1038\/nature06250",
+            "article-title": "Genome-wide detection and characterization of positive selection in human populations",
+            "volume": "449",
+            "author": "Sabeti",
+            "year": "2007",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "11",
+            "key": "key\n\t\t\t\t20180414040411_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1002967",
+            "DOI": "10.1371\/journal.pgen.1002967",
+            "article-title": "Inference of population splits and mixtures from genome-wide allele frequency data",
+            "volume": "8",
+            "author": "Pickrell",
+            "year": "2012",
+            "journal-title": "PLoS Genet"
+          },
+          {
+            "issue": "15",
+            "key": "key\n\t\t\t\t20180414040411_bib26",
+            "doi-asserted-by": "crossref",
+            "first-page": "2156",
+            "DOI": "10.1093\/bioinformatics\/btr330",
+            "article-title": "The variant call format and VCFtools",
+            "volume": "27",
+            "author": "Danecek",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "2",
+            "key": "key\n\t\t\t\t20180414040411_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "263",
+            "DOI": "10.1093\/bioinformatics\/bth457",
+            "article-title": "Haploview: analysis and visualization of LD and haplotype maps",
+            "volume": "21",
+            "author": "Barrett",
+            "year": "2005",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "10",
+            "key": "key\n\t\t\t\t20180414040411_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "1611",
+            "DOI": "10.1101\/gr.361602",
+            "article-title": "The Bioperl toolkit: Perl modules for the life sciences",
+            "volume": "12",
+            "author": "Stajich",
+            "year": "2002",
+            "journal-title": "Genome Research"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib29",
+            "doi-asserted-by": "crossref",
+            "first-page": "629",
+            "DOI": "10.1086\/502802",
+            "article-title": "A fast and flexible statistical model for large-scale population genotype data: applications to inferring missing genotypes and haplotypic phase",
+            "volume": "78",
+            "author": "Scheet",
+            "year": "2006",
+            "journal-title": "American Journal of Human Genetics"
+          },
+          {
+            "issue": "8",
+            "key": "key\n\t\t\t\t20180414040411_bib30",
+            "doi-asserted-by": "crossref",
+            "first-page": "1091",
+            "DOI": "10.1093\/bioinformatics\/btp101",
+            "article-title": "ClueGO: a Cytoscape plug-in to decipher functionally grouped gene ontology and pathway annotation networks",
+            "volume": "25",
+            "author": "Bindea",
+            "year": "2009",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "e35309",
+            "DOI": "10.1371\/journal.pone.0035309",
+            "article-title": "Routine multiplex mutational profiling of melanomas enables enrollment in genotype-driven therapeutic trials",
+            "volume": "7",
+            "author": "Lovly",
+            "year": "2012",
+            "journal-title": "PLoS One"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "402",
+            "DOI": "10.1006\/meth.2001.1262",
+            "article-title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(T)(-Delta Delta C) method",
+            "volume": "25",
+            "author": "Livak",
+            "year": "2001",
+            "journal-title": "Methods"
+          },
+          {
+            "issue": "3",
+            "key": "key\n\t\t\t\t20180414040411_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "445",
+            "DOI": "10.1007\/s11248-008-9241-0",
+            "article-title": "Functional recombinant human anti-HAV antibody expressed in milk of transgenic mice",
+            "volume": "18",
+            "author": "Zhang",
+            "year": "2009",
+            "journal-title": "Transgenic Res"
+          },
+          {
+            "issue": "3",
+            "key": "key\n\t\t\t\t20180414040411_bib34",
+            "doi-asserted-by": "crossref",
+            "first-page": "217",
+            "DOI": "10.1038\/ng.3199",
+            "article-title": "Adaptation and possible ancient interspecies introgression in pigs identified by whole-genome sequencing",
+            "volume": "47",
+            "author": "Ai",
+            "year": "2015",
+            "journal-title": "Nat Genet"
+          },
+          {
+            "issue": "8",
+            "key": "key\n\t\t\t\t20180414040411_bib35",
+            "doi-asserted-by": "crossref",
+            "first-page": "1308",
+            "DOI": "10.1101\/gr.171876.113",
+            "article-title": "Whole-genome sequencing of six dog breeds from continuous altitudes reveals adaptation to high-altitude hypoxia",
+            "volume": "24",
+            "author": "Gou",
+            "year": "2014",
+            "journal-title": "Genome Res"
+          },
+          {
+            "issue": "10",
+            "key": "key\n\t\t\t\t20180414040411_bib36",
+            "doi-asserted-by": "crossref",
+            "first-page": "2515",
+            "DOI": "10.1093\/molbev\/msv139",
+            "article-title": "Mitogenomic meta-analysis identifies two phases of migration in the history of eastern Eurasian sheep",
+            "volume": "32",
+            "author": "Lv",
+            "year": "2015",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "issue": "7469",
+            "key": "key\n\t\t\t\t20180414040411_bib37",
+            "doi-asserted-by": "crossref",
+            "first-page": "93",
+            "DOI": "10.1038\/nature12489",
+            "article-title": "Life history trade-offs at a single locus maintain sexually selected genetic variation",
+            "volume": "502",
+            "author": "Johnston",
+            "year": "2013",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "22",
+            "key": "key\n\t\t\t\t20180414040411_bib38",
+            "doi-asserted-by": "crossref",
+            "first-page": "5616",
+            "DOI": "10.1111\/mec.13415",
+            "article-title": "Whole-genome resequencing uncovers molecular signatures of natural and sexual selection in wild bighorn sheep",
+            "volume": "24",
+            "author": "Kardos",
+            "year": "2015",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "issue": "2",
+            "key": "key\n\t\t\t\t20180414040411_bib39",
+            "doi-asserted-by": "crossref",
+            "first-page": "477",
+            "DOI": "10.1007\/s12041-014-0370-3",
+            "article-title": "Association of MITF gene with hearing and pigmentation phenotype in Hedlund white American mink (Neovison vison)",
+            "volume": "93",
+            "author": "Markakis",
+            "year": "2014",
+            "journal-title": "J Genet"
+          },
+          {
+            "issue": "1",
+            "key": "key\n\t\t\t\t20180414040411_bib40",
+            "doi-asserted-by": "crossref",
+            "first-page": "52",
+            "DOI": "10.1186\/s12915-016-0273-2",
+            "article-title": "A de novo silencer causes elimination of MITF-M expression and profound hearing loss in pigs",
+            "volume": "14",
+            "author": "Chen",
+            "year": "2016",
+            "journal-title": "BMC Biol"
+          },
+          {
+            "issue": "12",
+            "key": "key\n\t\t\t\t20180414040411_bib41",
+            "doi-asserted-by": "crossref",
+            "first-page": "916",
+            "DOI": "10.1038\/sj.ejhg.5201073",
+            "article-title": "Distribution and frequencies of PDS (SLC26A4) mutations in Pendred syndrome and nonsyndromic hearing loss associated with enlarged vestibular aqueduct: a unique spectrum of mutations in Japanese",
+            "volume": "11",
+            "author": "Tsukamoto",
+            "year": "2003",
+            "journal-title": "Eur J Hum Genet"
+          },
+          {
+            "issue": "4-5-6",
+            "key": "key\n\t\t\t\t20180414040411_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "195",
+            "DOI": "10.1387\/ijdb.140200md",
+            "article-title": "Down-regulation of msrb3 and destruction of normal auditory system development through hair cell apoptosis in zebrafish",
+            "volume": "59",
+            "author": "Shen",
+            "year": "2015",
+            "journal-title": "Int J Dev Biol"
+          },
+          {
+            "issue": "1",
+            "key": "key\n\t\t\t\t20180414040411_bib43",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1016\/j.ajhg.2010.11.010",
+            "article-title": "Functional null mutations of MSRB3 encoding methionine sulfoxide reductase are associated with human deafness DFNB74",
+            "volume": "88",
+            "author": "Ahmed",
+            "year": "2011",
+            "journal-title": "American Journal of Human Genetics"
+          },
+          {
+            "issue": "1",
+            "key": "key\n\t\t\t\t20180414040411_bib44",
+            "doi-asserted-by": "crossref",
+            "first-page": "78",
+            "DOI": "10.1111\/pcmr.12030",
+            "article-title": "Hearing dysfunction in heterozygous Mitf(Mi-wh) \/+ mice, a model for Waardenburg syndrome type 2 and Tietz syndrome",
+            "volume": "26",
+            "author": "Ni",
+            "year": "2013",
+            "journal-title": "Pigment Cell Melanoma Res"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib45",
+            "doi-asserted-by": "crossref",
+            "first-page": "242",
+            "DOI": "10.1136\/jmg.40.4.242",
+            "article-title": "Origins and frequencies of SLC26A4 (PDS) mutations in east and south Asians: global implications for the epidemiology of deafness",
+            "volume": "40",
+            "author": "Park",
+            "year": "2003",
+            "journal-title": "Journal Medical Genetics"
+          },
+          {
+            "issue": "2",
+            "key": "key\n\t\t\t\t20180414040411_bib46",
+            "doi-asserted-by": "crossref",
+            "first-page": "159",
+            "DOI": "10.1136\/jmg.2004.024208",
+            "article-title": "SLC26A4\/PDS genotype-phenotype correlation in hearing loss with enlargement of the vestibular aqueduct (EVA): evidence that Pendred syndrome and non-syndromic EVA are distinct clinical and genetic entities",
+            "volume": "42",
+            "author": "Pryor",
+            "year": "2005",
+            "journal-title": "Journal Medical Genetics"
+          },
+          {
+            "issue": "2",
+            "key": "key\n\t\t\t\t20180414040411_bib47",
+            "doi-asserted-by": "crossref",
+            "first-page": "135",
+            "DOI": "10.1016\/j.gene.2011.10.006",
+            "article-title": "Fungal Smn and Spf30 homologues are mainly present in filamentous fungi and genomes with many introns: implications for spinal muscular atrophy",
+            "volume": "491",
+            "author": "Mier",
+            "year": "2012",
+            "journal-title": "Gene"
+          },
+          {
+            "issue": "13",
+            "key": "key\n\t\t\t\t20180414040411_bib48",
+            "doi-asserted-by": "crossref",
+            "first-page": "2149",
+            "DOI": "10.1093\/hmg\/7.13.2149",
+            "article-title": "Characterization of a gene encoding survival motor neuron (SMN)-related protein, a constituent of the spliceosome complex",
+            "volume": "7",
+            "author": "Talbot",
+            "year": "1998",
+            "journal-title": "Human Molecular Genetics"
+          },
+          {
+            "issue": "6188",
+            "key": "key\n\t\t\t\t20180414040411_bib49",
+            "doi-asserted-by": "crossref",
+            "first-page": "1168",
+            "DOI": "10.1126\/science.1252806",
+            "article-title": "The sheep genome illuminates biology of the rumen and lipid metabolism",
+            "volume": "344",
+            "author": "Jiang",
+            "year": "2014",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "9",
+            "key": "key\n\t\t\t\t20180414040411_bib50",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1371\/journal.pgen.1001139",
+            "article-title": "Genetic architecture of complex traits and accuracy of genomic prediction: coat colour, milk-fat percentage, and type in holstein cattle as contrasting model traits",
+            "volume": "6",
+            "author": "Hayes",
+            "year": "2010",
+            "journal-title": "PLoS Genet"
+          },
+          {
+            "issue": "6",
+            "key": "key\n\t\t\t\t20180414040411_bib51",
+            "doi-asserted-by": "crossref",
+            "first-page": "539",
+            "DOI": "10.1111\/j.1365-2052.2007.01664.x",
+            "article-title": "Genes affecting coat colour and pattern in domestic dogs: a review",
+            "volume": "38",
+            "author": "Schmutz",
+            "year": "2007",
+            "journal-title": "Anim Genet"
+          },
+          {
+            "issue": "11",
+            "key": "key\n\t\t\t\t20180414040411_bib52",
+            "doi-asserted-by": "crossref",
+            "first-page": "442",
+            "DOI": "10.1016\/S0168-9525(00)89143-X",
+            "article-title": "Insight into the microphthalmia gene",
+            "volume": "11",
+            "author": "Moore",
+            "year": "1995",
+            "journal-title": "Trends in Genetics"
+          },
+          {
+            "issue": "1",
+            "key": "key\n\t\t\t\t20180414040411_bib53",
+            "doi-asserted-by": "crossref",
+            "first-page": "26770",
+            "DOI": "10.1038\/srep26770",
+            "article-title": "Genome-wide analysis reveals adaptation to high altitudes in Tibetan sheep",
+            "volume": "6",
+            "author": "Wei",
+            "year": "2016",
+            "journal-title": "Sci Rep"
+          },
+          {
+            "issue": "7",
+            "key": "key\n\t\t\t\t20180414040411_bib54",
+            "doi-asserted-by": "crossref",
+            "first-page": "1880",
+            "DOI": "10.1093\/molbev\/msv071",
+            "article-title": "Genomic analyses reveal potential independent adaptation to high altitude in Tibetan chickens",
+            "volume": "32",
+            "author": "Wang",
+            "year": "2015",
+            "journal-title": "Mol Biol Evol"
+          },
+          {
+            "issue": "12",
+            "key": "key\n\t\t\t\t20180414040411_bib55",
+            "doi-asserted-by": "crossref",
+            "first-page": "2555",
+            "DOI": "10.1111\/j.1365-294X.2011.05076.x",
+            "article-title": "Genome-wide association mapping identifies the genetic basis of discrete and quantitative variation in sexual weaponry in a wild sheep population",
+            "volume": "20",
+            "author": "Johnston",
+            "year": "2011",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib56",
+            "doi-asserted-by": "crossref",
+            "first-page": "468",
+            "DOI": "10.1111\/j.1365-2052.2011.02271.x",
+            "article-title": "A single nucleotide polymorphism on chromosome 10 is highly predictive for the polled phenotype in Australian Merino sheep",
+            "volume": "43",
+            "author": "Dominik",
+            "year": "2012",
+            "journal-title": "Anim Genet"
+          },
+          {
+            "issue": "2-3",
+            "key": "key\n\t\t\t\t20180414040411_bib57",
+            "doi-asserted-by": "crossref",
+            "first-page": "133",
+            "DOI": "10.1016\/j.smallrumres.2013.10.022",
+            "article-title": "Discovery of SNPs in RXFP2 related to horn types in sheep",
+            "volume": "116",
+            "author": "Wang",
+            "year": "2014",
+            "journal-title": "Small Ruminant Research"
+          },
+          {
+            "issue": "4",
+            "key": "key\n\t\t\t\t20180414040411_bib58",
+            "doi-asserted-by": "crossref",
+            "first-page": "457",
+            "DOI": "10.1111\/age.12309",
+            "article-title": "A 1.8-kb insertion in the 3-UTR of RXFP2 is associated with polledness in sheep",
+            "volume": "46",
+            "author": "Wiedemar",
+            "year": "2015",
+            "journal-title": "Anim Genet"
+          },
+          {
+            "issue": "12",
+            "key": "key\n\t\t\t\t20180414040411_bib59",
+            "doi-asserted-by": "crossref",
+            "first-page": "2555",
+            "DOI": "10.1111\/j.1365-294X.2011.05076.x",
+            "article-title": "Genome-wide association mapping identifies the genetic basis of discrete and quantitative variation in sexual weaponry in a wild sheep population",
+            "volume": "20",
+            "author": "Johnston",
+            "year": "2011",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "issue": "2",
+            "key": "key\n\t\t\t\t20180414040411_bib60",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1001258",
+            "DOI": "10.1371\/journal.pbio.1001258",
+            "article-title": "Genome-wide analysis of the world's sheep breeds reveals high levels of historic mixture and strong recent selection",
+            "volume": "10",
+            "author": "Kijas",
+            "year": "2012",
+            "journal-title": "PLoS Biol"
+          },
+          {
+            "issue": "5",
+            "key": "key\n\t\t\t\t20180414040411_bib61",
+            "doi-asserted-by": "crossref",
+            "first-page": "479",
+            "DOI": "10.1038\/nbt.3560",
+            "article-title": "Production of hornless dairy cattle from genome-edited cell lines",
+            "volume": "34",
+            "author": "Carlson",
+            "year": "2016",
+            "journal-title": "Nat Biotechnol"
+          },
+          {
+            "key": "key\n\t\t\t\t20180414040411_bib62",
+            "author": "Pan",
+            "year": "2018",
+            "article-title": "Supporting data for \u201cwhole-genome sequences of 89 Chinese sheep suggest role of RXFP2 in the development of unique horn phenotype as response to semi-feralization.\u201d",
+            "journal-title": "GigaScience Database",
+            "DOI": "10.1093\/gigascience\/giy019",
+            "doi-asserted-by": "crossref"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/7\/4\/giy019\/24620106\/giy019.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2020-05-19T03:32:04Z",
+          "timestamp": 1589859124000
+        },
+        "score": 21.070425,
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              7
+            ]
+          ]
+        },
+        "references-count": 62,
+        "journal-issue": {
+          "published-online": {
+            "date-parts": [
+              [
+                2018,
+                3,
+                7
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                4,
+                1
+              ]
+            ]
+          },
+          "issue": "4"
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1093\/gigascience\/giy019",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              26
+            ]
+          ],
+          "date-time": "2020-10-26T11:23:53Z",
+          "timestamp": 1603711433203
+        },
+        "reference-count": 55,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "10",
+        "license": [
+          {
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+            "start": {
+              "date-parts": [
+                [
+                  2017,
+                  8,
+                  19
+                ]
+              ],
+              "date-time": "2017-08-19T00:00:00Z",
+              "timestamp": 1503100800000
+            },
+            "delay-in-days": 0,
+            "content-version": "vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1093\/gigascience\/gix080",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2017-08-19T06:09:36Z",
+          "timestamp": 1503122976000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 25,
+        "title": [
+          "Development and validation of a multi-locus DNA metabarcoding method to identify endangered species in complex samples"
+        ],
+        "prefix": "10.1093",
+        "volume": "6",
+        "author": [
+          {
+            "given": "Alfred J.",
+            "family": "Arulandhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              },
+              {
+                "name": "Food Quality and Design Group, Wageningen University and Research, P.O. Box 8129, 6700 EV Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Martijn",
+            "family": "Staats",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Rico",
+            "family": "Hagelaar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Marleen M.",
+            "family": "Voorhuijzen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Theo W.",
+            "family": "Prins",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Ingrid",
+            "family": "Scholtens",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Adalberto",
+            "family": "Costessi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Baseclear B. V, Einsteinweg 5, 2333 CC Leiden, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Danny",
+            "family": "Duijsings",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Baseclear B. V, Einsteinweg 5, 2333 CC Leiden, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Fran\u00e7ois",
+            "family": "Rechenmann",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "GenoStar Bioinformatics Solutions, 60 rue Lavoisier, 38330 Montbonnot Saint Martin, France"
+              }
+            ]
+          },
+          {
+            "given": "Fr\u00e9d\u00e9ric B.",
+            "family": "Gaspar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "iBET, Instituto de Biologia Experimental e Tecnol\u00f3gica, Apartado 12, 2780-901 Oeiras, Portugal"
+              }
+            ]
+          },
+          {
+            "given": "Maria Teresa",
+            "family": "Barreto Crespo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "iBET, Instituto de Biologia Experimental e Tecnol\u00f3gica, Apartado 12, 2780-901 Oeiras, Portugal"
+              }
+            ]
+          },
+          {
+            "given": "Arne",
+            "family": "Holst-Jensen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Norwegian Veterinary Institute, Ullevaalsveien 68, P.O. Box 750 Sentrum, 0106 Oslo, Norway"
+              }
+            ]
+          },
+          {
+            "given": "Matthew",
+            "family": "Birck",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "U.S. Customs and Border Protection Laboratory, 1100 Raymond Blvd Newark, NJ 07102 USA"
+              }
+            ]
+          },
+          {
+            "given": "Malcolm",
+            "family": "Burns",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "LGC, Queens Road, Teddington, Middlesex, TW11 0LY, UK"
+              }
+            ]
+          },
+          {
+            "given": "Edward",
+            "family": "Haynes",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fera, Sand Hutton, York, YO41 1LZ, UK"
+              }
+            ]
+          },
+          {
+            "given": "Rupert",
+            "family": "Hochegger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Austrian Agency for Health and Food Safety, Spargelfeldstrasse 191, 1220 Vienna, Austria"
+              }
+            ]
+          },
+          {
+            "given": "Alexander",
+            "family": "Klingl",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Generalzolldirektion, Direktion IX, Bildungs- und Wissenschaftszentrum der Bundesfinanzverwaltung, Dienstort Hamburg, Baumacker 3, D-22523 Hamburg, Germany"
+              }
+            ]
+          },
+          {
+            "given": "Lisa",
+            "family": "Lundberg",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Livsmedelsverket, Att. Lisa Lundberg, Strandbodgatan 4, SE 75323 Uppsala, Sweden"
+              }
+            ]
+          },
+          {
+            "given": "Chiara",
+            "family": "Natale",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "AGENZIA DELLE DOGANE\u00a0E DEI MONOPOLI, Laboratori e servizi chimici \u2013 Laboratorio Chimico di Genova, 16126 Genova, Via Rubattino n. 6, Italy"
+              }
+            ]
+          },
+          {
+            "given": "Hauke",
+            "family": "Niekamp",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Eurofins GeneScan GmbH, Engesserstrasse 4 79108 Freiburg, Germany"
+              }
+            ]
+          },
+          {
+            "given": "Elena",
+            "family": "Perri",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CREA-SCS sede di Tavazzano - Laboratorio via Emilia, Km 307, 26838 Tavazzano, Italy"
+              }
+            ]
+          },
+          {
+            "given": "Alessandra",
+            "family": "Barbante",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CREA-SCS sede di Tavazzano - Laboratorio via Emilia, Km 307, 26838 Tavazzano, Italy"
+              }
+            ]
+          },
+          {
+            "given": "Jean-Philippe",
+            "family": "Rosec",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Service Commun des Laboratoires, Laboratoire de Montpellier, Parc Eurom\u00e9decine, 205 rue de la Croix Verte, 34196 Montpellier Cedex 5, France"
+              }
+            ]
+          },
+          {
+            "given": "Ralf",
+            "family": "Seyfarth",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Biolytix AG, Benkenstrasse 254, 4108 Witterswil, Switzerland"
+              }
+            ]
+          },
+          {
+            "given": "Tereza",
+            "family": "Sovov\u00e1",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Crop Research Institute, Department of Molecular Genetics, Drnovsk\u00e1 507, 161 06 Prague, Czech Republic"
+              }
+            ]
+          },
+          {
+            "given": "Christoff",
+            "family": "Van Moorleghem",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratory of Customs & Excises, Blijde Inkomststraat 20, B-3000 Leuven, Belgium"
+              }
+            ]
+          },
+          {
+            "given": "Saskia",
+            "family": "van Ruth",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              },
+              {
+                "name": "Food Quality and Design Group, Wageningen University and Research, P.O. Box 8129, 6700 EV Wageningen, The Netherlands"
+              }
+            ]
+          },
+          {
+            "given": "Tamara",
+            "family": "Peelen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dutch Customs Laboratory, Kingsfordweg 1, 1043 GN, Amsterdam, The Netherlands"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-1472-6710",
+            "authenticated-orcid": false,
+            "given": "Esther",
+            "family": "Kok",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "RIKILT Wageningen University & Research, P.O. Box 230, 6700 AE Wageningen, The Netherlands"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              19
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "310",
+            "DOI": "10.1016\/j.jfda.2013.07.010",
+            "article-title": "Authenticating the use of dried seahorses in the traditional Chinese medicine market in Taiwan using molecular forensics",
+            "volume": "21",
+            "author": "Chang",
+            "year": "2013",
+            "journal-title": "J Food Drug Anal"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "e0154631",
+            "DOI": "10.1371\/journal.pone.0154631",
+            "article-title": "DNA barcoding of the endangered aquilaria (Thymelaeaceae) and its application in species authentication of agarwood products traded in the market",
+            "volume": "11",
+            "author": "Lee",
+            "year": "2016",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "135",
+            "DOI": "10.1038\/422135a",
+            "article-title": "Conservation: reproductive collapse in saiga antelope harems",
+            "volume": "422",
+            "author": "Milner-Gulland",
+            "year": "2003",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib4",
+            "author": "CITES"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "5147",
+            "DOI": "10.1038\/srep05147",
+            "article-title": "Biological ingredient analysis of traditional Chinese medicine preparation based on high-throughput sequencing: the story for Liuwei Dihuang Wan",
+            "volume": "4",
+            "author": "Cheng",
+            "year": "2015",
+            "journal-title": "Sci Rep"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1002657",
+            "DOI": "10.1371\/journal.pgen.1002657",
+            "article-title": "Deep sequencing of plant and animal DNA contained within traditional Chinese medicines reveals legality issues and health safety concerns",
+            "volume": "8",
+            "author": "Coghlan",
+            "year": "2012",
+            "journal-title": "PLoS Genet"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "17475",
+            "DOI": "10.1038\/srep17475",
+            "article-title": "Combined DNA, toxicological and heavy metal analyses provides an auditing toolkit to improve pharmacovigilance of traditional Chinese medicine (TCM)",
+            "volume": "5",
+            "author": "Coghlan",
+            "year": "2015",
+            "journal-title": "Sci Rep"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "e0156426",
+            "DOI": "10.1371\/journal.pone.0156426",
+            "article-title": "Authentication of herbal supplements using next-generation sequencing",
+            "volume": "11",
+            "author": "Ivanova",
+            "year": "2016",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "2045",
+            "DOI": "10.1111\/j.1365-294X.2012.05470.x",
+            "article-title": "Towards next-generation biodiversity assessment using DNA metabarcoding",
+            "volume": "21",
+            "author": "Taberlet",
+            "year": "2012",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "4615",
+            "DOI": "10.1007\/s00216-016-9595-8",
+            "article-title": "Advances in DNA metabarcoding for food and wildlife forensic species identification",
+            "volume": "408",
+            "author": "Staats",
+            "year": "2016",
+            "journal-title": "Anal Bioanal Chem"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "e0157505",
+            "DOI": "10.1371\/journal.pone.0157505",
+            "article-title": "Large-scale monitoring of plants through environmental DNA metabarcoding of soil: recovery, resolution, and annotation of four DNA markers",
+            "volume": "11",
+            "author": "Fahner",
+            "year": "2016",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib12",
+            "author": "Arulandhu",
+            "first-page": "188",
+            "year": "2015",
+            "article-title": "DNA metabarcoding of endangered plant and animal species in seized forensic samples",
+            "journal-title": "Genome"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "377",
+            "DOI": "10.1111\/j.1755-0998.2012.03119.x",
+            "article-title": "An emergent science on the brink of irrelevance: a review of the past 8 years of DNA barcoding",
+            "volume": "12",
+            "author": "Taylor",
+            "year": "2012",
+            "journal-title": "Mol Ecol Resour"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "437",
+            "DOI": "10.1111\/1755-0998.12194",
+            "article-title": "A DNA mini-barcode for land plants",
+            "volume": "14",
+            "author": "Little",
+            "year": "2014",
+            "journal-title": "Mol Ecol Resour"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "1225",
+            "DOI": "10.1055\/s-0042-111208",
+            "article-title": "DNA barcoding for the identification of botanicals in herbal medicine and dietary supplements: strengths and limitations",
+            "volume": "82",
+            "author": "Parveen",
+            "year": "2016",
+            "journal-title": "Planta Med"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib16",
+            "author": "RIKILT Wageningen University & Research"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib17",
+            "author": "RIKILT Wageningen University & Research"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "958",
+            "DOI": "10.1038\/srep00958",
+            "article-title": "DNA based identification of medicinal materials in Chinese patent medicines",
+            "volume": "2",
+            "author": "Chen",
+            "year": "2012",
+            "journal-title": "Sci Rep"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "9097",
+            "DOI": "10.1021\/jf4018146",
+            "article-title": "Practical experiences with an extended screening strategy for genetically modified organisms (GMOs) in real-life samples",
+            "volume": "61",
+            "author": "Scholtens",
+            "year": "2013",
+            "journal-title": "J Agric Food Chem"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "4321",
+            "DOI": "10.1093\/nar\/8.19.4321",
+            "article-title": "Rapid isolation of high molecular weight plant DNA",
+            "volume": "8",
+            "author": "Murray",
+            "year": "1980",
+            "journal-title": "Nucl Acids Res"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "544",
+            "DOI": "10.1111\/j.1471-8286.2007.01748.x",
+            "article-title": "Universal primer cocktails for fish DNA barcoding",
+            "volume": "7",
+            "author": "Ivanova",
+            "year": "2007",
+            "journal-title": "Mol Ecol Notes"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "2460",
+            "DOI": "10.1093\/bioinformatics\/btq461",
+            "article-title": "Search and clustering orders of magnitude faster than BLAST",
+            "volume": "26",
+            "author": "Edgar",
+            "year": "2010",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "3389",
+            "DOI": "10.1093\/nar\/25.17.3389",
+            "article-title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+            "volume": "25",
+            "author": "Altschul",
+            "year": "1997",
+            "journal-title": "Nucl Acids Res"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib24",
+            "author": "Arulandhu",
+            "year": "2017",
+            "article-title": "Development and validation of a multi-locus DNA metabarcoding method to identify endangered species in complex samples SOP"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "313",
+            "DOI": "10.1098\/rspb.2002.2218",
+            "article-title": "Biological identifications through DNA barcodes",
+            "volume": "270",
+            "author": "Hebert",
+            "year": "2003",
+            "journal-title": "Proc Royal Soc B Biol Sci"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib26",
+            "doi-asserted-by": "crossref",
+            "first-page": "12794",
+            "DOI": "10.1073\/pnas.0905845106",
+            "article-title": "A DNA barcode for land plants",
+            "volume": "106",
+            "author": "Hollingsworth",
+            "year": "2009",
+            "journal-title": "Proc Natl Acad Sci U S A"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "1142",
+            "DOI": "10.1111\/2041-210X.12120",
+            "article-title": "SOAP Barcode: revealing arthropod biodiversity through assembly of Illumina shotgun sequences of PCR amplicons",
+            "volume": "4",
+            "author": "Liu",
+            "year": "2013",
+            "journal-title": "Methods Ecol Evol"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "2003",
+            "DOI": "10.1007\/s00216-009-3343-2",
+            "article-title": "Effect of food processing on plant DNA degradation and PCR-based GMO analysis: a review",
+            "volume": "396",
+            "author": "Gryson",
+            "year": "2010",
+            "journal-title": "Anal Bioanal Chem"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib29",
+            "doi-asserted-by": "crossref",
+            "first-page": "1034",
+            "DOI": "10.1111\/2041-210X.12416",
+            "article-title": "High-throughput monitoring of wild bee diversity and abundance via mitogenomics",
+            "volume": "6",
+            "author": "Tang",
+            "year": "2015",
+            "journal-title": "Methods Ecol Evol"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib30",
+            "author": "CBOL"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1016\/j.foodres.2012.09.036",
+            "article-title": "DNA barcoding as a new tool for food traceability",
+            "volume": "50",
+            "author": "Galimberti",
+            "year": "2013",
+            "journal-title": "Food Res Int"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1789",
+            "DOI": "10.1111\/j.1365-294X.2012.05542.x",
+            "article-title": "Environmental DNA",
+            "volume": "21",
+            "author": "Taberlet",
+            "year": "2012",
+            "journal-title": "Mol Ecol"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "195",
+            "DOI": "10.1016\/j.jnc.2013.12.001",
+            "article-title": "Forensic DNA analysis for animal protection and biodiversity conservation: a review",
+            "volume": "22",
+            "author": "Iyengar",
+            "year": "2014",
+            "journal-title": "J Nat Conserv"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib34",
+            "article-title": "16s Metagenomic Sequencing Library Preparation"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib35",
+            "doi-asserted-by": "crossref",
+            "first-page": "10",
+            "DOI": "10.14806\/ej.17.1.200",
+            "article-title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+            "volume": "17",
+            "author": "Martin",
+            "year": "2011",
+            "journal-title": "EMBnet J"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib36",
+            "doi-asserted-by": "crossref",
+            "first-page": "863",
+            "DOI": "10.1093\/bioinformatics\/btr026",
+            "article-title": "Quality control and preprocessing of metagenomic datasets",
+            "volume": "27",
+            "author": "Schmieder",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib37",
+            "article-title": "FASTX_Toolkit v. 0.0.14"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib38"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib39",
+            "author": "UNEP-WCMC"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib40",
+            "author": "Arulandhu",
+            "year": "2017",
+            "article-title": "Supplementary data for \u201cDevelopment and validation of a multi-locus DNA metabarcoding method to identify endangered species in complex samples.\u201d",
+            "journal-title": "GigaScience Database",
+            "DOI": "10.1093\/gigascience\/gix080",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib41",
+            "author": "Palumbi",
+            "first-page": "96822",
+            "year": "1991",
+            "article-title": "The simple fool's guide to PCR, version 2.0"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "35",
+            "DOI": "10.1016\/j.foodcont.2014.02.036",
+            "article-title": "A new set of 16S rRNA universal primers for identification of animal species",
+            "volume": "43",
+            "author": "Sarri",
+            "year": "2014",
+            "journal-title": "Food Control"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib43",
+            "doi-asserted-by": "crossref",
+            "first-page": "34",
+            "DOI": "10.1186\/1742-9994-10-34",
+            "article-title": "A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents",
+            "volume": "10",
+            "author": "Leray",
+            "year": "2013",
+            "journal-title": "Front Zool"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib44",
+            "doi-asserted-by": "crossref",
+            "first-page": "851",
+            "DOI": "10.1111\/1755-0998.12138",
+            "article-title": "Redesign of PCR primers for mitochondrial cytochrome c oxidase subunit I for marine invertebrates and application in all-taxa biotic surveys",
+            "volume": "13",
+            "author": "Geller",
+            "year": "2013",
+            "journal-title": "Mol Ecol Resour"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib45",
+            "doi-asserted-by": "crossref",
+            "first-page": "23",
+            "DOI": "10.1007\/s004140000134",
+            "article-title": "Species identification by means of the cytochrome b gene",
+            "volume": "114",
+            "author": "Parson",
+            "year": "2000",
+            "journal-title": "Int J Legal Med"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib46",
+            "doi-asserted-by": "crossref",
+            "first-page": "223",
+            "DOI": "10.1007\/978-1-61779-591-6_11",
+            "article-title": "DNA barcoding methods for land 39",
+            "volume": "858",
+            "author": "Fazekas",
+            "year": "2012",
+            "journal-title": "Methods Mol Biol"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib47",
+            "doi-asserted-by": "crossref",
+            "first-page": "132",
+            "DOI": "10.3732\/ajb.89.1.132",
+            "article-title": "Molecular phylogenetics of Caryophyllales based on nuclear 18S rDNA and plastid rbcL, atpB, and matK DNA sequences",
+            "volume": "89",
+            "author": "Cuenoud",
+            "year": "2002",
+            "journal-title": "Am J Botany"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib48",
+            "doi-asserted-by": "crossref",
+            "first-page": "107",
+            "DOI": "10.3732\/ajb.90.1.107",
+            "article-title": "Family-level relationships of Onagraceae based on chloroplast rbcL and ndhF data",
+            "volume": "90",
+            "author": "Levin",
+            "year": "2003",
+            "journal-title": "Am J Botany"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib49",
+            "doi-asserted-by": "crossref",
+            "first-page": "e508",
+            "DOI": "10.1371\/journal.pone.0000508",
+            "article-title": "A two-locus global DNA barcode for land plants: the coding rbcL gene complements the non-coding trnH-psbA spacer region",
+            "volume": "2",
+            "author": "Kress",
+            "year": "2007",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib50",
+            "doi-asserted-by": "crossref",
+            "first-page": "e2802",
+            "DOI": "10.1371\/journal.pone.0002802",
+            "article-title": "Multiple multilocus DNA barcodes from the plastid genome discriminate plant species equally well",
+            "volume": "3",
+            "author": "Fazekas",
+            "year": "2008",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib51",
+            "doi-asserted-by": "crossref",
+            "first-page": "e14",
+            "DOI": "10.1093\/nar\/gkl938",
+            "article-title": "Power and limitations of the chloroplast trnL (UAA) intron for plant DNA barcoding",
+            "volume": "35",
+            "author": "Taberlet",
+            "year": "2007",
+            "journal-title": "Nucl Acids Res"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib52",
+            "doi-asserted-by": "crossref",
+            "first-page": "e8613",
+            "DOI": "10.1371\/journal.pone.0008613",
+            "article-title": "Validation of the ITS2 region as a novel DNA barcode for identifying medicinal plant species",
+            "volume": "5",
+            "author": "Chen",
+            "year": "2010",
+            "journal-title": "PLoS One"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib53",
+            "doi-asserted-by": "crossref",
+            "first-page": "1120",
+            "DOI": "10.2307\/2446155",
+            "article-title": "Chloroplast DNA phylogeny, reticulate evolution, and biogeography of Paeonia (Paeoniaceae)",
+            "volume": "84",
+            "author": "Sang",
+            "year": "1997",
+            "journal-title": "Am J Botany"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib54",
+            "first-page": "723",
+            "article-title": "Paraphyly of Tarasa (Malvaceae) and diverse origins of the polyploid species",
+            "volume": "28",
+            "author": "Tate",
+            "year": "2003",
+            "journal-title": "Syst Botany"
+          },
+          {
+            "key": "key\n\t\t\t\t20180820085412_bib55",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1600\/036364414X678044",
+            "article-title": "A molecular phylogeny and generic classification of Asphodelaceae subfamily Alooideae: a final resolution of the prickly issue of polyphyly in the alooids?",
+            "volume": "39",
+            "author": "Manning",
+            "year": "2014",
+            "journal-title": "Syst Botany"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/6\/10\/gix080\/25512407\/gix080.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              2
+            ]
+          ],
+          "date-time": "2019-10-02T15:56:30Z",
+          "timestamp": 1570031790000
+        },
+        "score": 20.282776,
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              19
+            ]
+          ]
+        },
+        "references-count": 55,
+        "journal-issue": {
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                19
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                10,
+                1
+              ]
+            ]
+          },
+          "issue": "10"
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1093\/gigascience\/gix080",
+        "relation": {
+          "is-supplemented-by": [
+            {
+              "id-type": "doi",
+              "id": "10.17504\/protocols.io.ixbcfin",
+              "asserted-by": "object"
+            }
+          ],
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 20,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
