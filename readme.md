@@ -22,8 +22,13 @@ To mint `DOI` for each Publon reviews
     - [API](https://github.com/CrossRef/rest-api-doc#queries)
     - `https://api.crossref.org/works?query.container-title=`  
     - `https://api.crossref.org/members?query=giga`
-2. Parse EM Excel file to extract data for papers using [SimpleXLSX](https://github.com/shuchkin/simplexlsx) which returns array of each row,
+    - `https://api.crossref.org/works?query.bibliographic=Mitochondrial%20Metagenomics:%20Letting%20the%20Genes%20out%20of%20the%20Bottle&query.author=Alfried%20Vogler&filter=issn:2047-217X&rows=1`
+2. Parse EM Excel file to extract data for papers using [SimpleXLSX](https://github.com/shuchkin/simplexlsx) which returns `Article Title` and `Corresponding Author name`  
 [example](https://ssaurel.medium.com/parsing-microsoft-excel-files-in-php-easily-2b68c70ee3be#:~:text=Parsing%20The%20Excel%20File%20In%20PHP&text=First%20step%20is%20to%20include,parsed%20from%20the%20Excel%20file.)
+3. Append `Article Title`, `Corresponding Author name` and `ISSN` to the crossref API  
+4. Use `file_get_contents()` to get the crossref output  
+5. Parse the output in json format and return  `Article Title` and `DOI`
+
 ```php
 <?php
 
@@ -35,8 +40,6 @@ if ( $xlsx = SimpleXLSX::parse('report.xlsx') ) {
     echo SimpleXLSX::parseError();
 }
 ```
-3. Test sandbox DataCite API to mint DOIs using peer review metadata  
-4. Look into Publons API access  
 
 ### Usage
 1. `php parseXlsx.php | less -S `, example output as below
