@@ -12,7 +12,7 @@ $testArr = Array (
 );
 
 
-for ($i = 0; $i < count(array_unique($testArr)); $i++)
+for ($i = 0; $i < count($testArr); $i++)
 {
     $data = file_get_contents($testArr[$i]);
     $apiResults = json_decode($data, true);
