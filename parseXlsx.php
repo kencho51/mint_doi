@@ -12,23 +12,22 @@ $crossRefFormat = "https://api.crossref.org/works?query.bibliographic=%s&query.a
 
 foreach ($xlsx->rows() as $record)
 {
-
     //Extract only title, first author last name and first name
     if ($record[3] != "Article Title" && $record[4] !="Corresponding Author Last Name" && $record[5] !="Corresponding Author First Name")
     {
         $desiredRecord = sprintf($crossRefFormat, $record[3], $record[5], $record[4], $ISSN."\n");
         $apiURL = str_replace(' ', '%20', $desiredRecord);
         $apiURL = str_replace(array("\n", "\r"), '', $apiURL);
-//        $apiURL = rawurlencode($desiredRecord);
-        array_push($apiLines, $apiURL);
+//        print($apiURL)."\n"; //830
+        if (!in_array($apiURL, $apiLines, true)) { //Remove duplicate lines
+            array_push($apiLines, $apiURL);
+        }
     }
-
 }
 
-//
-for ($i = 0; $i < count(array_unique($apiLines)); $i++)
+for ($i = 0; $i < count($apiLines); $i++)
 {
-    print $apiLines[$i]."\n";
+    print $apiLines[$i]."\n"; //702
 //    $data = file_get_contents($apiLines[$i]);
 //    $apiResults = json_decode($data, true);
 //    foreach ($apiResults as $result) {
