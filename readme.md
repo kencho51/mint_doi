@@ -27,7 +27,7 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 3. Append `Article Title`, `Corresponding Author name` and `ISSN` to the crossref API  
 4. Use `file_get_contents()` to get the crossref output  
 5. Parse the output in json format and return  `Article Title` and `DOI`  
-6. Test sandbox DataCite API to mint DOIs using peer review metadata  
+6. Test sandbox [DataCite API](https://support.datacite.org/docs/getting-started) to mint DOIs using peer review metadata  
 7. Look into Publons API access  
 
 
