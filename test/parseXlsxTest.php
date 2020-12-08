@@ -3,6 +3,14 @@
  * Below script is for testing
  */
 
+$title = Array (
+    0 => "Mitochondrial metagenomics: letting the genes out of the bottle",
+    1 => "Bioboxes: standardised containers for interchangeable bioinformatics software",
+    2 => "Clusterflock: a flocking algorithm for isolating congruent phylogenomic datasets",
+    3 => "Fractal Self-similarity, Scale Invariance and Stationary waves Codes Architecture Human Chromosomes DNA",
+    4 => "Mitochondrial metagenomics: letting the genes out of the bottle",
+);
+
 $testArr = Array (
     0 => "https://api.crossref.org/works?query.bibliographic=Mitochondrial%20Metagenomics:%20Letting%20the%20Genes%20out%20of%20the%20Bottle&query.author=Alfried%20Vogler&filter=issn:2047-217X&rows=1",
     1 => "https://api.crossref.org/works?query.bibliographic=Bioboxes%20-%20standardised%20containers%20for%20interchangeable%20bioinformatics%20software&query.author=Michael%20Barton&filter=issn:2047-217X&rows=1",
@@ -22,7 +30,11 @@ for ($i = 0; $i < count($testArr); $i++)
 //            print_r($result['items']);
             if (is_array($result['items']) || is_object($result['items'])) {
                 foreach ($result['items'] as $test) {
-                    print($test['title'][0].' '.$test['DOI'].' '.$apiResults['status']."\n");
+                    if (in_array($test['title'][0], $title, true)) {
+                        print($test['title'][0].' '.$test['DOI'].' '.$apiResults['status']."\n");
+                    } else {
+                        print ($test['title'][0].' '."This article is not found in CrossRef!!!"."\n");
+                    }
                 }
             }
         }
