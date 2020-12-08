@@ -2,13 +2,8 @@
 
 require 'vendor/shuchkin/simplexlsx/src/SimpleXLSX.php';
 
-//$xlsx = SimpleXLSX::parse('report.xlsx');
-
-$f = fopen('php://stdin', 'r');
-$xlsx = new SimpleXLSX($f);
-fclose($f);
-
-
+$fileToMint = $_SERVER['argv'][1]; //Input file in command line
+$xlsx = SimpleXLSX::parse($fileToMint);
 
 $apiLines = array();
 $titles = array();
