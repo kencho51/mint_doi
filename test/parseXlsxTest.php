@@ -39,7 +39,7 @@ for ($i = 0; $i < count($testArr); $i++)
             }
         }
     } else {
-        print ("status is fail");
+        print ("CrossRef return status is fail!");
     }
 
 }
