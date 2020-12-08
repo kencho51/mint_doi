@@ -17,12 +17,17 @@ for ($i = 0; $i < count($testArr); $i++)
     $data = file_get_contents($testArr[$i]);
     $apiResults = json_decode($data, true);
 
-    foreach ($apiResults as $result) {
-//        print_r($result['items']);
-        if (is_array($result['items']) || is_object($result['items'])) {
-            foreach ($result['items'] as $test) {
-                print($test['title'][0].' '.$test['DOI']."\n");
+    if ($apiResults['status'] === 'ok') {
+        foreach ($apiResults as $result) {
+//            print_r($result['items']);
+            if (is_array($result['items']) || is_object($result['items'])) {
+                foreach ($result['items'] as $test) {
+                    print($test['title'][0].' '.$test['DOI'].' '.$apiResults['status']."\n");
+                }
             }
         }
+    } else {
+        print ("status is fail");
     }
+
 }
