@@ -26,20 +26,16 @@ for ($i = 0; $i < count($testArr); $i++)
     $apiResults = json_decode($data, true);
 
     if ($apiResults['status'] === 'ok') {
-        foreach ($apiResults as $result) {
-//            print_r($result['items']);
-            if (is_array($result['items']) || is_object($result['items'])) {
-                foreach ($result['items'] as $test) {
-                    if (in_array($test['title'][0], $title, true)) {
-                        print($test['title'][0].' '.$test['DOI'].' '.$apiResults['status']."\n");
-                    } else {
-                        print ($test['title'][0].' '."This article is not found in CrossRef!!!"."\n");
-                    }
-                }
+        foreach ($apiResults['message']['items'] as $result) {
+//            print_r($result['title']);
+//            print($result['title'][0]);
+            if (in_array($result['title'][0], $title, true)) {
+                print ($result['title'][0].' '.$result['DOI'].' '.$apiResults['status']."\n");
+            } else {
+                print ($result['title'][0].' '."This article is not found in CrossRef!!!"."\n");
             }
         }
     } else {
-        print ("CrossRef return status is fail!");
+        print ("CrossRef status is fail");
     }
-
 }
