@@ -48,7 +48,7 @@ for ($i = 0; $i < count($apiLines); $i++)
             if (in_array($result['title'][0], $titles, true)){
                 print($result['title'][0].' '.$result['DOI'].' '. $apiResults['status']."\n");
             } else {
-                print ($result['title'][0].' '."This article is not found in CrossRef!!!"."\n");
+                print ($titles[$i].' '."This article is not found in CrossRef!!!"."\n");
             }
         }
     } else {

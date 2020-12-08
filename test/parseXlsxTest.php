@@ -32,7 +32,7 @@ for ($i = 0; $i < count($testArr); $i++)
             if (in_array($result['title'][0], $title, true)) {
                 print ($result['title'][0].' '.$result['DOI'].' '.$apiResults['status']."\n");
             } else {
-                print ($result['title'][0].' '."This article is not found in CrossRef!!!"."\n");
+                print ($title[$i].' '."This article is not found in CrossRef!!!"."\n");
             }
         }
     } else {
