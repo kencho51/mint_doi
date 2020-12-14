@@ -8,13 +8,7 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
         - [x] Parse EM Excel file to extract data for papers
         - [ ] Test sandbox DataCite API to mint DOIs using peer review metadata
         - [ ] Look into Publons API access
-    - [ ] Access to GigaScience paper DOIs
-    - [ ] Access to peer review metadata
-    - [ ] Access to DataCite API
-    - [ ] Access to Publons API
-2. Data flow
-    - [ ] Flow diagram
-3.     
+  
     
 ### How does the script work
 1. Test CrossRef API to query DOIs using paper titles, [link](https://www.crossref.org/education/retrieve-metadata/rest-api/a-non-technical-introduction-to-our-api/)
