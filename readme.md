@@ -31,7 +31,7 @@ Mitochondrial metagenomics: letting the genes out of the bottle 10.1186/s13742-0
 ```
 
 ### Output explanation
-1. The script returns the `Article title` and its `CrossRef DOI`, `ok` at the end indicates this article is found in CrossRef database.  
+1. The script returns the `Article title` and its `CrossRef DOI`, `ok` at the end indicates this article `is found` in CrossRef database.  
 2. `This article is not found in CrossRef!!!` indicates CrossRef database has no information about this article.  
 
 ### Problem
@@ -40,4 +40,7 @@ Mitochondrial metagenomics: letting the genes out of the bottle 10.1186/s13742-0
 1. [SimpleXLSX](https://github.com/shuchkin/simplexlsx)
 2. [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet)
 3. GigaScience API for DOI at [here](http://gigadb.org/site/help)
-4. CrossRef API [Introduction](https://www.crossref.org/education/retrieve-metadata/), [usage example](https://www.crossref.org/education/retrieve-metadata/rest-api/a-non-technical-introduction-to-our-api/), [API doc](https://github.com/CrossRef/rest-api-doc)
+4. CrossRef API [Introduction](https://www.crossref.org/education/retrieve-metadata/)   
+    - [usage example](https://www.crossref.org/education/retrieve-metadata/rest-api/a-non-technical-introduction-to-our-api/)  
+    - [API doc](https://github.com/CrossRef/rest-api-doc)  
+    - [DOI Content Negotiation](https://citation.crosscite.org/docs.html)  
