@@ -31,12 +31,15 @@ for ($i = 0; $i < count($testArr); $i++)
 //            print($result['title'][0]);
             if (in_array($result['title'][0], $title, true)) {
                 print ($result['title'][0].' '.$result['DOI'].' '.$apiResults['status']."\n");
+                print ("--------------"."\n");
             } else {
                 print ($title[$i].' '."This article is not found in CrossRef!!!"."\n");
                 print ("The top hit found is:".' '.$result['title'][0].' '.$result['DOI'].' '."\n");
+                print ("--------------"."\n");
             }
         }
     } else {
         print ("CrossRef return status is fail");
+        print ("--------------"."\n");
     }
 }
