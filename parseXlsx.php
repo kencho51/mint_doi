@@ -14,7 +14,7 @@ $crossRefFormat = "https://api.crossref.org/works?query.bibliographic=%s&filter=
 
 foreach ($xlsx->rows() as $record)
 {
-    //Extract only title, first author last name and first name
+    //Extract only title
     if ($record[3] != "Article Title")
     {
         if (!in_array($record[3], $titles, true)) {
