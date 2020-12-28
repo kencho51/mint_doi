@@ -43,4 +43,5 @@ Mitochondrial metagenomics: letting the genes out of the bottle 10.1186/s13742-0
 4. CrossRef API [Introduction](https://www.crossref.org/education/retrieve-metadata/)   
     - [usage example](https://www.crossref.org/education/retrieve-metadata/rest-api/a-non-technical-introduction-to-our-api/)  
     - [API doc](https://github.com/CrossRef/rest-api-doc)  
-    - [DOI Content Negotiation](https://citation.crosscite.org/docs.html)  
+    - [DOI Content Negotiation](https://citation.crosscite.org/docs.html)
+5. CrossCite [DOI Content Negotiation](https://citation.crosscite.org/docs.html)  
