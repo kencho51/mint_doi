@@ -4,10 +4,17 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 ## Progress
 1. Prototype issues
     - [ ] Actions
-        - [x] Test CrossRef API to query DOIs using paper titles
-        - [x] Parse EM Excel file to extract data for papers
-        - [ ] Test sandbox DataCite API to mint DOIs using peer review metadata
-        - [ ] Look into Publons API access
+        - [x] Test CrossRef API to query DOIs using paper titles  
+        - [x] Parse EM Excel file to extract data for papers  
+        - [x] Look into Publons API access  
+            - Created an account and got the API token  
+            - API methods [article/DOI](https://publons.com/api/v2/) not yet released.  
+            - Any other alternative?  
+        - [x] Test sandbox DataCite API to mint DOIs using peer review metadata
+            - Try to append DOI to it, but it returns 404  
+              `{"errors":[{"status":"404","title":"The resource you are looking for doesn't exist."}]}`
+            - https://api.test.datacite.org/dois/10.1186/s13742-016-0120-y
+
   
     
 ### How does the script work
