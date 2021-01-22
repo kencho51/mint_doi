@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit035702ff6439c4f225a04f778f7a4c99
 {
     public static $files = array (
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
@@ -41,8 +41,8 @@ class ComposerStaticInit035702ff6439c4f225a04f778f7a4c99
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -68,6 +68,10 @@ class ComposerStaticInit035702ff6439c4f225a04f778f7a4c99
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+    );
+
+    public static $fallbackDirsPsr4 = array (
+        0 => __DIR__ . '/../..' . '/src',
     );
 
     public static $classMap = array (
@@ -702,6 +706,7 @@ class ComposerStaticInit035702ff6439c4f225a04f778f7a4c99
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit035702ff6439c4f225a04f778f7a4c99::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit035702ff6439c4f225a04f778f7a4c99::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit035702ff6439c4f225a04f778f7a4c99::$fallbackDirsPsr4;
             $loader->classMap = ComposerStaticInit035702ff6439c4f225a04f778f7a4c99::$classMap;
 
         }, null, ClassLoader::class);
