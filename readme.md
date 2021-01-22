@@ -28,14 +28,12 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 
 
 ### Usage
-1. `php parseXlsx.php file.xlsx `, example screen output as below
-```
-Mitochondrial metagenomics: letting the genes out of the bottle 10.1186/s13742-016-0120-y ok
-Bioboxes: standardised containers for interchangeable bioinformatics software 10.1186/s13742-015-0087-0 ok
-Clusterflock: a flocking algorithm for isolating congruent phylogenomic datasets 10.1186/s13742-016-0152-3 ok
-Fractal Self-similarity, Scale Invariance and Stationary waves Codes Architecture Human Chromosomes DNA This article is not found in CrossRef!!!
-Mitochondrial metagenomics: letting the genes out of the bottle 10.1186/s13742-016-0120-y ok
-```
+1. `php parseXlsx.php {fromEM}.xlsx `  
+2.  A file with name `{fromEM}-Y-m-d.minted.csv` will then produced  
+3.  Open the csv file in excel and will see 3 columns
+| CrossRef API return status | Formatted DOI | Title |
+---
+| ok | https://doi.org/10.1186/s13742-016-0143-4 | RES-Scanner: a software package for genome-wide identification of RNA-editing sites |
 
 ### Output explanation
 1. The script returns the `Article title` and its `CrossRef DOI`, `ok` at the end indicates this article `is found` in CrossRef database.  
