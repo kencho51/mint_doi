@@ -1,1 +1,5 @@
+# untrack cache
+*.cache
 
+# untrack lock
+*.lock
