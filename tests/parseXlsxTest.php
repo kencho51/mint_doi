@@ -19,27 +19,47 @@ $testArr = Array (
     4 => "https://api.crossref.org/works?query.bibliographic=Mitochondrial%20Metagenomics:%20Letting%20the%20Genes%20out%20of%20the%20Bottle&filter=issn:2047-217X&rows=1",
 );
 
-
+$doiUrl = "https://doi.org/";
 for ($i = 0; $i < count($testArr); $i++)
 {
     $data = file_get_contents($testArr[$i]);
     $apiResults = json_decode($data, true);
 
+    $fp = fopen('testFile.csv', 'a');
     if ($apiResults['status'] === 'ok') {
         foreach ($apiResults['message']['items'] as $result) {
 //            print_r($result['title']);
 //            print($result['title'][0]);
             if (in_array($result['title'][0], $title, true)) {
-                print ($result['title'][0].' '.$result['DOI'].' '.$apiResults['status']."\n");
-                print ("--------------"."\n");
+//                print ($result['title'][0].' '.$result['DOI'].' '.$apiResults['status']."\n");
+//                print ("--------------"."\n");
+//                $fields = $result['title'][0].' '.$result['DOI'].' '.$apiResults['status'];
+                $fields = array(
+                    'Status' => $apiResults['status'],
+                    'DOI' => $doiUrl.$result['DOI'],
+                    'Title' => $result['title'][0]
+                );
+                fputcsv($fp, $fields);
             } else {
-                print ($title[$i].' '."This article is not found in CrossRef!!!"."\n");
-                print ("The top hit found is:".' '.$result['title'][0].' '.$result['DOI'].' '."\n");
-                print ("--------------"."\n");
+//                print ($title[$i].' '."This article is not found in CrossRef!!!"."\n");
+//                print ("The top hit found is:".' '.$result['title'][0].' '.$result['DOI'].' '."\n");
+//                print ("--------------"."\n");
+//                $fields = $title[$i].' '."This article is not found in CrossRef!!!";
+                $fields = array(
+                    'Status' => $apiResults['status'],
+                    'DOI' => 'The doi is not found in CrossRef!',
+                    'Title' => $result['title'][0]
+                );
+                fputcsv($fp, $fields);
             }
         }
     } else {
-        print ("CrossRef return status is fail");
-        print ("--------------"."\n");
+//        print ("CrossRef return status is fail");
+//        print ("--------------"."\n");
+        $fields = array(
+            'Status' => 'CrossRef return status is not OK!',
+            'DOI' => 'NA',
+            'Title' => $apiResults['message']['items']['title'][0]
+        );
     }
 }
