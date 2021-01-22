@@ -32,11 +32,12 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 2.  A file with name `{fromEM}-Y-m-d.minted.csv` will then produced  
 3.  Open the csv file in excel and will see 3 columns
 
+### Output explanation
 | CrossRef API return status | Formatted DOI | Title |  
 |---|---|---|  
 | ok | https://doi.org/10.1186/s13742-016-0143-4 | RES-Scanner: a software package for genome-wide identification of RNA-editing sites |
+| ok | The doi is not found in CrossRef! | Clusterflock: a flocking algorithm for isolating congruent phylogenomic datasets |
 
-### Output explanation
 1. The script returns the `Article title` and its `CrossRef DOI`, `ok` at the end indicates this article `is found` in CrossRef database.  
 2. `This article is not found in CrossRef!!!` indicates CrossRef database has no information about this article.  
 
