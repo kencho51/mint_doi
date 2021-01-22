@@ -32,7 +32,7 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 2.  A file with name `{fromEM}-Y-m-d.minted.csv` will then produced  
 3.  Open the csv file in excel and will see 3 columns
 | CrossRef API return status | Formatted DOI | Title |
----
+|--- | --- | --- |
 | ok | https://doi.org/10.1186/s13742-016-0143-4 | RES-Scanner: a software package for genome-wide identification of RNA-editing sites |
 
 ### Output explanation
