@@ -33,22 +33,42 @@ foreach ($xlsx->rows() as $record)
 //print(count($titles));
 //print(count($apiLines)); //Total records = 702.
 
+$doiUrl = "https://doi.org/";
 for ($i = 0; $i < count($apiLines); $i++)
 {
     $data = file_get_contents($apiLines[$i]);
     $apiResults = json_decode($data, true);
 
+    $fp = fopen($fileToMint.'-minted.csv', 'a');
     if ($apiResults['status'] === 'ok') {
         foreach ($apiResults['message']['items'] as $result) {
             if (in_array($result['title'][0], $titles, true)){
-                print($result['title'][0].' '.$result['DOI'].' '. $apiResults['status']."\n");
+//                print($result['title'][0].' '.$result['DOI'].' '. $apiResults['status']."\n");
+                $fields = array(
+                    'Status' => $apiResults['status'],
+                    'DOI' => $doiUrl.$result['DOI'],
+                    'Title' => $result['title'][0]
+                );
+                fputcsv($fp, $fields);
             } else {
-                print ($titles[$i].' '."This article is not found in CrossRef!!!"."\n");
+//                print ($titles[$i].' '."This article is not found in CrossRef!!!"."\n");
+                $fields = array(
+                    'Status' => $apiResults['status'],
+                    'DOI' => 'The doi is not found in CrossRef!',
+                    'Title' => $result['title'][0]
+                );
+                fputcsv($fp, $fields);
             }
         }
     } else {
-        print ("CrossRef return status is fail!");
+//        print ("CrossRef return status is fail!");
+        $fields = array(
+            'Status' => 'CrossRef return status is not OK!',
+            'DOI' => 'NA',
+            'Title' => $apiResults['message']['items']['title'][0]
+        );
     }
+    fclose($fp);
 }
 
 
