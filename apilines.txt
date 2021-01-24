@@ -1,0 +1,11 @@
+Array
+(
+    [0] => https://api.crossref.org/works?query.bibliographic=full-lengthsingle-cellrna-seqappliedtoaviralhumancancer:applicationstohpvexpressionandsplicinganalysisinhelas3cells&filter=issn:2047-217X&rows=1
+    [1] => https://api.crossref.org/works?query.bibliographic=res-scanner:asoftwarepackageforgenome-wideidentificationofrna-editingsites&filter=issn:2047-217X&rows=1
+    [2] => https://api.crossref.org/works?query.bibliographic=species-levelresolutionof16srrnageneampliconssequencedthroughminiontmportablenanoporesequencer&filter=issn:2047-217X&rows=1
+    [3] => https://api.crossref.org/works?query.bibliographic=hybriddenovogenomeassemblyofthechineseherbalplantdanshen(salviamiltiorrhizabunge)&filter=issn:2047-217X&rows=1
+    [4] => https://api.crossref.org/works?query.bibliographic=fractalself-similarity,scaleinvarianceandstationarywavescodesarchitecturehumanchromosomesdnasequences&filter=issn:2047-217X&rows=1
+    [5] => https://api.crossref.org/works?query.bibliographic=clusterflock:aflockingalgorithmforisolatingcongruentphylogenomicdatasets&filter=issn:2047-217X&rows=1
+    [6] => https://api.crossref.org/works?query.bibliographic=mitochondrialmetagenomics:lettingthegenesoutofthebottle&filter=issn:2047-217X&rows=1
+    [7] => https://api.crossref.org/works?query.bibliographic=bioboxes-standardisedcontainersforinterchangeablebioinformaticssoftware&filter=issn:2047-217X&rows=1
+)
