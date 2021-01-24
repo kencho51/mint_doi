@@ -1,11 +1,11 @@
 Array
 (
-    [0] => full-length single-cell rna-seq applied to a viral human cancer: applications to hpv expression and splicing analysis in hela s3 cells
-    [1] => res-scanner: a software package for genome-wide identification of rna-editing sites
-    [2] => species-level resolution of 16s rrna gene amplicons sequenced through miniontm portable nanopore sequencer
-    [3] => hybrid de novo genome assembly of the chinese herbal plant danshen (salvia miltiorrhiza bunge)
-    [4] => fractal self-similarity, scale invariance and stationary waves codes architecture human chromosomes dna sequences
-    [5] => clusterflock: a flocking algorithm for isolating congruent phylogenomic datasets
-    [6] => mitochondrial metagenomics: letting the genes out of the bottle
-    [7] => bioboxes - standardised containers for interchangeable bioinformatics software
+    [0] => full-lengthsingle-cellrna-seqappliedtoaviralhumancancer:applicationstohpvexpressionandsplicinganalysisinhelas3cells
+    [1] => res-scanner:asoftwarepackageforgenome-wideidentificationofrna-editingsites
+    [2] => species-levelresolutionof16srrnageneampliconssequencedthroughminiontmportablenanoporesequencer
+    [3] => hybriddenovogenomeassemblyofthechineseherbalplantdanshen(salviamiltiorrhizabunge)
+    [4] => fractalself-similarity,scaleinvarianceandstationarywavescodesarchitecturehumanchromosomesdnasequences
+    [5] => clusterflock:aflockingalgorithmforisolatingcongruentphylogenomicdatasets
+    [6] => mitochondrialmetagenomics:lettingthegenesoutofthebottle
+    [7] => bioboxes-standardisedcontainersforinterchangeablebioinformaticssoftware
 )
