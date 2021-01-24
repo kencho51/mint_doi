@@ -19,7 +19,6 @@ $testArr = Array (
     4 => "https://api.crossref.org/works?query.bibliographic=Mitochondrial%20Metagenomics:%20Letting%20the%20Genes%20out%20of%20the%20Bottle&filter=issn:2047-217X&rows=1",
 );
 
-$doiUrl = "https://doi.org/";
 for ($i = 0; $i < count($testArr); $i++)
 {
     $data = file_get_contents($testArr[$i]);
@@ -36,7 +35,7 @@ for ($i = 0; $i < count($testArr); $i++)
 //                $fields = $result['title'][0].' '.$result['DOI'].' '.$apiResults['status'];
                 $fields = array(
                     'Status' => $apiResults['status'],
-                    'DOI' => $doiUrl.$result['DOI'],
+                    'URL' => $result['URL'],
                     'Title' => $result['title'][0]
                 );
                 fputcsv($fp, $fields);
@@ -47,8 +46,9 @@ for ($i = 0; $i < count($testArr); $i++)
 //                $fields = $title[$i].' '."This article is not found in CrossRef!!!";
                 $fields = array(
                     'Status' => $apiResults['status'],
-                    'DOI' => 'The doi is not found in CrossRef!',
-                    'Title' => $result['title'][0]
+                    'URL' => 'The doi is not found in CrossRef!',
+//                    'Title' => $result['title'][0]
+                    'Title' => $title[$i]
                 );
                 fputcsv($fp, $fields);
             }
@@ -58,8 +58,9 @@ for ($i = 0; $i < count($testArr); $i++)
 //        print ("--------------"."\n");
         $fields = array(
             'Status' => 'CrossRef return status is not OK!',
-            'DOI' => 'NA',
+            'URL' => 'NA',
             'Title' => $apiResults['message']['items']['title'][0]
         );
     }
+    fclose($fp);
 }
