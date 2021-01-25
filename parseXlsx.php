@@ -45,6 +45,7 @@ $fp = fopen($fileToMint.'-'.date('Y-m-d').'.'.'minted.csv', 'a');
 $fields = array(
     'Input Title' => 'Input Title from EM',
     'CrossRef API Status' => 'CrossRef API Status',
+    'Paper found in CrossRef' => 'Paper found in CrossRef',
     'CrossRef Title' => 'CrossRef Title',
     'CrossRef URL' => 'DOI URL',
 );
@@ -67,6 +68,7 @@ for ($i = 0; $i < count($apiLines); $i++)
                 $fields = array(
                     'Input Title' => $titles[$i],
                     'CrossRef API Status' =>  $apiResults['status'],
+                    'Paper found in CrossRef' => 'Yes',
                     'CrossRef Title' => $result['title'][0],
                     'CrossRef URL' => $result['URL'],
                 );
@@ -78,6 +80,7 @@ for ($i = 0; $i < count($apiLines); $i++)
                 $fields = array(
                     'Input Title' => $titles[$i],
                     'CrossRef API Status' =>  $apiResults['status'],
+                    'Paper found in CrossRef' => 'No, but the top hit is:',
                     'CrossRef Title' => $result['title'][0],
                     'CrossRef URL' => $result['URL'],
                 );
