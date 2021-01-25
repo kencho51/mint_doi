@@ -1,8 +1,0 @@
-Full-length single-cell RNA-seq applied to a viral human cancer: applications to HPV expression and splicing analysis in HeLa S3 cells
-RES-Scanner: a software package for genome-wide identification of RNA-editing sites
-Species-level resolution of 16S rRNA gene amplicons sequenced through the MinION™ portable nanopore sequencer
-Hybrid de novo genome assembly of the Chinese herbal plant danshen (Salvia miltiorrhiza Bunge)
-G-Anchor: a novel approach for whole-genome comparative mapping utilizing evolutionary conserved DNA sequences
-Clusterflock: a flocking algorithm for isolating congruent phylogenomic datasets
-Mitochondrial metagenomics: letting the genes out of the bottle
-Bioboxes: standardised containers for interchangeable bioinformatics software
