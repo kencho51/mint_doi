@@ -90,10 +90,13 @@ for ($i = 0; $i < count($apiLines); $i++)
     } else {
 //        print ("CrossRef return status is fail!");
         $fields = array(
-            'CrossRef API Status' => 'CrossRef API return status is not OK!',
-            'URL' => 'NA',
-            'Title' => $apiResults['message']['items']['title'][0]
+            'Input Title' => $titles[$i],
+            'CrossRef API Status' => 'CrossRef API return status is fail!',
+            'Paper found in CrossRef' => 'NA',
+            'CrossRef Title' => 'NA',
+            'CrossRef URL' => 'NA',
         );
+        fputcsv($fp, $fields);
     }
 
 }
