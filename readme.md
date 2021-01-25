@@ -33,8 +33,7 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 3.  Open the csv file in excel and will see 3 columns
 
 ### Output explanation
-
-![img.png](sample_output/excel.png)
+![img.png](sample_output/excel_v2.png)
 
 1. The script returns the `Article title` and its `CrossRef DOI`, `ok` at the end indicates this article `is found` in CrossRef database.  
 2. `This article is not found in CrossRef!!!` indicates CrossRef database has no information about this article.  
