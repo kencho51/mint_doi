@@ -35,8 +35,8 @@ To mint `DOI` for each Publon reviews, requirements at [here](https://docs.googl
 ### Output explanation
 ![img.png](sample_output/excel_v2.png)
 
-1. The script returns the `Article title` and its `CrossRef DOI`, `ok` at the end indicates this article `is found` in CrossRef database.  
-2. `This article is not found in CrossRef!!!` indicates CrossRef database has no information about this article.  
+1. Column `CrossRef API Status` indicates the status of the `API status`.  
+2. Column `Paper found in CrossRef ` whether the input title from EM could be found in CrossRef or not, `No` could be due to `typo, spelling, characters, symbols`     
 
 ### Problem
 
