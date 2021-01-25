@@ -18,24 +18,22 @@ foreach ($xlsx->rows() as $record)
     if ($record[3] != "Article Title")
     {
         $record[3] = str_replace(["\r","\n","\r\n","\t","\v","\0"], "", $record[3]);
-        $record[3] = strtolower($record[3]);
         if (!in_array($record[3], $titles, true)) {
 //            $titles = str_replace(["\n","\r"], "", $titles);
             array_push($titles, $record[3]);
         }
 //        print($record[3]."\n"); //Total records = 829.
-        //Todo: check sprintf function
-        $desiredRecord = sprintf($crossRefFormat, $record[3], $ISSN."\n");
-        print($desiredRecord);
+        $desiredRecord = "https://api.crossref.org/works?query.bibliographic=".$record[3]."&filter=issn:".$ISSN."&rows=1"."\n";
+//        print($desiredRecord);
         $apiURL = str_replace(' ', '%20', $desiredRecord);
-//        print($apiURL."\n");
-//        if (!in_array($apiURL, $apiLines, true)) { //Remove duplicate lines
-//            array_push($apiLines, $apiURL);
-//        }
+//        print($apiURL);
+        if (!in_array($apiURL, $apiLines, true)) { //Remove duplicate lines
+            array_push($apiLines, $apiURL);
+        }
     }
 }
 
-//print_r($titles);
+print_r($titles);
 //print(count($apiLines)); //Total records = 702.
 //print_r($apiLines);
 
