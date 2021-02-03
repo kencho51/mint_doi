@@ -38,9 +38,15 @@ RUN ln -s /app/Desktop/taverna-workbench/taverna.sh taverna
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+# Try to get X running
+RUN apt-get update && \
+    apt-get install xvfb -y && \
+    apt-get install libxrender1 -y && \
+    apt-get install libxtst6 -y && \
+    apt-get install libxi6 -y
+
 EXPOSE 5000
 
-#ENTRYPOINT ["/app/scripts/vnc_startup.sh"]
 ENTRYPOINT ["/bin/bash", "taverna"]
 CMD ["--tail-log"]
 
