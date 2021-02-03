@@ -43,3 +43,4 @@ java.awt.AWTError: Can't connect to X11 window server using 'unix' as the value 
 
 # Reference
 1. [openjdk-8-jdk](https://hub.docker.com/r/picoded/ubuntu-openjdk-8-jdk/dockerfile/)
+2. [docker-java-ssh-x-forward](https://github.com/Pozo/docker-java-ssh-x-forward)
