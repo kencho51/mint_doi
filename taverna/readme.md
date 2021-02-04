@@ -5,6 +5,8 @@
 2. Launch XQuartz, select preference, go to security tab, check `Allow connections from network clients`  
 3. Set Host Machine IP
 `IP=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')`, then eho `$IP`  
+4. Add IP access control list
+`xhost + $IP`
 # Build the image  
 `docker build -t ken/test-taverna-jdk8 .`
 
