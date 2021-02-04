@@ -13,7 +13,7 @@
 ## Build the image  
 `docker build -t ken/test-taverna-jdk8 .`
 
-## Get into the terminal
+## Get into the terminal for background checking
 `docker run --rm -it ken/test-taverna-jdk8`  
 - java version: 
 ```bash
