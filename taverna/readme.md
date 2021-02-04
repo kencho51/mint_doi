@@ -1,12 +1,14 @@
 # Taverna Docker version
 
-1. Install `xquartz`
+1. Install `xquartz` ans `socat`  
 `brew install --cask xquartz`  
+`brew install socat`
+
 2. Launch XQuartz, select preference, go to security tab, check `Allow connections from network clients`  
-3. Set Host Machine IP
-`IP=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')`, then eho `$IP`  
-4. Add IP access control list
-`xhost + $IP`
+3. Start the TCP listen:  
+`socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
+   
+
 # Build the image  
 `docker build -t ken/test-taverna-jdk8 .`
 
@@ -21,33 +23,29 @@ OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 ```
 - JAVA_HOME: `/usr/lib/jvm/java-8-openjdk-amd64/`  
 
+
 # Run the image
 `docker run --rm -p 5000:5000 -e DISPLAY=172.20.10.75:0 ken/test-taverna-jdk8`
 
 ```bash
 OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=200m; support was removed in 8.0
-Exception from method net.sf.taverna.raven.launcher.Launcher.main(String[])
-java.awt.AWTError: Can't connect to X11 window server using '172.20.10.75:0' as the value of the DISPLAY variable.
-        at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
-        at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:65)
-        at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:115)
-        at java.security.AccessController.doPrivileged(Native Method)
-        at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:74)
-        at java.lang.Class.forName0(Native Method)
-        at java.lang.Class.forName(Class.java:264)
-        at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:103)
-        at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:82)
-        at java.awt.Window.initGC(Window.java:475)
-        at java.awt.Window.init(Window.java:495)
-        at java.awt.Window.<init>(Window.java:537)
-        at java.awt.Frame.<init>(Frame.java:420)
-        at java.awt.Frame.<init>(Frame.java:385)
-        at javax.swing.JFrame.<init>(JFrame.java:189)
-        at net.sf.taverna.raven.SplashScreen.<init>(SplashScreen.java:109)
-        at net.sf.taverna.raven.SplashScreen.<init>(SplashScreen.java:105)
-        at net.sf.taverna.raven.SplashScreen.getSplashScreen(SplashScreen.java:88)
-        at net.sf.taverna.raven.launcher.Launcher.prepareSplashScreen(Launcher.java:225)
-        at net.sf.taverna.raven.launcher.Launcher.launchMain(Launcher.java:127)
+ERROR 2021-02-04 08:19:58,598 (net.sf.taverna.raven.spi.SpiRegistry:85) - Could not get class loader for net.sf.taverna.t2.ui-components:reference-ui:1.5
+net.sf.taverna.raven.repository.ArtifactStateException: Artifact uk.org.mygrid.taverna.raven:raven:1.9 in state Unknown, expected [Analyzed, Jar, Pom, Ready]
+        at net.sf.taverna.raven.repository.impl.ArtifactImpl.getDependencies(ArtifactImpl.java:146)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.init(LocalArtifactClassLoader.java:170)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.<init>(LocalArtifactClassLoader.java:71)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.init(LocalArtifactClassLoader.java:178)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.<init>(LocalArtifactClassLoader.java:71)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.init(LocalArtifactClassLoader.java:178)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.<init>(LocalArtifactClassLoader.java:71)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.init(LocalArtifactClassLoader.java:178)
+        at net.sf.taverna.raven.repository.impl.LocalArtifactClassLoader.<init>(LocalArtifactClassLoader.java:83)
+        at net.sf.taverna.raven.repository.impl.LocalRepository.getLoader(LocalRepository.java:422)
+        at net.sf.taverna.raven.spi.SpiRegistry.updateRegistry(SpiRegistry.java:224)
+        at net.sf.taverna.raven.spi.SpiRegistry.getClasses(SpiRegistry.java:154)
+        at net.sf.taverna.raven.spi.SpiRegistry.iterator(SpiRegistry.java:167)
+        at net.sf.taverna.raven.launcher.Launcher.findMainClass(Launcher.java:105)
+        at net.sf.taverna.raven.launcher.Launcher.launchMain(Launcher.java:131)
         at net.sf.taverna.raven.launcher.Launcher.main(Launcher.java:64)
         at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
         at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -68,3 +66,4 @@ java.awt.AWTError: Can't connect to X11 window server using '172.20.10.75:0' as 
 6. [x11_docker_mac](https://gist.github.com/cschiewek/246a244ba23da8b9f0e7b11a68bf3285)
 7. [Gui application docker and Mac](https://sourabhbajaj.com/blog/2017/02/07/gui-applications-docker-mac/)
 8. [Docker for Mac and GUI applications](https://fredrikaverpil.github.io/2016/07/31/docker-for-mac-and-gui-applications/)
+9. [Running GUI’s with Docker on Mac OS X](https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc)
