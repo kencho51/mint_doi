@@ -40,6 +40,7 @@ RUN ln -s /app/Desktop/taverna-workbench/taverna.sh taverna
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+ENV DISPLAY :0
 EXPOSE 5000
 
 WORKDIR /app/Desktop
