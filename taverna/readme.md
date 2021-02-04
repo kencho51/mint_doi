@@ -1,5 +1,6 @@
 # Taverna Docker version
 
+## Prequisit
 1. Install `xquartz` ans `socat`  
 `brew install --cask xquartz`  
 `brew install socat`
@@ -9,10 +10,10 @@
 `socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
    
 
-# Build the image  
+## Build the image  
 `docker build -t ken/test-taverna-jdk8 .`
 
-# Get into the terminal
+## Get into the terminal
 `docker run --rm -it ken/test-taverna-jdk8`  
 - java version: 
 ```bash
@@ -24,7 +25,10 @@ OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 - JAVA_HOME: `/usr/lib/jvm/java-8-openjdk-amd64/`  
 
 
-# Run the image
+## Run the image
+1. Start the TCP listen:  
+`socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
+2. Run the container 
 `docker run --rm -p 5000:5000 -e DISPLAY=172.20.10.75:0 ken/test-taverna-jdk8`
 
 ```bash
@@ -57,7 +61,7 @@ net.sf.taverna.raven.repository.ArtifactStateException: Artifact uk.org.mygrid.t
 
 ```
 
-# Reference
+## Reference
 1. [openjdk-8-jdk](https://hub.docker.com/r/picoded/ubuntu-openjdk-8-jdk/dockerfile/)
 2. [docker-java-ssh-x-forward](https://github.com/Pozo/docker-java-ssh-x-forward)
 3. [taverna-workbench](https://github.com/mohsensoori/taverna-workbench)
