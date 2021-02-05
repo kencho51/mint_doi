@@ -41,6 +41,7 @@ RUN ln -s /app/Desktop/taverna-workbench/taverna.sh taverna
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENV DISPLAY :0
+ENV DISPLAY_CONFIGURATION=1024x768x24
 EXPOSE 5000
 
 WORKDIR /app/Desktop
