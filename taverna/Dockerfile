@@ -30,12 +30,12 @@ RUN export JAVA_HOME
 WORKDIR /app/Desktop
 
 ### Install Taverna Workbench
-RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taverna-workbench-core-2.5.0-standalone.zip
-RUN unzip taverna-workbench-core-2.5.0-standalone.zip
-RUN rm taverna-workbench-core-2.5.0-standalone.zip
-RUN mv /app/Desktop/taverna-workbench-core-2.5.0/ /app/Desktop/taverna-workbench/
-RUN chmod +x /app/Desktop/taverna-workbench/taverna.sh
-RUN ln -s /app/Desktop/taverna-workbench/taverna.sh taverna
+RUN wget https://bitbucket.org/taverna/taverna-workbench-product/downloads/taverna-workbench-core-2.5.0-standalone.zip && \
+    RUN unzip taverna-workbench-core-2.5.0-standalone.zip && \
+    RUN rm taverna-workbench-core-2.5.0-standalone.zip && \
+    RUN mv /app/Desktop/taverna-workbench-core-2.5.0/ /app/Desktop/taverna-workbench/  && \
+    RUN chmod +x /app/Desktop/taverna-workbench/taverna.sh  && \
+    RUN ln -s /app/Desktop/taverna-workbench/taverna.sh taverna
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
