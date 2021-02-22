@@ -7,9 +7,10 @@
 
 2. Launch XQuartz, select preference, go to security tab, check `Allow connections from network clients`  
 3. Start the TCP listen:  
-`socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
-   
-
+`socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`  
+If `socat[73221] E bind(5, {LEN=0 AF=2 0.0.0.0:6000}, 16): Address already in use`
+    - ` lsof -n -i | grep 6000` and `kill -9` the process  
+    
 ## Build the image  
 `docker build -t ken/test-taverna-jdk8 .`
 
@@ -27,8 +28,10 @@ OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 
 ## Run the image
 1. Start the TCP listen:  
-`socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
-2. Run the container 
+`socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`  
+2. Get IP of network interface for host OS  
+`ifconfig en0`  
+3. Run the container 
 `docker run --rm -p 5000:5000 -e DISPLAY=172.20.10.75:0 ken/test-taverna-jdk8`
 
 ## Result
@@ -44,3 +47,4 @@ OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 7. [Gui application docker and Mac](https://sourabhbajaj.com/blog/2017/02/07/gui-applications-docker-mac/)
 8. [Docker for Mac and GUI applications](https://fredrikaverpil.github.io/2016/07/31/docker-for-mac-and-gui-applications/)
 9. [Running GUI’s with Docker on Mac OS X](https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc)
+10. [socat not working on OSX](https://bitsanddragons.wordpress.com/2020/06/05/address-already-in-use-socat-not-working-on-osx/)
