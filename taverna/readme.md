@@ -1,6 +1,8 @@
 # Taverna Docker version
 
 ## Pre-requisites
+0. Download source binary file to the root directory
+
 1. Install `xquartz` ans `socat`  
 `brew install --cask xquartz`  
 `brew install socat`
