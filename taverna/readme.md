@@ -74,13 +74,69 @@ OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 - JAVA_HOME: `/usr/lib/jvm/java-8-openjdk-amd64/`  
 
 
-## Run the image
+## Run the container
 1. Start the TCP listen:  
 `socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`  
 2. Get IP of network interface for host OS  
 `ifconfig en0`  
 3. Run the container 
 `docker run --rm -p 5000:5000 -e DISPLAY=172.20.10.75:0 ken/test-taverna-jdk8`
+
+## Error
+```bash
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=200m; support was removed in 8.0
+Exception from method net.sf.taverna.raven.launcher.Launcher.main(String[])
+java.lang.NullPointerException
+        at sun.awt.FontConfiguration.getVersion(FontConfiguration.java:1264)
+        at sun.awt.FontConfiguration.readFontConfigFile(FontConfiguration.java:219)
+        at sun.awt.FontConfiguration.init(FontConfiguration.java:107)
+        at sun.awt.X11FontManager.createFontConfiguration(X11FontManager.java:774)
+        at sun.font.SunFontManager$2.run(SunFontManager.java:431)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at sun.font.SunFontManager.<init>(SunFontManager.java:376)
+        at sun.awt.FcFontManager.<init>(FcFontManager.java:35)
+        at sun.awt.X11FontManager.<init>(X11FontManager.java:57)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+        at java.lang.Class.newInstance(Class.java:442)
+        at sun.font.FontManagerFactory$1.run(FontManagerFactory.java:83)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at sun.font.FontManagerFactory.getInstance(FontManagerFactory.java:74)
+        at sun.font.SunFontManager.getInstance(SunFontManager.java:250)
+        at sun.font.FontDesignMetrics.getMetrics(FontDesignMetrics.java:264)
+        at sun.swing.SwingUtilities2.getFontMetrics(SwingUtilities2.java:1107)
+        at javax.swing.JComponent.getFontMetrics(JComponent.java:1617)
+        at javax.swing.plaf.basic.BasicProgressBarUI.getPreferredSize(BasicProgressBarUI.java:821)
+        at javax.swing.JComponent.getPreferredSize(JComponent.java:1653)
+        at java.awt.BorderLayout.preferredLayoutSize(BorderLayout.java:729)
+        at java.awt.Container.preferredSize(Container.java:1799)
+        at java.awt.Container.getPreferredSize(Container.java:1783)
+        at javax.swing.JComponent.getPreferredSize(JComponent.java:1655)
+        at javax.swing.JRootPane$RootLayout.preferredLayoutSize(JRootPane.java:920)
+        at java.awt.Container.preferredSize(Container.java:1799)
+        at java.awt.Container.getPreferredSize(Container.java:1783)
+        at javax.swing.JComponent.getPreferredSize(JComponent.java:1655)
+        at java.awt.BorderLayout.preferredLayoutSize(BorderLayout.java:719)
+        at java.awt.Container.preferredSize(Container.java:1799)
+        at java.awt.Container.getPreferredSize(Container.java:1783)
+        at java.awt.Window.pack(Window.java:809)
+        at net.sf.taverna.raven.SplashScreen.<init>(SplashScreen.java:118)
+        at net.sf.taverna.raven.SplashScreen.<init>(SplashScreen.java:105)
+        at net.sf.taverna.raven.SplashScreen.getSplashScreen(SplashScreen.java:88)
+        at net.sf.taverna.raven.launcher.Launcher.prepareSplashScreen(Launcher.java:225)
+        at net.sf.taverna.raven.launcher.Launcher.launchMain(Launcher.java:127)
+        at net.sf.taverna.raven.launcher.Launcher.main(Launcher.java:64)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at net.sf.taverna.raven.prelauncher.PreLauncher.runLauncher(PreLauncher.java:115)
+        at net.sf.taverna.raven.prelauncher.PreLauncher.launchArgs(PreLauncher.java:69)
+        at net.sf.taverna.raven.prelauncher.PreLauncher.main(PreLauncher.java:47)
+
+```
 
 ## Result
 ![img.png](screenshot.png)
@@ -97,3 +153,4 @@ OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
 9. [Running GUI’s with Docker on Mac OS X](https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc)
 10. [socat not working on OSX](https://bitsanddragons.wordpress.com/2020/06/05/address-already-in-use-socat-not-working-on-osx/)
 11. [Official taverna site](http://www.taverna.org.uk/download/workbench/2-5/core/#download-binary) 
+12. [How to create a custom jdk8 image](https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4)
