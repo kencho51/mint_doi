@@ -1,7 +1,7 @@
 # Taverna Docker version
 
 ## Pre-requisites
-0. Download source binary file to the root directory
+0. Download source binary file to the root directory and unzip 
 
 1. Install `xquartz` ans `socat`  
 `brew install --cask xquartz`  
@@ -54,7 +54,7 @@ exec "$javabin" -Xmx700m -XX:MaxPermSize=200m \
 ### Examine the file path created by pyhton
 ```bash
 echo $realprog=`real_path "$prog"`  
-`/app/taverna-workbench-core-2.5.0/taverna.sh`  
+`/app/taverna-workbench-core-2.5.0/run_taverna.sh`  
 echo $taverna_home=`dirname "$realprog"`  
 `/app/taverna-workbench-core-2.5.0/`
 ```
