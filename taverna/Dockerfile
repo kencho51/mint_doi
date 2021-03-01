@@ -9,7 +9,7 @@ WORKDIR /app
 
 RUN unzip taverna-workbench-core-2.5.0-standalone.zip && \
     rm taverna-workbench-core-2.5.0-standalone.zip && \
-    chmod u+x /app/taverna-workbench-core-2.5.0/taverna.sh  && \
+    chmod u+x /app/taverna-workbench-core-2.5.0/taverna.sh
 
 EXPOSE 5000
 
