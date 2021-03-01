@@ -1,11 +1,7 @@
 #!/bin/sh
 set -e
 
-## resolve links - $0 may be a symlink
-prog="$0"
-
 ## hardcode the file path
-realprog="/app/taverna-workbench-core-2.5.0/run_taverna.sh"
 taverna_home="/app/taverna-workbench-core-2.5.0/"
 javabin=java
 if test -x "$taverna_home/jre/bin/java"; then
