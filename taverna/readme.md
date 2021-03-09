@@ -59,6 +59,8 @@ echo $taverna_home=`dirname "$realprog"`
 `/app/taverna-workbench-core-2.5.0/`
 ```
 
+### create a new taverna with hardcoded file path in the root directory
+
 ## Build the image  
 `docker build -t ken/test-taverna-jdk8 .`
 
