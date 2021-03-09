@@ -1,7 +1,7 @@
 # Taverna Docker version
 
 ## Pre-requisites
-0. Download source binary file to the root directory and unzip 
+0. Download Taverna Workbench 2.5 standalone from [here](http://www.taverna.org.uk/download/workbench/2-5/core/#download-binary) to the root directory 
 
 1. Install `xquartz` ans `socat`  
 `brew install --cask xquartz`  
