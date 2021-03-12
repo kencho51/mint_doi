@@ -14,4 +14,4 @@ RUN unzip taverna-workbench-core-2.5.0-standalone.zip && \
 
 EXPOSE 5000
 
-CMD ["bash", "/app/taverna-workbench-core-2.5.0/run_taverna.sh"]
+#CMD ["bash", "/app/taverna-workbench-core-2.5.0/run_taverna.sh"]
