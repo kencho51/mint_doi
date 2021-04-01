@@ -1,11 +1,13 @@
+
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
+import org.json.*;
 
-json = "";
-Code = "";
-DOI = "";
-apiStatus ="";
+String json = "";
+String Code = "";
+String DOI = "";
+String apiStatus ="";
 
 String text = "";
 try {
@@ -21,11 +23,27 @@ try {
 	} else {
 		Scanner sc = new Scanner(url.openStream());
 		while (sc.hasNext()) {
-			json+=sc.nextLine();	
+			json+=sc.nextLine();
 		}
-		sc.close();	
+		sc.close();
+	}
+	JSONObject obj = new JSONObject(json);
+	apiStatus = obj.getString("status");
+	JSONArray messageArr = obj.getJSONArray("message");
+
+	for (int i = 0; i < messageArr.length(); i++) {
+
+		DOI = messageArr.getString("total-results");
 	}
 
 } catch(Exception e) {
 	e.printStackTrace();	
 }
+
+/
+https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java
+https://www.geeksforgeeks.org/parse-json-java/
+https://devqa.io/how-to-parse-json-in-java/
+https://github.com/Corefinder89/SampleJavaCodes/blob/master/src/Dummy1.java
+https://stackoverflow.com/questions/13269512/cant-access-getjsonarray-in-java
+/
