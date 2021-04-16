@@ -1,0 +1,1913 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 46,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              27
+            ]
+          ],
+          "date-time": "2021-02-27T01:32:53Z",
+          "timestamp": 1614389573789
+        },
+        "reference-count": 61,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "2",
+        "license": [
+          {
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  2,
+                  19
+                ]
+              ],
+              "date-time": "2021-02-19T00:00:00Z",
+              "timestamp": 1613692800000
+            },
+            "delay-in-days": 21,
+            "content-version": "vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039\/100000002",
+            "name": "National Institutes of Health",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "P30CA142543",
+              "R35GM136375",
+              "1R01GM140012",
+              "1R01GM115473",
+              "5R01CA152301",
+              "P50CA70907"
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              29
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract<\/jats:title>\n               <jats:sec>\n                  <jats:title>Background<\/jats:title>\n                  <jats:p>Forecasting of COVID-19 cases daily and weekly has been one of the challenges posed to governments and the health sector globally. To facilitate informed public health decisions, the concerned parties rely on short-term daily projections generated via predictive modeling. We calibrate stochastic variants of growth models and the standard susceptible-infectious-removed model into 1 Bayesian framework to evaluate and compare their short-term forecasts.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Results<\/jats:title>\n                  <jats:p>We implement rolling-origin cross-validation to compare the short-term forecasting performance of the stochastic epidemiological models and an autoregressive moving average model across 20 countries that had the most confirmed COVID-19 cases as of August 22, 2020.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusion<\/jats:title>\n                  <jats:p>None of the models proved to be a gold standard across all regions, while all outperformed the autoregressive moving average model in terms of the accuracy of forecast and interpretability.<\/jats:p>\n               <\/jats:sec>",
+        "DOI": "10.1093\/gigascience\/giab009",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              21
+            ]
+          ],
+          "date-time": "2021-02-21T03:47:28Z",
+          "timestamp": 1613879248000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Evaluating short-term forecasting of COVID-19 cases among different epidemiological models under a Bayesian framework"
+        ],
+        "prefix": "10.1093",
+        "volume": "10",
+        "author": [
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-1020-3050",
+            "authenticated-orcid": false,
+            "given": "Qiwei",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mathematical Sciences, The University of Texas at Dallas, 800 W Campbell Rd, Richardson, TX 75080, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-7532-4075",
+            "authenticated-orcid": false,
+            "given": "Tejasv",
+            "family": "Bedi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematical Sciences, The University of Texas at Dallas, 800 W Campbell Rd, Richardson, TX 75080, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-9559-4646",
+            "authenticated-orcid": false,
+            "given": "Christoph U",
+            "family": "Lehmann",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Pediatrics, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              },
+              {
+                "name": "Lyda Hill Department of Bioinformatics, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              },
+              {
+                "name": "Department of Population and Data Sciences, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-9387-9883",
+            "authenticated-orcid": false,
+            "given": "Guanghua",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Lyda Hill Department of Bioinformatics, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              },
+              {
+                "name": "Department of Population and Data Sciences, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-9456-1762",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Lyda Hill Department of Bioinformatics, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              },
+              {
+                "name": "Department of Population and Data Sciences, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              19
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2021022623132264900_bib1",
+            "author": "Elmousalami",
+            "year": "2020",
+            "article-title": "Day level forecasting for coronavirus disease (COVID-19) spread: analysis, modeling and recommendations"
+          },
+          {
+            "key": "2021022623132264900_bib2",
+            "author": "Perone",
+            "year": "2020",
+            "article-title": "An ARIMA model to forecast the spread and the final size of COVID-2019 epidemic in Italy",
+            "DOI": "10.1101\/2020.04.27.20081539",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2021022623132264900_bib3",
+            "author": "Batista",
+            "year": "2020",
+            "article-title": "Estimation of the final size of the COVID-19 epidemic",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.02.16.20023606",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2021022623132264900_bib4",
+            "author": "IHME\u00a0COVID-19",
+            "year": "2020",
+            "article-title": "Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.03.27.20043752",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2021022623132264900_bib5",
+            "first-page": "256",
+            "article-title": "Real-time forecasts of the COVID-19 epidemic in China from February 5th to February 24th, 2020",
+            "volume": "5",
+            "author": "Roosa",
+            "year": "2020",
+            "journal-title": "Infect Dis Model"
+          },
+          {
+            "key": "2021022623132264900_bib6",
+            "author": "Jia",
+            "year": "2020",
+            "article-title": "Prediction and analysis of coronavirus disease 2019"
+          },
+          {
+            "key": "2021022623132264900_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "1561",
+            "DOI": "10.1007\/s11071-020-05862-6",
+            "article-title": "Generalized logistic growth modeling of the COVID-19 outbreak in 29 provinces in China and in the rest of the world",
+            "volume": "101",
+            "author": "Wu",
+            "year": "2020",
+            "journal-title": "Nonlinear Dyn"
+          },
+          {
+            "key": "2021022623132264900_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "109761",
+            "DOI": "10.1016\/j.chaos.2020.109761",
+            "article-title": "Analysis and forecast of COVID-19 spreading in China, Italy and France",
+            "volume": "134",
+            "author": "Fanelli",
+            "year": "2020",
+            "journal-title": "Chaos Solitons Fractals"
+          },
+          {
+            "issue": "5",
+            "key": "2021022623132264900_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "553",
+            "DOI": "10.1016\/S1473-3099(20)30144-4",
+            "article-title": "Early dynamics of transmission and control of COVID-19: A mathematical modelling study",
+            "volume": "20",
+            "author": "Kucharski",
+            "year": "2020",
+            "journal-title": "Lancet Infect Dis"
+          },
+          {
+            "issue": "6490",
+            "key": "2021022623132264900_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "489",
+            "DOI": "10.1126\/science.abb3221",
+            "article-title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)",
+            "volume": "368",
+            "author": "Li",
+            "year": "2020",
+            "journal-title": "Science"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "3040",
+            "DOI": "10.3934\/mbe.2020172",
+            "article-title": "Predicting the cumulative number of cases for the COVID-19 epidemic in China from early data",
+            "volume": "17",
+            "author": "Liu",
+            "year": "2020",
+            "journal-title": "Math Biosci Eng"
+          },
+          {
+            "issue": "19",
+            "key": "2021022623132264900_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "1915",
+            "DOI": "10.1001\/jama.2020.6130",
+            "article-title": "Association of public health interventions with the epidemiology of the COVID-19 outbreak in Wuhan, China",
+            "volume": "323",
+            "author": "Pan",
+            "year": "2020",
+            "journal-title": "JAMA"
+          },
+          {
+            "key": "2021022623132264900_bib13",
+            "author": "Pei",
+            "year": "2020",
+            "article-title": "Initial simulation of SARS-CoV2 spread and intervention effects in the continental US",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.03.21.20040303",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "3",
+            "key": "2021022623132264900_bib14",
+            "first-page": "409",
+            "article-title": "An epidemiological forecast model and software assessing interventions on COVID-19 epidemic in China",
+            "volume": "18",
+            "author": "Song",
+            "year": "2020",
+            "journal-title": "J Data Sci"
+          },
+          {
+            "issue": "3",
+            "key": "2021022623132264900_bib15",
+            "first-page": "455",
+            "article-title": "Tracking reproductivity of COVID-19 epidemic in China with varying coefficient SIR model",
+            "volume": "18",
+            "author": "Sun",
+            "year": "2020",
+            "journal-title": "J Data Sci"
+          },
+          {
+            "key": "2021022623132264900_bib16",
+            "author": "Wang",
+            "year": "2020",
+            "article-title": "Spatiotemporal dynamics, nowcasting and forecasting of COVID-19 in the United States"
+          },
+          {
+            "key": "2021022623132264900_bib17",
+            "author": "Yamana",
+            "year": "2020",
+            "article-title": "Projection of COVID-19 cases and deaths in the US as individual states re-open May 4, 2020",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.05.04.20090670",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "3",
+            "key": "2021022623132264900_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "165",
+            "DOI": "10.21037\/jtd.2020.02.64",
+            "article-title": "Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions",
+            "volume": "12",
+            "author": "Yang",
+            "year": "2020",
+            "journal-title": "J Thorac Dis"
+          },
+          {
+            "key": "2021022623132264900_bib19",
+            "author": "Gomez",
+            "year": "2020",
+            "article-title": "INFEKTA: A general agent-based model for transmission of infectious diseases: Studying the COVID-19 propagation in Bogot\u00e1-Colombia",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.04.06.20056119",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2021022623132264900_bib20",
+            "author": "Bullock",
+            "volume": "69",
+            "year": "2020",
+            "article-title": "Mapping the landscape of artificial intelligence applications against COVID-19",
+            "journal-title": "J Artif Intell Res",
+            "DOI": "10.1613\/jair.1.12162",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2021022623132264900_bib21",
+            "author": "Hu",
+            "year": "2020",
+            "article-title": "Artificial intelligence forecasting of COVID-19 in China"
+          },
+          {
+            "key": "2021022623132264900_bib22",
+            "author": "Distante",
+            "year": "2020",
+            "article-title": "Forecasting COVID-19 outbreak progression in Italian regions: A model based on neural network training from Chinese data",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.04.09.20059055",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "337",
+            "DOI": "10.1016\/j.dsx.2020.04.012",
+            "article-title": "Artificial Intelligence (AI) applications for COVID-19 pandemic",
+            "volume": "14",
+            "author": "Vaishya",
+            "year": "2020",
+            "journal-title": "Diabetes Metab Syndr"
+          },
+          {
+            "issue": "1",
+            "key": "2021022623132264900_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "345",
+            "DOI": "10.1186\/s12879-017-2365-1",
+            "article-title": "A framework for evaluating epidemic forecasts",
+            "volume": "17",
+            "author": "Tabataba",
+            "year": "2017",
+            "journal-title": "BMC Infect Dis"
+          },
+          {
+            "issue": "5",
+            "key": "2021022623132264900_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "533",
+            "DOI": "10.1016\/S1473-3099(20)30120-1",
+            "article-title": "An interactive web-based dashboard to track COVID-19 in real time",
+            "volume": "20",
+            "author": "Dong",
+            "year": "2020",
+            "journal-title": "Lancet Infect Dis"
+          },
+          {
+            "key": "2021022623132264900_bib26",
+            "doi-asserted-by": "crossref",
+            "first-page": "106146",
+            "DOI": "10.1016\/j.cct.2020.106146",
+            "article-title": "Semiparametric Bayesian inference for the transmission dynamics of COVID-19 with a state-space model",
+            "volume": "97",
+            "author": "Zhou",
+            "year": "2020",
+            "journal-title": "Contemp Clin Trials"
+          },
+          {
+            "key": "2021022623132264900_bib27",
+            "author": "Toda",
+            "year": "2020",
+            "article-title": "Susceptible-infected-recovered (SIR) dynamics of COVID-19 and economic impact"
+          },
+          {
+            "key": "2021022623132264900_bib29",
+            "author": "Chowell",
+            "volume": "6",
+            "year": "2014",
+            "article-title": "Is West Africa approaching a catastrophic phase or is the 2014 Ebola epidemic slowing down? Different models yield different answers for Liberia",
+            "journal-title": "PLoS Curr"
+          },
+          {
+            "key": "2021022623132264900_bib31",
+            "author": "Chowell",
+            "volume": "8",
+            "year": "2016",
+            "article-title": "Using phenomenological models to characterize transmissibility and forecast patterns and final burden of Zika epidemics",
+            "journal-title": "PLoS Curr"
+          },
+          {
+            "issue": "6",
+            "key": "2021022623132264900_bib48",
+            "doi-asserted-by": "crossref",
+            "first-page": "1165",
+            "DOI": "10.3201\/eid1006.031023",
+            "article-title": "SARS epidemiology modeling",
+            "volume": "10",
+            "author": "Hsieh",
+            "year": "2004",
+            "journal-title": "Emerg Infect Dis"
+          },
+          {
+            "key": "2021022623132264900_bib49",
+            "author": "Hsieh",
+            "first-page": "216",
+            "year": "2009",
+            "article-title": "Richards model: A simple procedure for real-time prediction of outbreak severity",
+            "volume-title": "Modeling and Dynamics of Infectious Diseases",
+            "DOI": "10.1142\/9789814261265_0009",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "issue": "1",
+            "key": "2021022623132264900_bib50",
+            "doi-asserted-by": "crossref",
+            "first-page": "66",
+            "DOI": "10.4269\/ajtmh.2009.80.66",
+            "article-title": "Intervention measures, turning point, and reproduction number for dengue, Singapore, 2005",
+            "volume": "80",
+            "author": "Hsieh",
+            "year": "2009",
+            "journal-title": "Am J Trop Med Hyg"
+          },
+          {
+            "issue": "6",
+            "key": "2021022623132264900_bib51",
+            "doi-asserted-by": "crossref",
+            "first-page": "628",
+            "DOI": "10.1111\/j.1365-3156.2009.02277.x",
+            "article-title": "Turning points, reproduction number, and impact of climatological events for multi-wave dengue outbreaks",
+            "volume": "14",
+            "author": "Hsieh",
+            "year": "2009",
+            "journal-title": "Trop Med Int Health"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib52",
+            "doi-asserted-by": "crossref",
+            "first-page": "187",
+            "DOI": "10.1111\/j.1750-2659.2010.00147.x",
+            "article-title": "Pandemic influenza A (H1N1) during winter influenza season in the southern hemisphere",
+            "volume": "4",
+            "author": "Hsieh",
+            "year": "2010",
+            "journal-title": "Influenza Other Respir Viruses"
+          },
+          {
+            "key": "2021022623132264900_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "100379",
+            "DOI": "10.1016\/j.epidem.2019.100379",
+            "article-title": "Real-time forecasting of epidemic trajectories using computational dynamic ensembles",
+            "volume": "30",
+            "author": "Chowell",
+            "year": "2020",
+            "journal-title": "Epidemics"
+          },
+          {
+            "issue": "3",
+            "key": "2021022623132264900_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "379",
+            "DOI": "10.1016\/j.idm.2017.08.001",
+            "article-title": "Fitting dynamic models to epidemic outbreaks with quantified uncertainty: A primer for parameter uncertainty, identifiability, and forecasts",
+            "volume": "2",
+            "author": "Chowell",
+            "year": "2017",
+            "journal-title": "Infect Dis Modell"
+          },
+          {
+            "issue": "1",
+            "key": "2021022623132264900_bib35",
+            "doi-asserted-by": "crossref",
+            "first-page": "164",
+            "DOI": "10.1186\/s12916-019-1406-6",
+            "article-title": "A novel sub-epidemic modeling framework for short-term forecasting epidemic waves",
+            "volume": "17",
+            "author": "Chowell",
+            "year": "2019",
+            "journal-title": "BMC Med"
+          },
+          {
+            "key": "2021022623132264900_bib30",
+            "doi-asserted-by": "crossref",
+            "first-page": "62",
+            "DOI": "10.1016\/j.epidem.2016.11.002",
+            "article-title": "Using phenomenological models for forecasting the 2015 Ebola challenge",
+            "volume": "22",
+            "author": "Pell",
+            "year": "2018",
+            "journal-title": "Epidemics"
+          },
+          {
+            "key": "2021022623132264900_bib54",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.1016\/j.epidem.2016.01.002",
+            "article-title": "A generalized-growth model to characterize the early ascending phase of infectious disease outbreaks",
+            "volume": "15",
+            "author": "Viboud",
+            "year": "2016",
+            "journal-title": "Epidemics"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "437",
+            "DOI": "10.1016\/S0169-2070(00)00065-0",
+            "article-title": "Out-of sample tests of forecasting accuracy: A tutorial and review",
+            "volume": "16",
+            "author": "Tashman",
+            "year": "2000",
+            "journal-title": "Int J Forecast"
+          },
+          {
+            "key": "2021022623132264900_bib34",
+            "doi-asserted-by": "crossref",
+            "first-page": "13",
+            "DOI": "10.1016\/j.epidem.2017.08.002",
+            "article-title": "The RAPIDD ebola forecasting challenge: Synthesis and lessons learnt",
+            "volume": "22",
+            "author": "Viboud",
+            "year": "2018",
+            "journal-title": "Epidemics"
+          },
+          {
+            "key": "2021022623132264900_bib36",
+            "author": "Jiang",
+            "year": "2020",
+            "article-title": "BayesSMILES: Bayesian Segmentation Modeling for Longitudinal Epidemiological Studies",
+            "journal-title": "medRxiv",
+            "DOI": "10.1101\/2020.10.06.20208132",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "3-4",
+            "key": "2021022623132264900_bib37",
+            "first-page": "231",
+            "article-title": "On Metropolis-Hastings algorithms with delayed rejection",
+            "volume": "59",
+            "author": "Mira",
+            "year": "2001",
+            "journal-title": "Metron"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib38",
+            "doi-asserted-by": "crossref",
+            "first-page": "339",
+            "DOI": "10.1007\/s11222-006-9438-0",
+            "article-title": "DRAM: Efficient adaptive MCMC",
+            "volume": "16",
+            "author": "Haario",
+            "year": "2006",
+            "journal-title": "Stat Comput"
+          },
+          {
+            "issue": "449",
+            "key": "2021022623132264900_bib39",
+            "doi-asserted-by": "crossref",
+            "first-page": "121",
+            "DOI": "10.1080\/01621459.2000.10473908",
+            "article-title": "The multiple-try method and local optimization in Metropolis sampling",
+            "volume": "95",
+            "author": "Liu",
+            "year": "2000",
+            "journal-title": "J Am Stat Assoc"
+          },
+          {
+            "key": "2021022623132264900_bib40",
+            "doi-asserted-by": "crossref",
+            "first-page": "134",
+            "DOI": "10.1016\/j.dsp.2018.01.004",
+            "article-title": "A review of multiple try MCMC algorithms for signal processing",
+            "volume": "75",
+            "author": "Martino",
+            "year": "2018",
+            "journal-title": "Digit Signal Process"
+          },
+          {
+            "key": "2021022623132264900_bib41",
+            "author": "Liang",
+            "year": "2011",
+            "volume-title": "Advanced Markov Chain Monte Carlo Methods: Learning from past samples"
+          },
+          {
+            "issue": "3",
+            "key": "2021022623132264900_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "515",
+            "DOI": "10.1214\/06-BA117A",
+            "article-title": "Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)",
+            "volume": "1",
+            "author": "Gelman",
+            "year": "2006",
+            "journal-title": "Bayesian Anal"
+          },
+          {
+            "key": "2021022623132264900_bib43",
+            "author": "Haberman",
+            "year": "1998",
+            "volume-title": "Mathematical models: Mechanical vibrations, population dynamics, and traffic flow",
+            "DOI": "10.1137\/1.9781611971156",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "6",
+            "key": "2021022623132264900_bib44",
+            "doi-asserted-by": "crossref",
+            "first-page": "657",
+            "DOI": "10.1006\/anbo.1997.0387",
+            "article-title": "Modelling asymmetrical growth curves that rise and then fall: Applications to foliage dynamics of sugar beet (Beta vulgarisL.)",
+            "volume": "79",
+            "author": "Werker",
+            "year": "1997",
+            "journal-title": "Ann Bot"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib45",
+            "first-page": "327",
+            "article-title": "Parameter estimation of nonlinear growth models in forestry",
+            "volume": "33",
+            "author": "Desta",
+            "year": "1999",
+            "journal-title": "Silv Fenn"
+          },
+          {
+            "issue": "6",
+            "key": "2021022623132264900_bib46",
+            "doi-asserted-by": "crossref",
+            "first-page": "1436",
+            "DOI": "10.2527\/2000.7861436x",
+            "article-title": "Genetic and environmental parameters for traits derived from the Brody growth curve and their relationships with weaning weight in Angus cattle",
+            "volume": "78",
+            "author": "Kaps",
+            "year": "2000",
+            "journal-title": "J Anim Sci"
+          },
+          {
+            "issue": "2",
+            "key": "2021022623132264900_bib47",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1080\/09712119.2008.9706960",
+            "article-title": "Comparison of nonlinear growth curve models in broiler chickens",
+            "volume": "34",
+            "author": "Topal",
+            "year": "2008",
+            "journal-title": "J Appl Anim Res"
+          },
+          {
+            "key": "2021022623132264900_bib53",
+            "author": "Lee",
+            "year": "2020",
+            "article-title": "Estimation of COVID-19 spread curves integrating global data and borrowing information",
+            "volume-title": "PLoS One",
+            "DOI": "10.1371\/journal.pone.0236860",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "772",
+            "key": "2021022623132264900_bib55",
+            "first-page": "700",
+            "article-title": "A contribution to the mathematical theory of epidemics",
+            "volume": "115",
+            "author": "Kermack",
+            "year": "1927",
+            "journal-title": "Proc R Soc Lond A Math Phys Sci"
+          },
+          {
+            "key": "2021022623132264900_bib56",
+            "author": "Bailey",
+            "year": "1975",
+            "journal-title": "The Mathematical Theory of Infectious Diseases and Its Applications"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib57",
+            "first-page": "599",
+            "article-title": "The mathematics of infectious diseases",
+            "volume": "42",
+            "author": "Hethcote",
+            "year": "2000",
+            "journal-title": "SIAM Rev Soc Ind Appl Math"
+          },
+          {
+            "issue": "4",
+            "key": "2021022623132264900_bib58",
+            "doi-asserted-by": "crossref",
+            "first-page": "295",
+            "DOI": "10.4161\/viru.24041",
+            "article-title": "Mathematical modeling of infectious disease dynamics",
+            "volume": "4",
+            "author": "Siettos",
+            "year": "2013",
+            "journal-title": "Virulence"
+          },
+          {
+            "issue": "3",
+            "key": "2021022623132264900_bib59",
+            "doi-asserted-by": "crossref",
+            "first-page": "e0230405",
+            "DOI": "10.1371\/journal.pone.0230405",
+            "article-title": "Data-based analysis, modelling and forecasting of the COVID-19 outbreak",
+            "volume": "15",
+            "author": "Anastassopoulou",
+            "year": "2020",
+            "journal-title": "PloS One"
+          },
+          {
+            "issue": "6",
+            "key": "2021022623132264900_bib61",
+            "doi-asserted-by": "crossref",
+            "first-page": "849",
+            "DOI": "10.1038\/s41591-020-0895-3",
+            "article-title": "Modeling shield immunity to reduce COVID-19 epidemic spread",
+            "volume": "26",
+            "author": "Weitz",
+            "year": "2020",
+            "journal-title": "Nat Med"
+          },
+          {
+            "key": "2021022623132264900_bib62",
+            "author": "Li",
+            "year": "2021",
+            "article-title": "Supporting data for \u201cEvaluating short-term forecasting of COVID-19 cases among different epidemiological models under a Bayesian framework.\u201d",
+            "journal-title": "GigaScience Database",
+            "DOI": "10.1093\/gigascience\/giab009",
+            "doi-asserted-by": "crossref"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/10\/2\/giab009\/36392755\/giab009.pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/10\/2\/giab009\/36392755\/giab009.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2021-02-26T23:14:23Z",
+          "timestamp": 1614381263000
+        },
+        "score": 74.64997,
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              29
+            ]
+          ]
+        },
+        "references-count": 61,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                29
+              ]
+            ]
+          },
+          "issue": "2"
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1093\/gigascience\/giab009",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2021-04-13T10:24:03Z",
+          "timestamp": 1618309443357
+        },
+        "reference-count": 30,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "2",
+        "license": [
+          {
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  2,
+                  16
+                ]
+              ],
+              "date-time": "2021-02-16T00:00:00Z",
+              "timestamp": 1613433600000
+            },
+            "delay-in-days": 18,
+            "content-version": "vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039\/100010269",
+            "name": "Wellcome Trust",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "206194"
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              29
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract<\/jats:title>\n               <jats:sec>\n                  <jats:title>Background<\/jats:title>\n                  <jats:p>SAMtools and BCFtools are widely used programs for processing and analysing high-throughput sequencing data. They include tools for file format conversion and manipulation, sorting, querying, statistics, variant calling, and effect analysis amongst other methods.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Findings<\/jats:title>\n                  <jats:p>The first version appeared online 12 years ago and has been maintained and further developed ever since, with many new features and improvements added over the years. The SAMtools and BCFtools packages represent a unique collection of tools that have been used in numerous other software projects and countless genomic pipelines.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusion<\/jats:title>\n                  <jats:p>Both SAMtools and BCFtools are freely available on GitHub under the permissive MIT licence, free for both non-commercial and commercial use. Both packages have been installed &amp;gt;1 million times via Bioconda. The source code and documentation are available from https:\/\/www.htslib.org.<\/jats:p>\n               <\/jats:sec>",
+        "DOI": "10.1093\/gigascience\/giab008",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              18
+            ]
+          ],
+          "date-time": "2021-02-18T18:13:22Z",
+          "timestamp": 1613672002000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "Twelve years of SAMtools and BCFtools"
+        ],
+        "prefix": "10.1093",
+        "volume": "10",
+        "author": [
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-4159-1666",
+            "authenticated-orcid": false,
+            "given": "Petr",
+            "family": "Danecek",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-6447-4112",
+            "authenticated-orcid": false,
+            "given": "James K",
+            "family": "Bonfield",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-1059-1230",
+            "authenticated-orcid": false,
+            "given": "Jennifer",
+            "family": "Liddle",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-1216-5457",
+            "authenticated-orcid": false,
+            "given": "John",
+            "family": "Marshall",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wolfson Wohl Cancer Research Centre, Institute of Cancer Sciences, University of Glasgow, Switchback Road, Glasgow, G61 1QH, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-0532-6021",
+            "authenticated-orcid": false,
+            "given": "Valeriu",
+            "family": "Ohan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-8738-0920",
+            "authenticated-orcid": false,
+            "given": "Martin O",
+            "family": "Pollard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-8117-400X",
+            "authenticated-orcid": false,
+            "given": "Andrew",
+            "family": "Whitwham",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-7532-6898",
+            "authenticated-orcid": false,
+            "given": "Thomas",
+            "family": "Keane",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "EMBL-EBI, Wellcome Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-2715-4187",
+            "authenticated-orcid": false,
+            "given": "Shane A",
+            "family": "McCarthy",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-9983-1378",
+            "authenticated-orcid": false,
+            "given": "Robert M",
+            "family": "Davies",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-4874-2874",
+            "authenticated-orcid": false,
+            "given": "Heng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Data Sciences, Dana-Farber Cancer Institute, 450 Brookline Avenue, Boston, MA 02215, USA"
+              },
+              {
+                "name": "Department of Biomedical Informatics, Harvard Medical School, 10 Shattuck Street, Boston, MA 02215, USA"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              16
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2021022209081457500_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "2078",
+            "DOI": "10.1093\/bioinformatics\/btp352",
+            "article-title": "The Sequence Alignment\/Map format and SAMtools",
+            "volume": "25",
+            "author": "Li",
+            "year": "2009",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "2156",
+            "DOI": "10.1093\/bioinformatics\/btr330",
+            "article-title": "The variant call format and VCFtools",
+            "volume": "27",
+            "author": "Danecek",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "68",
+            "DOI": "10.1038\/nature15393",
+            "article-title": "A global reference for human genetic variation",
+            "volume": "526",
+            "author": "The 1000 Genomes Project Consortium",
+            "year": "2015",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "2021022209081457500_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "2032",
+            "DOI": "10.1093\/bioinformatics\/btv098",
+            "article-title": "Sambamba: fast processing of NGS alignment formats",
+            "volume": "31",
+            "author": "Tarasov",
+            "year": "2015",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "2078",
+            "DOI": "10.1186\/1751-0473-9-13",
+            "article-title": "biobambam: tools for read pair collation based algorithms on BAM files",
+            "volume": "9",
+            "author": "Tischler",
+            "year": "2014",
+            "journal-title": "Source Code Biol Med"
+          },
+          {
+            "key": "2021022209081457500_bib6",
+            "author": "Babraham Bioinformatics",
+            "year": "2019",
+            "journal-title": "FastQC: A quality control tool for high throughput sequence data"
+          },
+          {
+            "key": "2021022209081457500_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "491",
+            "DOI": "10.1038\/ng.806",
+            "article-title": "A framework for variation discovery and genotyping using next-generation DNA sequencing data",
+            "volume": "43",
+            "author": "DePristo",
+            "year": "2011",
+            "journal-title": "Nat Genet"
+          },
+          {
+            "key": "2021022209081457500_bib8",
+            "author": "Bonfield",
+            "year": "2021",
+            "article-title": "HTSlib - C library for reading\/writing high-throughput sequencing data",
+            "journal-title": "Gigascience",
+            "DOI": "10.1093\/gigascience\/giab007",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "2021022209081457500_bib9",
+            "author": "SAMtools",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209081457500_bib28_175_1612547700797"
+          },
+          {
+            "key": "2021022209081457500_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "734",
+            "DOI": "10.1101\/gr.114819.110",
+            "article-title": "Efficient storage of high throughput DNA sequencing data using reference-based compression",
+            "volume": "21",
+            "author": "Hsi-Yang\u00a0Fritz",
+            "year": "2011",
+            "journal-title": "Genome Res"
+          },
+          {
+            "key": "2021022209081457500_bib29_162_1612547803367"
+          },
+          {
+            "key": "2021022209081457500_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "1157",
+            "DOI": "10.1093\/bioinformatics\/btr076",
+            "article-title": "Improving SNP discovery by base alignment quality",
+            "volume": "27",
+            "author": "Li",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib12",
+            "author": "SAMtools",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209081457500_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "2987",
+            "DOI": "10.1093\/bioinformatics\/btr509",
+            "article-title": "A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data",
+            "volume": "27",
+            "author": "Li",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib14",
+            "year": "2020"
+          },
+          {
+            "issue": "4",
+            "key": "2021022209081457500_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "439",
+            "DOI": "10.3390\/plants9040439",
+            "article-title": "Comparison of read mapping and variant calling tools for the analysis of plant NGS data",
+            "volume": "9",
+            "author": "Schilbert",
+            "year": "2020",
+            "journal-title": "Plants (Basel)"
+          },
+          {
+            "key": "2021022209081457500_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "748",
+            "DOI": "10.1186\/s13104-015-1689-4",
+            "article-title": "Choice of reference-guided sequence assembler and SNP caller for analysis of Listeria monocytogenes short-read sequence data greatly influences rates of error",
+            "volume": "8",
+            "author": "Pightling",
+            "year": "2015",
+            "journal-title": "BMC Res Notes"
+          },
+          {
+            "key": "2021022209081457500_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "337",
+            "DOI": "10.1093\/bioinformatics\/bty608",
+            "article-title": "Crumble: reference free lossy compression of sequence quality values",
+            "volume": "35",
+            "author": "Bonfield",
+            "year": "2019",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "242",
+            "DOI": "10.1186\/s13059-019-1863-4",
+            "article-title": "Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA sequencing data",
+            "volume": "20",
+            "author": "Liu",
+            "year": "2019",
+            "journal-title": "Genome Biol"
+          },
+          {
+            "key": "2021022209081457500_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "1749",
+            "DOI": "10.1093\/bioinformatics\/btw044",
+            "article-title": "BCFtools\/RoH: a hidden Markov model approach for detecting autozygosity from next-generation sequencing data",
+            "volume": "32",
+            "author": "Narasimhan",
+            "year": "2016",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "5",
+            "key": "2021022209081457500_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "e0155014",
+            "DOI": "10.1371\/journal.pone.0155014",
+            "article-title": "A method for checking genomic integrity in cultured cell lines from SNP genotyping data",
+            "volume": "11",
+            "author": "Danecek",
+            "year": "2016",
+            "journal-title": "PLoS One"
+          },
+          {
+            "issue": "1",
+            "key": "2021022209081457500_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "122",
+            "DOI": "10.1186\/s13059-016-0974-4",
+            "article-title": "The Ensembl Variant Effect Predictor",
+            "volume": "17",
+            "author": "McLaren",
+            "year": "2016",
+            "journal-title": "Genome Biol"
+          },
+          {
+            "key": "2021022209081457500_bib30_604_1612548058839"
+          },
+          {
+            "key": "2021022209081457500_bib22",
+            "author": "Gr\u00fcning",
+            "first-page": "475",
+            "year": "2018",
+            "article-title": "Bioconda: sustainable and comprehensive software distribution for the life sciences",
+            "journal-title": "Nat Methods",
+            "DOI": "10.1038\/s41592-018-0046-7",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "2021022209081457500_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "2037",
+            "DOI": "10.1093\/bioinformatics\/btx100",
+            "article-title": "BCFtools\/csq: haplotype-aware variant consequences",
+            "volume": "33",
+            "author": "Danecek",
+            "year": "2017",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209081457500_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "89",
+            "DOI": "10.1145\/1273442.1250746",
+            "article-title": "Valgrind: a framework for heavyweight dynamic binary instrumentation",
+            "volume": "42",
+            "author": "Nethercote",
+            "year": "2007",
+            "journal-title": "SIGPLAN Not"
+          },
+          {
+            "key": "2021022209081457500_bib25",
+            "author": "Serebryany",
+            "year": "2012",
+            "article-title": "AddressSanitizer: a fast address sanity checker"
+          },
+          {
+            "key": "2021022209081457500_bib26",
+            "author": "SAMtools",
+            "year": "2019"
+          },
+          {
+            "key": "2021022209081457500_bib27",
+            "author": "Danecek",
+            "year": "2021",
+            "article-title": "Supporting data for \u201cTwelve years of SAMtools and BCFtools.\u201d",
+            "journal-title": "GigaScience Database",
+            "DOI": "10.1093\/gigascience\/giab008",
+            "doi-asserted-by": "crossref"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/10\/2\/giab008\/36332246\/giab008.pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/10\/2\/giab008\/36332246\/giab008.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2021-02-22T09:25:57Z",
+          "timestamp": 1613985957000
+        },
+        "score": 40.304356,
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              29
+            ]
+          ]
+        },
+        "references-count": 30,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                29
+              ]
+            ]
+          },
+          "issue": "2"
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1093\/gigascience\/giab008",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 272,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2021-02-22T09:45:12Z",
+          "timestamp": 1613987112246
+        },
+        "reference-count": 25,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "2",
+        "license": [
+          {
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  2,
+                  17
+                ]
+              ],
+              "date-time": "2021-02-17T00:00:00Z",
+              "timestamp": 1613520000000
+            },
+            "delay-in-days": 19,
+            "content-version": "vor"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039\/100010269",
+            "name": "Wellcome Trust",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "206194"
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              29
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract<\/jats:title>\n               <jats:sec>\n                  <jats:title>Background<\/jats:title>\n                  <jats:p>Since the original publication of the VCF and SAM formats, an explosion of software tools have been created to process these data files. To facilitate this a library was produced out of the original SAMtools implementation, with a focus on performance and robustness. The file formats themselves have become international standards under the jurisdiction of the Global Alliance for Genomics and Health.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Findings<\/jats:title>\n                  <jats:p>We present a software library for providing programmatic access to sequencing alignment and variant formats. It was born out of the widely used SAMtools and BCFtools applications. Considerable improvements have been made to the original code plus many new features including newer access protocols, the addition of the CRAM file format, better indexing and iterators, and better use of threading.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusion<\/jats:title>\n                  <jats:p>Since the original Samtools release, performance has been considerably improved, with a BAM read-write loop running 5 times faster and BAM to SAM conversion 13 times faster (both using 16 threads, compared to Samtools 0.1.19). Widespread adoption has seen HTSlib downloaded &amp;gt;1 million times from GitHub and conda. The C library has been used directly by an estimated 900 GitHub projects and has been incorporated into Perl, Python, Rust, and R, significantly expanding the number of uses via other languages. HTSlib is open source and is freely available from htslib.org under MIT\/BSD license.<\/jats:p>\n               <\/jats:sec>",
+        "DOI": "10.1093\/gigascience\/giab007",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2021-02-19T17:19:43Z",
+          "timestamp": 1613755183000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "HTSlib: C library for reading\/writing high-throughput sequencing data"
+        ],
+        "prefix": "10.1093",
+        "volume": "10",
+        "author": [
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-6447-4112",
+            "authenticated-orcid": false,
+            "given": "James K",
+            "family": "Bonfield",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-1216-5457",
+            "authenticated-orcid": false,
+            "given": "John",
+            "family": "Marshall",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wolfson Wohl Cancer Research Centre, Institute of Cancer Sciences, University of Glasgow, Switchback Road, Glasgow, G61 1QH, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-4159-1666",
+            "authenticated-orcid": false,
+            "given": "Petr",
+            "family": "Danecek",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-4874-2874",
+            "authenticated-orcid": false,
+            "given": "Heng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Data Sciences, Dana-Farber Cancer Institute, 450 Brookline Avenue, Boston, MA 02215, USA"
+              },
+              {
+                "name": "Department of Biomedical Informatics, Harvard Medical School, 10 Shattuck Street, Boston, MA 02215, USA"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-0532-6021",
+            "authenticated-orcid": false,
+            "given": "Valeriu",
+            "family": "Ohan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-8117-400X",
+            "authenticated-orcid": false,
+            "given": "Andrew",
+            "family": "Whitwham",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-7532-6898",
+            "authenticated-orcid": false,
+            "given": "Thomas",
+            "family": "Keane",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "EMBL-EBI, Wellcome Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK"
+              }
+            ]
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-9983-1378",
+            "authenticated-orcid": false,
+            "given": "Robert M",
+            "family": "Davies",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SA, UK"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              16
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "2021022209082142400_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "68",
+            "DOI": "10.1038\/nature15393",
+            "article-title": "A global reference for human genetic variation",
+            "volume": "526",
+            "author": "The 1000 Genomes Project Consortium",
+            "year": "2015",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "2021022209082142400_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "2078",
+            "DOI": "10.1093\/bioinformatics\/btp352",
+            "article-title": "The Sequence Alignment\/Map format and SAMtools",
+            "volume": "25",
+            "author": "Li",
+            "year": "2009",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "2156",
+            "DOI": "10.1093\/bioinformatics\/btr330",
+            "article-title": "The variant call format and VCFtools",
+            "volume": "27",
+            "author": "Danecek",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "2987",
+            "DOI": "10.1093\/bioinformatics\/btr509",
+            "article-title": "A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data",
+            "volume": "27",
+            "author": "Li",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib5",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib6",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib7",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "2032",
+            "DOI": "10.1093\/bioinformatics\/btv098",
+            "article-title": "Sambamba: fast processing of NGS alignment formats",
+            "volume": "31",
+            "author": "Tarasov",
+            "year": "2015",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "2818",
+            "DOI": "10.1093\/bioinformatics\/btu390",
+            "article-title": "The Scramble conversion tool",
+            "volume": "30",
+            "author": "Bonfield",
+            "year": "2014",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "734",
+            "DOI": "10.1101\/gr.114819.110",
+            "article-title": "Efficient storage of high throughput DNA sequencing data using reference-based compression",
+            "volume": "21",
+            "author": "Hsi-Yang\u00a0Fritz",
+            "year": "2011",
+            "journal-title": "Genome Res"
+          },
+          {
+            "key": "2021022209082142400_bib11",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib12",
+            "doi-asserted-by": "publisher",
+            "first-page": "66",
+            "DOI": "10.1186\/s13059-016-0924-1",
+            "article-title": "JBrowse: a dynamic web platform for genome visualization and analysis",
+            "volume": "17",
+            "author": "Buels",
+            "year": "2016",
+            "journal-title": "Genome Biol"
+          },
+          {
+            "key": "2021022209082142400_bib13",
+            "author": "SAMtools",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib14",
+            "author": "Duda",
+            "year": "2013",
+            "article-title": "Asymmetric numeral systems: entropy coding combining speed of Huffman coding with compression rate of arithmetic coding"
+          },
+          {
+            "key": "2021022209082142400_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "119",
+            "DOI": "10.1093\/bioinformatics\/bty492",
+            "article-title": "htsget: a protocol for securely streaming genomic data",
+            "volume": "35",
+            "author": "Kelleher",
+            "year": "2019",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "1157",
+            "DOI": "10.1093\/bioinformatics\/btr076",
+            "article-title": "Improving SNP discovery by base alignment quality",
+            "volume": "27",
+            "author": "Li",
+            "year": "2011",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2021022209082142400_bib17",
+            "author": "Li",
+            "year": "2013"
+          },
+          {
+            "key": "2021022209082142400_bib18",
+            "author": "Biggers",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib19",
+            "author": "Deutsch",
+            "year": "1996"
+          },
+          {
+            "key": "2021022209082142400_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "eaay5012",
+            "DOI": "10.1126\/science.aay5012",
+            "article-title": "Insights into human genetic variation and population history from 929 diverse genomes",
+            "volume": "367",
+            "author": "Bergstr\u00f6m",
+            "year": "2020",
+            "journal-title": "Science"
+          },
+          {
+            "key": "2021022209082142400_bib21",
+            "author": "National Human Genome Research Institute",
+            "year": "2020"
+          },
+          {
+            "key": "2021022209082142400_bib22",
+            "author": "Birney",
+            "year": "2017",
+            "DOI": "10.1101\/203554",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "2021022209082142400_bib23"
+          },
+          {
+            "key": "2021022209082142400_bib24",
+            "author": "Bonfield",
+            "year": "2021",
+            "article-title": "Supporting data for \u201cHTSlib - C library for reading\/writing high-throughput sequencing data.\u201d",
+            "journal-title": "GigaScience Database",
+            "DOI": "10.1093\/gigascience\/giab007",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "2021022209082142400_bib25",
+            "author": "Danecek",
+            "year": "2021",
+            "article-title": "Twelve years of SAMtools and BCFtools",
+            "journal-title": "GigaScience",
+            "DOI": "10.1093\/gigascience\/giab008",
+            "doi-asserted-by": "crossref"
+          }
+        ],
+        "container-title": [
+          "GigaScience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/10\/2\/giab007\/36332285\/giab007.pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http:\/\/academic.oup.com\/gigascience\/article-pdf\/10\/2\/giab007\/36332285\/giab007.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2021-02-22T09:22:59Z",
+          "timestamp": 1613985779000
+        },
+        "score": 54.693916,
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              29
+            ]
+          ]
+        },
+        "references-count": 25,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                29
+              ]
+            ]
+          },
+          "issue": "2"
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1093\/gigascience\/giab007",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "2047-217X"
+        ],
+        "issn-type": [
+          {
+            "value": "2047-217X",
+            "type": "electronic"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
