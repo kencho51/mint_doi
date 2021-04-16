@@ -1,44 +1,45 @@
-
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 import org.json.*;
 
-String json = "";
-String Code = "";
-String DOI = "";
-String apiStatus ="";
+DOI = new ArrayList();
+DOI.add("DOI");
+json = new ArrayList();
+Code = new ArrayList();
+Code.add("Response Code");
+apiStatus = new ArrayList();
+apiStatus.add("API Status");
 
-String text = "";
-try {
-	URL url = new URL("http://api.crossref.org/works?query.bibliographic=Twelve%20years%20of%20SAMtools%20and%20BCFtools&filter=issn:2047-217X&rows=1");
-	HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-	conn.setRequestMethod("GET");
-	conn.setRequestProperty("Content-Type", "application/json");
-	conn.connect();
-	int responseCode = conn.getResponseCode();
-	Code+=responseCode;
-	if (responseCode !=200) {
-		throw new RuntomeExeception("HttpResponseCode: " +responsecode);
-	} else {
-		Scanner sc = new Scanner(url.openStream());
-		while (sc.hasNext()) {
-			json+=sc.nextLine();
+for (int i = 1; i < Formatted_Title.size(); i++) {
+	try {
+		URL url = new URL(Formatted_Title.get(i));
+		HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+		conn.setRequestMethod("GET");
+		conn.setRequestProperty("Content-Type", "application/json");
+		conn.connect();
+		int responseCode = conn.getResponseCode();
+		Code.add(responseCode);
+		if (responseCode != 200) {
+			throw new RuntimeException("HttpResponseCode: " +responsecode);
+		} else {
+			Scanner sc = new Scanner(url.openStream());
+			while (sc.hasNext()) {
+				json.add(sc.nextLine());
+			}
+			sc.close();
 		}
-		sc.close();
-	}
-	JSONObject obj = new JSONObject(json);
-	apiStatus = obj.getString("status");
-	JSONObject messageObj = obj.getJSONObject("message");
-	JSONArray itemsArr = messageObj.getJSONArray("items");
+		// TODO: to loop over the json array
+		for (int j = 0; j < json.size(); j++) {
+			JSONObject obj = new JSONObject(json.get(j));
+			apiStatus = obj.getString("status");
+		}
 
-	for (int i = 0; i < itemsArr.length(); i++) {
-        itemObj = itemsArr.getJSONObject(i);
-		DOI = itemObj.getString("DOI");
+
+	} catch(Exception e) {
+		e.printStackTrace();
 	}
 
-} catch(Exception e) {
-	e.printStackTrace();	
 }
 
 /
