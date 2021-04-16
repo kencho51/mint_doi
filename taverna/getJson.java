@@ -29,11 +29,12 @@ try {
 	}
 	JSONObject obj = new JSONObject(json);
 	apiStatus = obj.getString("status");
-	JSONArray messageArr = obj.getJSONArray("message");
+	JSONObject messageObj = obj.getJSONObject("message");
+	JSONArray itemsArr = messageObj.getJSONArray("items");
 
-	for (int i = 0; i < messageArr.length(); i++) {
-
-		DOI = messageArr.getString("total-results");
+	for (int i = 0; i < itemsArr.length(); i++) {
+        itemObj = itemsArr.getJSONObject(i);
+		DOI = itemObj.getString("DOI");
 	}
 
 } catch(Exception e) {
@@ -47,3 +48,5 @@ https://devqa.io/how-to-parse-json-in-java/
 https://github.com/Corefinder89/SampleJavaCodes/blob/master/src/Dummy1.java
 https://stackoverflow.com/questions/13269512/cant-access-getjsonarray-in-java
 /
+
+
