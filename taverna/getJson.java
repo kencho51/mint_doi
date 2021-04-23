@@ -3,13 +3,10 @@ import java.net.URL;
 import java.util.Scanner;
 import org.json.*;
 
-DOI = new ArrayList();
-DOI.add("DOI");
-json = new ArrayList();
+json = "";
+json += "Json Return";
 Code = new ArrayList();
 Code.add("Response Code");
-apiStatus = new ArrayList();
-apiStatus.add("API Status");
 
 for (int i = 1; i < Formatted_Title.size(); i++) {
 	try {
@@ -25,17 +22,10 @@ for (int i = 1; i < Formatted_Title.size(); i++) {
 		} else {
 			Scanner sc = new Scanner(url.openStream());
 			while (sc.hasNext()) {
-				json.add(sc.nextLine());
+				json += sc.nextLine() + "\n";
 			}
 			sc.close();
 		}
-		// TODO: to loop over the json array
-		for (int j = 0; j < json.size(); j++) {
-			JSONObject obj = new JSONObject(json.get(j));
-			apiStatus = obj.getString("status");
-		}
-
-
 	} catch(Exception e) {
 		e.printStackTrace();
 	}

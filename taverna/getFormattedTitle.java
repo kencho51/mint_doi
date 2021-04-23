@@ -9,7 +9,7 @@ for (int i = 1; i < Title.size(); i++) {
 		String item  = Title.get(i).replaceAll("\\n", "");
 		item = item.replaceAll(" ", "%20");
 		StringBuilder url	= new StringBuilder();
-		url.append("https://api.crossref.org/works?query.bibliographic=");
+		url.append("http://api.crossref.org/works?query.bibliographic=");
 		url.append(item);
 		url.append("&");
 		url.append("filter=issn:2047-217X");
