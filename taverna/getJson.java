@@ -3,10 +3,17 @@ import java.net.URL;
 import java.util.Scanner;
 import org.json.*;
 
+
 json = "";
-json += "Json Return";
 Code = new ArrayList();
 Code.add("Response Code");
+DOI = new ArrayList();
+DOI.add("DOI");
+Status = new ArrayList();
+Status.add("Status");
+
+message = "";
+
 
 for (int i = 1; i < Formatted_Title.size(); i++) {
 	try {
@@ -22,15 +29,29 @@ for (int i = 1; i < Formatted_Title.size(); i++) {
 		} else {
 			Scanner sc = new Scanner(url.openStream());
 			while (sc.hasNext()) {
-				json += sc.nextLine() + "\n";
+				json = sc.nextLine();
 			}
 			sc.close();
 		}
+
+		JSONObject obj = new JSONObject(json);
+		Status.add(obj.getString("status"));
+
+		JSONObject messageObj = obj.getJSONObject("message");
+		message = messageObj.toString();
+		JSONArray itemsArr = messageObj.getJSONArray("items");
+		for (int j = 0; j < itemsArr.length(); j++ ) {
+			itemObj = itemsArr.getJSONObject(j);
+			DOI.add(itemObj.getString("DOI"));
+		}
+
+
+
 	} catch(Exception e) {
 		e.printStackTrace();
 	}
-
 }
+
 
 /
 https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java
