@@ -1,11 +1,19 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
 
+FileWriter csvWriter = new FileWriter("/Users/kencho/Desktop/test.csv");
+for (int i = 0; i < title.size(); i++) {
+	csvWriter.append(title.get(i));
+	csvWriter.append(",");
+	csvWriter.append(full_name.get(i));
+	csvWriter.append(",");
+	csvWriter.append(doi.get(i));
+	csvWriter.append(",");
+	csvWriter.append(content.get(i));
+	csvWriter.append(",");
+	csvWriter.append("\n");
+}
 
-
-data = new ArrayList(); /depth = 2
-
-/depth = 1
-data.add(Title);
-data.add(DOI);
-data.add(Reviewer_Stop_Date);
-data.add(Reviewer_Name);
-data.add(Content_to_append);
+csvWriter.flush();
+csvWriter.close();
