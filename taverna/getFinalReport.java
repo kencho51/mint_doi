@@ -10,7 +10,7 @@ for (int i = 0; i < title.size(); i++) {
 	csvWriter.append(",");
 	csvWriter.append(doi.get(i));
 	csvWriter.append(",");
-	csvWriter.append(content.get(i).replaceAll("\\n","").replaceAll(",","\\\\,"));
+	csvWriter.append(content.get(i).replaceAll("\\n","").replace(",",""));
 	csvWriter.append(",");
 	csvWriter.append("\n");
 }
